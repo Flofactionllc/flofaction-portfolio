@@ -13,7 +13,7 @@ Your comprehensive FloFaction website is now complete and ready for deployment t
 - **Portfolio** (`/portfolio`) - Professional portfolio with your background and achievements
 - **Insurance** (`/insurance`) - Insurance and financial services with detailed pricing
 - **Music** (`/music`) - Luap's music projects, Fo Faction, Cryptk collaboration
-- **Emergency** (`/emergency`) - GuardianAI Emergency Intelligence Platform
+- **Emergency Management** (`/emergency-management`) - GuardianAI Emergency Intelligence Platform
 - **Videography** (`/videography`) - Professional video and photo services
 - **Marketing** (`/marketing`) - Digital marketing and web design solutions
 - **Contact** (`/contact`) - Contact form and business information
