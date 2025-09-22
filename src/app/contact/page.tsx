@@ -58,7 +58,7 @@ export default function ContactPage() {
                     <p className="text-sm text-gray-500">We respond within 24 hours</p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start">
                   <div className="text-2xl mr-4">📞</div>
                   <div>
@@ -67,7 +67,7 @@ export default function ContactPage() {
                     <p className="text-sm text-gray-500">Mon-Fri: 9:00 AM - 6:00 PM EST</p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start">
                   <div className="text-2xl mr-4">📍</div>
                   <div>
@@ -76,7 +76,7 @@ export default function ContactPage() {
                     <p className="text-sm text-gray-500">Serving clients nationwide</p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start">
                   <div className="text-2xl mr-4">🏢</div>
                   <div>
@@ -87,7 +87,7 @@ export default function ContactPage() {
                 </div>
               </div>
             </Card>
-            
+
             <Card className="p-6">
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Contact Form</h2>
               <form className="space-y-4">
@@ -103,7 +103,7 @@ export default function ContactPage() {
                     className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                   />
                 </div>
-                
+
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
                     Email Address *
@@ -116,7 +116,7 @@ export default function ContactPage() {
                     className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                   />
                 </div>
-                
+
                 <div>
                   <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">
                     Phone Number
@@ -128,7 +128,7 @@ export default function ContactPage() {
                     className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                   />
                 </div>
-                
+
                 <div>
                   <label htmlFor="service" className="block text-sm font-medium text-gray-700 mb-1">
                     Service Interest *
@@ -148,7 +148,7 @@ export default function ContactPage() {
                     <option value="other">Other</option>
                   </select>
                 </div>
-                
+
                 <div>
                   <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
                     Message *
@@ -162,7 +162,7 @@ export default function ContactPage() {
                     placeholder="Tell us about your project or needs..."
                   ></textarea>
                 </div>
-                
+
                 <button
                   type="submit"
                   className="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 font-semibold"
@@ -186,7 +186,7 @@ export default function ContactPage() {
                 Learn More →
               </Link>
             </Card>
-            
+
             <Card className="p-6 text-center">
               <div className="text-4xl mb-4">🎵</div>
               <h3 className="text-lg font-semibold mb-2">Music & Creative</h3>
@@ -195,7 +195,7 @@ export default function ContactPage() {
                 Learn More →
               </Link>
             </Card>
-            
+
             <Card className="p-6 text-center">
               <div className="text-4xl mb-4">🚨</div>
               <h3 className="text-lg font-semibold mb-2">Emergency Management</h3>
@@ -204,7 +204,7 @@ export default function ContactPage() {
                 Learn More →
               </Link>
             </Card>
-            
+
             <Card className="p-6 text-center">
               <div className="text-4xl mb-4">💼</div>
               <h3 className="text-lg font-semibold mb-2">Business Solutions</h3>
@@ -223,31 +223,31 @@ export default function ContactPage() {
             <Card className="p-6">
               <h3 className="text-lg font-semibold mb-3 text-blue-600">How quickly do you respond to inquiries?</h3>
               <p className="text-gray-700">
-                We typically respond to all inquiries within 24 hours during business days. 
+                We typically respond to all inquiries within 24 hours during business days.
                 For urgent matters, please call us directly at (772) 208-9646.
               </p>
             </Card>
-            
+
             <Card className="p-6">
               <h3 className="text-lg font-semibold mb-3 text-blue-600">Do you offer free consultations?</h3>
               <p className="text-gray-700">
-                Yes! We offer free initial consultations for most services. This allows us to 
+                Yes! We offer free initial consultations for most services. This allows us to
                 understand your needs and provide customized recommendations.
               </p>
             </Card>
-            
+
             <Card className="p-6">
               <h3 className="text-lg font-semibold mb-3 text-blue-600">What areas do you serve?</h3>
               <p className="text-gray-700">
-                While we're based in Port St. Lucie, Florida, we serve clients nationwide 
+                While we&apos;re based in Port St. Lucie, Florida, we serve clients nationwide
                 for most services, especially insurance, technology, and music services.
               </p>
             </Card>
-            
+
             <Card className="p-6">
               <h3 className="text-lg font-semibold mb-3 text-blue-600">What makes Flo Faction different?</h3>
               <p className="text-gray-700">
-                We combine technical expertise with creative excellence, offering comprehensive 
+                We combine technical expertise with creative excellence, offering comprehensive
                 solutions across multiple industries with a personal touch and proven results.
               </p>
             </Card>
@@ -261,8 +261,8 @@ export default function ContactPage() {
             <Card className="p-6">
               <h3 className="text-xl font-semibold mb-4 text-blue-600">Paul Edwards - CEO & Founder</h3>
               <p className="text-gray-700 mb-4">
-                Paul brings over 10 years of experience in AI technology, music industry expertise, 
-                and business development. He holds a Master's degree in Early Childhood Development 
+                Paul brings over 10 years of experience in AI technology, music industry expertise,
+                and business development. He holds a Master&apos;s degree in Early Childhood Development
                 from Walden University and is a licensed insurance agent.
               </p>
               <ul className="list-disc ml-5 space-y-1 text-gray-700 text-sm">
@@ -273,16 +273,16 @@ export default function ContactPage() {
                 <li>Emergency management specialist</li>
               </ul>
             </Card>
-            
+
             <Card className="p-6">
               <h3 className="text-xl font-semibold mb-4 text-blue-600">L. Edwards - Co-Founder & Education Director</h3>
               <p className="text-gray-700 mb-4">
-                L. Edwards brings extensive experience in education and childcare management, 
-                with a Master's degree in Early Childhood Development from Walden University. 
-                She's launching Little Sprouts Early Learning Center in Spring 2025.
+                L. Edwards brings extensive experience in education and childcare management,
+                with a Master&apos;s degree in Early Childhood Development from Walden University.
+                She&apos;s launching Little Sprouts Early Learning Center in Spring 2025.
               </p>
               <ul className="list-disc ml-5 space-y-1 text-gray-700 text-sm">
-                <li>Master's degree in Early Childhood Development</li>
+                <li>Master&apos;s degree in Early Childhood Development</li>
                 <li>20+ years in education and childcare management</li>
                 <li>Former owner of senior living care facility</li>
                 <li>Co-owner of Flo Faction LLC and Flo Faction Insurance</li>

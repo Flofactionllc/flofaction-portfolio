@@ -43,14 +43,14 @@ export default function Home() {
             Comprehensive business solutions, professional services, and creative excellence across multiple industries
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link 
-              href="/portfolio" 
+            <Link
+              href="/portfolio"
               className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
             >
               View Our Portfolio
             </Link>
-            <Link 
-              href="/contact" 
+            <Link
+              href="/contact"
               className="border border-blue-600 text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
             >
               Get In Touch
@@ -73,7 +73,7 @@ export default function Home() {
               Learn More →
             </Link>
           </div>
-          
+
           <div className="bg-white p-6 rounded-lg shadow-md text-center">
             <div className="text-4xl mb-4">🎵</div>
             <h3 className="text-xl font-semibold mb-2">Music & Creative</h3>
@@ -82,7 +82,7 @@ export default function Home() {
               Learn More →
             </Link>
           </div>
-          
+
           <div className="bg-white p-6 rounded-lg shadow-md text-center">
             <div className="text-4xl mb-4">🚨</div>
             <h3 className="text-xl font-semibold mb-2">Emergency Management</h3>
@@ -91,7 +91,7 @@ export default function Home() {
               Learn More →
             </Link>
           </div>
-          
+
           <div className="bg-white p-6 rounded-lg shadow-md text-center">
             <div className="text-4xl mb-4">💼</div>
             <h3 className="text-xl font-semibold mb-2">Business Solutions</h3>
@@ -112,17 +112,17 @@ export default function Home() {
             </h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-lg text-gray-600 mb-6">
-                Flo Faction LLC (EIN #85-2167111) is a comprehensive business solutions provider led by Paul Edwards, 
-                CEO and Founder. With over 10 years of experience in AI technology, music industry expertise, 
+                Flo Faction LLC (EIN #85-2167111) is a comprehensive business solutions provider led by Paul Edwards,
+                CEO and Founder. With over 10 years of experience in AI technology, music industry expertise,
                 and business development, we deliver innovative solutions across multiple industries.
               </p>
               <p className="text-lg text-gray-600 mb-8">
-                Our team combines technical expertise with creative excellence, serving clients from Fortune 500 
-                companies to individual entrepreneurs. We specialize in insurance and financial services, 
+                Our team combines technical expertise with creative excellence, serving clients from Fortune 500
+                companies to individual entrepreneurs. We specialize in insurance and financial services,
                 music production and sync licensing, emergency management systems, and cutting-edge technology solutions.
               </p>
-              <Link 
-                href="/portfolio" 
+              <Link
+                href="/portfolio"
                 className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
               >
                 View Our Complete Portfolio

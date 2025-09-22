@@ -2,7 +2,7 @@ import { Card } from '@/components/ui/card';
 import Link from 'next/link';
 
 export default function PortfolioPage() {
-  const H = (props: any) =>
+  const H = (props: React.HTMLAttributes<HTMLHeadingElement>) =>
     <h2 className="text-2xl font-bold text-gray-900 mb-6 border-b-2 border-blue-600 pb-2" {...props} />;
 
   return (
@@ -26,7 +26,7 @@ export default function PortfolioPage() {
               <ul className="list-disc ml-5 space-y-2 text-gray-700">
                 <li>CEO of Flo Faction LLC (EIN #85-2167111) - Comprehensive business solutions provider</li>
                 <li>10+ years in AI technology implementation and business process automation</li>
-                <li>Master's degree in Early Childhood Development from Walden University</li>
+                <li>Master&apos;s degree in Early Childhood Development from Walden University</li>
                 <li>Licensed insurance agent specializing in life insurance, retirement planning, and financial consulting</li>
                 <li>Music industry professional with 100+ successful sync licensing placements</li>
                 <li>Emergency management specialist with GuardianAI platform development</li>
@@ -108,7 +108,7 @@ export default function PortfolioPage() {
             <Card className="p-6">
               <h3 className="text-xl font-semibold mb-4 text-blue-600">Educational Background</h3>
               <ul className="list-disc ml-5 space-y-2 text-gray-700">
-                <li>Master's degree in Early Childhood Development from Walden University</li>
+                <li>Master&apos;s degree in Early Childhood Development from Walden University</li>
                 <li>20+ years experience in education and childcare management</li>
                 <li>Former owner and operator of senior living care facility in Apopka, FL (1990s)</li>
                 <li>Extensive experience from substitute teacher to director/owner roles</li>

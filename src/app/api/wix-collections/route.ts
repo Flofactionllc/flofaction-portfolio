@@ -4,7 +4,7 @@ export async function GET() {
   const WIX_API_TOKEN = process.env.WIX_API_TOKEN;
   const WIX_ACCOUNT_ID = process.env.WIX_ACCOUNT_ID;
   const WIX_API_KEY = process.env.WIX_API_KEY;
-  const WIX_CLIENT_ID = process.env.WIX_CLIENT_ID; // This might not be directly used in API calls but good to have
+  // const WIX_CLIENT_ID = process.env.WIX_CLIENT_ID; // This might not be directly used in API calls but good to have
 
   if (!WIX_API_TOKEN || !WIX_ACCOUNT_ID || !WIX_API_KEY) {
     return NextResponse.json({ error: 'Missing Wix API credentials in environment variables' }, { status: 500 });

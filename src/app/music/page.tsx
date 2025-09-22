@@ -51,8 +51,8 @@ export default function MusicPage() {
             <Card className="p-6">
               <h3 className="text-xl font-semibold mb-4 text-purple-600">About Luap</h3>
               <p className="text-gray-700 mb-4">
-                Luap is the artistic persona of Paul Edwards, bringing together years of musical expertise, 
-                technical knowledge, and creative vision. With a unique blend of hip-hop, R&B, and contemporary 
+                Luap is the artistic persona of Paul Edwards, bringing together years of musical expertise,
+                technical knowledge, and creative vision. With a unique blend of hip-hop, R&B, and contemporary
                 sounds, Luap creates music that resonates across multiple platforms and audiences.
               </p>
               <ul className="list-disc ml-5 space-y-2 text-gray-700">
@@ -89,8 +89,8 @@ export default function MusicPage() {
             <Card className="p-6">
               <h3 className="text-xl font-semibold mb-4 text-purple-600">About Fo Faction</h3>
               <p className="text-gray-700 mb-4">
-                Fo Faction is the musical collective and production company that represents the creative 
-                vision of Luap and his collaborators. We specialize in creating high-quality music for 
+                Fo Faction is the musical collective and production company that represents the creative
+                vision of Luap and his collaborators. We specialize in creating high-quality music for
                 sync licensing, commercial use, and artistic expression.
               </p>
               <ul className="list-disc ml-5 space-y-2 text-gray-700">
@@ -127,8 +127,8 @@ export default function MusicPage() {
             <Card className="p-6">
               <h3 className="text-xl font-semibold mb-4 text-purple-600">About Cryptk</h3>
               <p className="text-gray-700 mb-4">
-                Cryptk is our in-house producer and creative director, bringing years of experience 
-                in beat production, sound design, and musical arrangement. His expertise in Fruity Loops 
+                Cryptk is our in-house producer and creative director, bringing years of experience
+                in beat production, sound design, and musical arrangement. His expertise in Fruity Loops
                 and modern production techniques makes him an invaluable part of our creative team.
               </p>
               <ul className="list-disc ml-5 space-y-2 text-gray-700">
@@ -165,8 +165,8 @@ export default function MusicPage() {
             <Card className="p-6">
               <h3 className="text-xl font-semibold mb-4 text-purple-600">LCP Studios (Port Saint Lucie)</h3>
               <p className="text-gray-700 mb-4">
-                Our primary recording facility partnership with Lightchild, providing professional 
-                audio engineering and recording services. LCP Studios offers state-of-the-art 
+                Our primary recording facility partnership with Lightchild, providing professional
+                audio engineering and recording services. LCP Studios offers state-of-the-art
                 equipment and acoustically treated spaces for high-quality productions.
               </p>
               <ul className="list-disc ml-5 space-y-2 text-gray-700">
@@ -179,8 +179,8 @@ export default function MusicPage() {
             <Card className="p-6">
               <h3 className="text-xl font-semibold mb-4 text-purple-600">Audio Nerds (South Florida)</h3>
               <p className="text-gray-700 mb-4">
-                Premier recording studio with advanced mixing and mastering capabilities. 
-                Audio Nerds provides specialized services for high-end productions and 
+                Premier recording studio with advanced mixing and mastering capabilities.
+                Audio Nerds provides specialized services for high-end productions and
                 commercial releases.
               </p>
               <ul className="list-disc ml-5 space-y-2 text-gray-700">
@@ -214,7 +214,7 @@ export default function MusicPage() {
                 </div>
               </div>
             </Card>
-            
+
             <Card className="p-6">
               <h3 className="text-lg font-semibold mb-4 text-purple-600">Audio Production & Engineering</h3>
               <div className="space-y-3">
@@ -232,7 +232,7 @@ export default function MusicPage() {
                 </div>
               </div>
             </Card>
-            
+
             <Card className="p-6">
               <h3 className="text-lg font-semibold mb-4 text-purple-600">Beat Production & Custom Music</h3>
               <div className="space-y-3">
@@ -255,13 +255,13 @@ export default function MusicPage() {
 
         {/* Contact & Collaboration */}
         <section className="mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Let's Create Together</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Let&apos;s Create Together</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <Card className="p-6">
               <h3 className="text-lg font-semibold mb-4 text-purple-600">Ready to Collaborate?</h3>
               <p className="text-gray-700 mb-4">
-                Whether you're looking for sync licensing, custom music production, or creative collaboration, 
-                we're here to bring your vision to life. Our team combines technical expertise with creative 
+                Whether you&apos;re looking for sync licensing, custom music production, or creative collaboration,
+                we&apos;re here to bring your vision to life. Our team combines technical expertise with creative
                 excellence to deliver exceptional results.
               </p>
               <div className="space-y-2">
@@ -279,7 +279,7 @@ export default function MusicPage() {
                 </div>
               </div>
             </Card>
-            
+
             <Card className="p-6">
               <h3 className="text-lg font-semibold mb-4 text-purple-600">Quick Links</h3>
               <div className="space-y-2">
@@ -345,3 +345,4 @@ export default function MusicPage() {
     </div>
   );
 }
+

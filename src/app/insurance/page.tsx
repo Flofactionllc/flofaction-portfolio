@@ -62,7 +62,7 @@ export default function InsurancePage() {
                 Starting at $25/month
               </div>
             </Card>
-            
+
             <Card className="p-6">
               <div className="text-4xl mb-4 text-center">💰</div>
               <h3 className="text-xl font-semibold mb-4 text-green-600">Retirement Planning</h3>
@@ -77,14 +77,14 @@ export default function InsurancePage() {
                 Consultation: $150/hour
               </div>
             </Card>
-            
+
             <Card className="p-6">
               <div className="text-4xl mb-4 text-center">🏢</div>
               <h3 className="text-xl font-semibold mb-4 text-green-600">Business Insurance</h3>
               <ul className="list-disc ml-5 space-y-2 text-gray-700">
                 <li>General Liability</li>
                 <li>Professional Liability</li>
-                <li>Workers' Compensation</li>
+                <li>Workers&apos; Compensation</li>
                 <li>Business Property</li>
                 <li>Cyber Liability</li>
               </ul>
@@ -92,7 +92,7 @@ export default function InsurancePage() {
                 Custom quotes available
               </div>
             </Card>
-            
+
             <Card className="p-6">
               <div className="text-4xl mb-4 text-center">🏥</div>
               <h3 className="text-xl font-semibold mb-4 text-green-600">Health Insurance</h3>
@@ -107,7 +107,7 @@ export default function InsurancePage() {
                 Licensed in Florida
               </div>
             </Card>
-            
+
             <Card className="p-6">
               <div className="text-4xl mb-4 text-center">📊</div>
               <h3 className="text-xl font-semibold mb-4 text-green-600">Financial Consulting</h3>
@@ -122,7 +122,7 @@ export default function InsurancePage() {
                 $200/hour consultation
               </div>
             </Card>
-            
+
             <Card className="p-6">
               <div className="text-4xl mb-4 text-center">🚗</div>
               <h3 className="text-xl font-semibold mb-4 text-green-600">Auto & Property</h3>
@@ -183,7 +183,7 @@ export default function InsurancePage() {
               </p>
               <div className="bg-green-50 p-4 rounded-lg">
                 <p className="text-sm text-green-800">
-                  <strong>Policy Details:</strong> MassMutual Access WL, $2,000 monthly premium, 
+                  <strong>Policy Details:</strong> MassMutual Access WL, $2,000 monthly premium,
                   optimized for cash value accumulation and tax advantages.
                 </p>
               </div>
@@ -198,7 +198,7 @@ export default function InsurancePage() {
               </p>
               <div className="bg-green-50 p-4 rounded-lg">
                 <p className="text-sm text-green-800">
-                  <strong>Strategy:</strong> 401(k) optimization, IRA rollover, annuity integration, 
+                  <strong>Strategy:</strong> 401(k) optimization, IRA rollover, annuity integration,
                   and tax-efficient withdrawal planning.
                 </p>
               </div>
@@ -235,7 +235,7 @@ export default function InsurancePage() {
                 </div>
               </div>
             </Card>
-            
+
             <Card className="p-6">
               <h3 className="text-lg font-semibold mb-4 text-green-600">Comprehensive Packages</h3>
               <div className="space-y-4">
@@ -246,7 +246,7 @@ export default function InsurancePage() {
                 </div>
                 <div className="border-l-4 border-green-500 pl-4">
                   <h4 className="font-semibold">Business Insurance Package</h4>
-                  <p className="text-sm text-gray-600">General liability + professional liability + workers' comp</p>
+                  <p className="text-sm text-gray-600">General liability + professional liability + workers&apos; comp</p>
                   <span className="text-green-600 font-semibold">$1,500-$3,000</span>
                 </div>
                 <div className="border-l-4 border-green-500 pl-4">
@@ -266,8 +266,8 @@ export default function InsurancePage() {
             <Card className="p-6">
               <h3 className="text-lg font-semibold mb-4 text-green-600">Ready to Get Started?</h3>
               <p className="text-gray-700 mb-4">
-                Schedule a free consultation to discuss your insurance and financial needs. 
-                We'll provide a comprehensive assessment and customized recommendations 
+                Schedule a free consultation to discuss your insurance and financial needs.
+                We&apos;ll provide a comprehensive assessment and customized recommendations
                 to help you achieve your financial goals.
               </p>
               <div className="space-y-2">
@@ -289,7 +289,7 @@ export default function InsurancePage() {
                 </div>
               </div>
             </Card>
-            
+
             <Card className="p-6">
               <h3 className="text-lg font-semibold mb-4 text-green-600">Quick Links</h3>
               <div className="space-y-2">
@@ -359,3 +359,4 @@ export default function InsurancePage() {
     </div>
   );
 }
+
