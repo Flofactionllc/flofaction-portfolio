@@ -1,5 +1,5 @@
-import Link from "next/link";
 import { Card } from "@/components/ui/card";
+import Link from "next/link";
 
 export default function InsurancePage() {
   return (
@@ -25,6 +25,12 @@ export default function InsurancePage() {
               </Link>
               <Link href="/emergency-management" className="text-gray-700 hover:text-blue-600 font-medium">
                 Emergency Management
+              </Link>
+              <Link href="/videography" className="text-gray-700 hover:text-blue-600 font-medium">
+                Videography
+              </Link>
+              <Link href="/marketing" className="text-gray-700 hover:text-blue-600 font-medium">
+                Marketing
               </Link>
               <Link href="/contact" className="text-gray-700 hover:text-blue-600 font-medium">
                 Contact
