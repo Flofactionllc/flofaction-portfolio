@@ -1,5 +1,5 @@
-import Link from "next/link";
 import { Card } from "@/components/ui/card";
+import Link from "next/link";
 
 export default function EmergencyPage() {
   return (
@@ -52,8 +52,8 @@ export default function EmergencyPage() {
               &quot;Save lives through AI-powered technology&quot;
             </p>
             <p className="text-lg mt-4 opacity-90">
-              GuardianAI provides comprehensive emergency management solutions with AI-powered early warning systems, 
-              real-time resource mapping, and disaster response coordination. We prioritize free services, ensure 
+              GuardianAI provides comprehensive emergency management solutions with AI-powered early warning systems,
+              real-time resource mapping, and disaster response coordination. We prioritize free services, ensure
               accessibility for all, and work offline when everything else fails.
             </p>
           </Card>
@@ -74,7 +74,7 @@ export default function EmergencyPage() {
                 <li>Machine learning tornado and hurricane prediction</li>
               </ul>
             </Card>
-            
+
             <Card className="p-6">
               <div className="text-4xl mb-4 text-center">🛰️</div>
               <h3 className="text-xl font-semibold mb-4 text-red-600">Satellite-Powered Connectivity</h3>
@@ -86,7 +86,7 @@ export default function EmergencyPage() {
                 <li>Emergency communication networks</li>
               </ul>
             </Card>
-            
+
             <Card className="p-6">
               <div className="text-4xl mb-4 text-center">🤖</div>
               <h3 className="text-xl font-semibold mb-4 text-red-600">AI Vision & Analysis</h3>
@@ -98,7 +98,7 @@ export default function EmergencyPage() {
                 <li>MLX framework optimization for Apple Silicon</li>
               </ul>
             </Card>
-            
+
             <Card className="p-6">
               <div className="text-4xl mb-4 text-center">📡</div>
               <h3 className="text-xl font-semibold mb-4 text-red-600">Real-Time Coordination</h3>
@@ -110,7 +110,7 @@ export default function EmergencyPage() {
                 <li>System status monitoring with health checks</li>
               </ul>
             </Card>
-            
+
             <Card className="p-6">
               <div className="text-4xl mb-4 text-center">🚗</div>
               <h3 className="text-xl font-semibold mb-4 text-red-600">Smart Transportation System</h3>
@@ -122,7 +122,7 @@ export default function EmergencyPage() {
                 <li>Cost optimization and automatic matching</li>
               </ul>
             </Card>
-            
+
             <Card className="p-6">
               <div className="text-4xl mb-4 text-center">📱</div>
               <h3 className="text-xl font-semibold mb-4 text-red-600">Mobile App Integration</h3>
@@ -152,7 +152,7 @@ export default function EmergencyPage() {
                 <li>Real estate services (property assessment, insurance claims)</li>
               </ul>
             </Card>
-            
+
             <Card className="p-6">
               <h3 className="text-xl font-semibold mb-4 text-red-600">AI Prediction Engine</h3>
               <ul className="list-disc ml-5 space-y-2 text-gray-700">
@@ -174,7 +174,7 @@ export default function EmergencyPage() {
             <Card className="p-6">
               <h3 className="text-xl font-semibold mb-4 text-red-600">10+ Years Real Experience</h3>
               <p className="text-gray-700 mb-4">
-                Paul Edwards and the Flo Faction team have over 10 years of hands-on experience 
+                Paul Edwards and the Flo Faction team have over 10 years of hands-on experience
                 responding to major Florida disasters, including:
               </p>
               <ul className="list-disc ml-5 space-y-2 text-gray-700">
@@ -185,16 +185,16 @@ export default function EmergencyPage() {
                 <li>DR-4834 - Hurricane Nicole (2022)</li>
               </ul>
             </Card>
-            
+
             <Card className="p-6">
               <h3 className="text-xl font-semibold mb-4 text-red-600">What Compelled the System</h3>
               <p className="text-gray-700 mb-4">
-                After witnessing the devastation and response challenges during Hurricane Ian and Nicole, 
-                we realized the need for a comprehensive, AI-powered emergency management system that 
+                After witnessing the devastation and response challenges during Hurricane Ian and Nicole,
+                we realized the need for a comprehensive, AI-powered emergency management system that
                 could provide early warnings and coordinate resources effectively.
               </p>
               <p className="text-gray-700">
-                This personal experience drives our commitment to saving lives through technology 
+                This personal experience drives our commitment to saving lives through technology
                 and ensuring no one is left behind during emergencies.
               </p>
             </Card>
@@ -215,7 +215,7 @@ export default function EmergencyPage() {
                 <li>Premium Subscriptions: $9.99-$29.99/month</li>
               </ul>
             </Card>
-            
+
             <Card className="p-6">
               <h3 className="text-xl font-semibold mb-4 text-red-600">Current Clients (Sample Data)</h3>
               <ul className="list-disc ml-5 space-y-2 text-gray-700">
@@ -249,7 +249,7 @@ export default function EmergencyPage() {
                 </div>
               </div>
             </Card>
-            
+
             <Card className="p-6">
               <h3 className="text-lg font-semibold mb-4 text-red-600">AI Technology Services</h3>
               <div className="space-y-3">
@@ -267,7 +267,7 @@ export default function EmergencyPage() {
                 </div>
               </div>
             </Card>
-            
+
             <Card className="p-6">
               <h3 className="text-lg font-semibold mb-4 text-red-600">Government & Corporate</h3>
               <div className="space-y-3">
@@ -295,8 +295,8 @@ export default function EmergencyPage() {
             <Card className="p-6">
               <h3 className="text-lg font-semibold mb-4 text-red-600">Ready to Deploy?</h3>
               <p className="text-gray-700 mb-4">
-                GuardianAI is a fully functional emergency management system, not a demo. 
-                We provide real AI-powered predictions, coordination, and response capabilities 
+                GuardianAI is a fully functional emergency management system, not a demo.
+                We provide real AI-powered predictions, coordination, and response capabilities
                 that can save lives and protect communities.
               </p>
               <div className="space-y-2">
@@ -318,7 +318,7 @@ export default function EmergencyPage() {
                 </div>
               </div>
             </Card>
-            
+
             <Card className="p-6">
               <h3 className="text-lg font-semibold mb-4 text-red-600">Quick Links</h3>
               <div className="space-y-2">

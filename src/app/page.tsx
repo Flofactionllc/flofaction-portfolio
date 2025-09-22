@@ -79,7 +79,7 @@ export default function Home() {
               Learn More →
             </Link>
           </div>
-          
+
           <div className="bg-white p-6 rounded-lg shadow-md text-center">
             <div className="text-4xl mb-4">🎵</div>
             <h3 className="text-xl font-semibold mb-2">Music & Creative</h3>
@@ -88,7 +88,7 @@ export default function Home() {
               Learn More →
             </Link>
           </div>
-          
+
           <div className="bg-white p-6 rounded-lg shadow-md text-center">
             <div className="text-4xl mb-4">🚨</div>
             <h3 className="text-xl font-semibold mb-2">Emergency Management</h3>
@@ -97,7 +97,7 @@ export default function Home() {
               Learn More →
             </Link>
           </div>
-          
+
           <div className="bg-white p-6 rounded-lg shadow-md text-center">
             <div className="text-4xl mb-4">🎬</div>
             <h3 className="text-xl font-semibold mb-2">Videography & Photography</h3>
@@ -106,7 +106,7 @@ export default function Home() {
               Learn More →
             </Link>
           </div>
-          
+
           <div className="bg-white p-6 rounded-lg shadow-md text-center">
             <div className="text-4xl mb-4">📈</div>
             <h3 className="text-xl font-semibold mb-2">Digital Marketing</h3>
@@ -115,7 +115,7 @@ export default function Home() {
               Learn More →
             </Link>
           </div>
-          
+
           <div className="bg-white p-6 rounded-lg shadow-md text-center">
             <div className="text-4xl mb-4">💼</div>
             <h3 className="text-xl font-semibold mb-2">Business Solutions</h3>

@@ -1,5 +1,5 @@
-import Link from "next/link";
 import { Card } from "@/components/ui/card";
+import Link from "next/link";
 
 export default function MarketingPage() {
   return (
@@ -66,7 +66,7 @@ export default function MarketingPage() {
                 <li>Performance optimization and speed</li>
               </ul>
             </Card>
-            
+
             <Card className="p-6">
               <div className="text-4xl mb-4 text-center">📈</div>
               <h3 className="text-xl font-semibold mb-4 text-green-600">SEO & Digital Marketing</h3>
@@ -79,7 +79,7 @@ export default function MarketingPage() {
                 <li>Analytics and performance tracking</li>
               </ul>
             </Card>
-            
+
             <Card className="p-6">
               <div className="text-4xl mb-4 text-center">🎯</div>
               <h3 className="text-xl font-semibold mb-4 text-green-600">AI-Powered Solutions</h3>
@@ -124,7 +124,7 @@ export default function MarketingPage() {
                 </div>
               </div>
             </Card>
-            
+
             <Card className="p-6">
               <h3 className="text-lg font-semibold mb-4 text-green-600">Digital Marketing Services</h3>
               <div className="space-y-3">
@@ -168,7 +168,7 @@ export default function MarketingPage() {
                 <li>Customer journey optimization</li>
               </ul>
             </Card>
-            
+
             <Card className="p-6">
               <h3 className="text-xl font-semibold mb-4 text-green-600">Analytics & Insights</h3>
               <ul className="list-disc ml-5 space-y-2 text-gray-700">
@@ -200,7 +200,7 @@ export default function MarketingPage() {
                 <li>Deliver measurable results and ROI</li>
               </ul>
             </Card>
-            
+
             <Card className="p-6">
               <h3 className="text-xl font-semibold mb-4 text-red-600">What We Cannot Do</h3>
               <ul className="list-disc ml-5 space-y-2 text-gray-700">
@@ -232,7 +232,7 @@ export default function MarketingPage() {
                 <li>SSL certificates and security</li>
               </ul>
             </Card>
-            
+
             <Card className="p-6">
               <h3 className="text-lg font-semibold mb-4 text-green-600">Marketing Tools</h3>
               <ul className="list-disc ml-5 space-y-2 text-gray-700 text-sm">
@@ -244,7 +244,7 @@ export default function MarketingPage() {
                 <li>Canva and design software</li>
               </ul>
             </Card>
-            
+
             <Card className="p-6">
               <h3 className="text-lg font-semibold mb-4 text-green-600">AI & Automation</h3>
               <ul className="list-disc ml-5 space-y-2 text-gray-700 text-sm">
@@ -273,12 +273,12 @@ export default function MarketingPage() {
               </p>
               <div className="bg-green-50 p-4 rounded-lg">
                 <p className="text-sm text-green-800">
-                  <strong>Technologies Used:</strong> Next.js, Tailwind CSS, integrated online ordering system, 
+                  <strong>Technologies Used:</strong> Next.js, Tailwind CSS, integrated online ordering system,
                   SEO optimization, and social media integration.
                 </p>
               </div>
             </Card>
-            
+
             <Card className="p-6">
               <h3 className="text-xl font-semibold mb-4 text-green-600">E-commerce SEO Campaign</h3>
               <p className="text-gray-700 mb-4">
@@ -289,7 +289,7 @@ export default function MarketingPage() {
               </p>
               <div className="bg-green-50 p-4 rounded-lg">
                 <p className="text-sm text-green-800">
-                  <strong>Strategy:</strong> Keyword research, technical SEO, content creation, 
+                  <strong>Strategy:</strong> Keyword research, technical SEO, content creation,
                   link building, and ongoing optimization and monitoring.
                 </p>
               </div>
@@ -304,8 +304,8 @@ export default function MarketingPage() {
             <Card className="p-6">
               <h3 className="text-lg font-semibold mb-4 text-green-600">Ready to Grow Your Business?</h3>
               <p className="text-gray-700 mb-4">
-                Whether you need a new website, digital marketing strategy, or AI-powered automation, 
-                we&apos;re here to help your business succeed online with measurable results and 
+                Whether you need a new website, digital marketing strategy, or AI-powered automation,
+                we&apos;re here to help your business succeed online with measurable results and
                 professional expertise.
               </p>
               <div className="space-y-2">
@@ -327,7 +327,7 @@ export default function MarketingPage() {
                 </div>
               </div>
             </Card>
-            
+
             <Card className="p-6">
               <h3 className="text-lg font-semibold mb-4 text-green-600">Quick Links</h3>
               <div className="space-y-2">

@@ -1,5 +1,5 @@
-import Link from "next/link";
 import { Card } from "@/components/ui/card";
+import Link from "next/link";
 
 export default function VideographyPage() {
   return (
@@ -63,7 +63,7 @@ export default function VideographyPage() {
                 <li>Real estate and property videos</li>
               </ul>
             </Card>
-            
+
             <Card className="p-6">
               <div className="text-4xl mb-4 text-center">📸</div>
               <h3 className="text-xl font-semibold mb-4 text-purple-600">Photography Services</h3>
@@ -76,7 +76,7 @@ export default function VideographyPage() {
                 <li>Commercial and advertising photography</li>
               </ul>
             </Card>
-            
+
             <Card className="p-6">
               <div className="text-4xl mb-4 text-center">✂️</div>
               <h3 className="text-xl font-semibold mb-4 text-purple-600">Post-Production & Editing</h3>
@@ -125,7 +125,7 @@ export default function VideographyPage() {
                 </div>
               </div>
             </Card>
-            
+
             <Card className="p-6">
               <h3 className="text-lg font-semibold mb-4 text-purple-600">Photography Services</h3>
               <div className="space-y-3">
@@ -175,7 +175,7 @@ export default function VideographyPage() {
                 <li>Maintain professional equipment and backup systems</li>
               </ul>
             </Card>
-            
+
             <Card className="p-6">
               <h3 className="text-xl font-semibold mb-4 text-red-600">What We Cannot Do</h3>
               <ul className="list-disc ml-5 space-y-2 text-gray-700">
@@ -209,7 +209,7 @@ export default function VideographyPage() {
                 <li>Have a backup plan for weather-dependent shoots</li>
               </ul>
             </Card>
-            
+
             <Card className="p-6">
               <h3 className="text-xl font-semibold mb-4 text-purple-600">Information to Bring</h3>
               <ul className="list-disc ml-5 space-y-2 text-gray-700">
@@ -241,7 +241,7 @@ export default function VideographyPage() {
                 <li>Backup equipment and redundancy systems</li>
               </ul>
             </Card>
-            
+
             <Card className="p-6">
               <h3 className="text-lg font-semibold mb-4 text-purple-600">Photography Equipment</h3>
               <ul className="list-disc ml-5 space-y-2 text-gray-700 text-sm">
@@ -253,7 +253,7 @@ export default function VideographyPage() {
                 <li>Memory cards and backup storage</li>
               </ul>
             </Card>
-            
+
             <Card className="p-6">
               <h3 className="text-lg font-semibold mb-4 text-purple-600">Post-Production Software</h3>
               <ul className="list-disc ml-5 space-y-2 text-gray-700 text-sm">
@@ -292,7 +292,7 @@ export default function VideographyPage() {
                 </div>
               </div>
             </Card>
-            
+
             <Card className="p-6">
               <h3 className="text-xl font-semibold mb-4 text-purple-600">Specializations</h3>
               <ul className="list-disc ml-5 space-y-2 text-gray-700">
@@ -316,8 +316,8 @@ export default function VideographyPage() {
             <Card className="p-6">
               <h3 className="text-lg font-semibold mb-4 text-purple-600">Ready to Get Started?</h3>
               <p className="text-gray-700 mb-4">
-                Whether you need professional videography, photography, or content creation, 
-                we&apos;re here to bring your vision to life with high-quality production 
+                Whether you need professional videography, photography, or content creation,
+                we&apos;re here to bring your vision to life with high-quality production
                 and professional results.
               </p>
               <div className="space-y-2">
@@ -339,7 +339,7 @@ export default function VideographyPage() {
                 </div>
               </div>
             </Card>
-            
+
             <Card className="p-6">
               <h3 className="text-lg font-semibold mb-4 text-purple-600">Quick Links</h3>
               <div className="space-y-2">
