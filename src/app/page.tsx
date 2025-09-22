@@ -22,8 +22,8 @@ export default function Home() {
               <Link href="/music" className="text-gray-700 hover:text-blue-600 font-medium">
                 Music
               </Link>
-              <Link href="/emergency" className="text-gray-700 hover:text-blue-600 font-medium">
-                Emergency
+              <Link href="/emergency-management" className="text-gray-700 hover:text-blue-600 font-medium">
+                Emergency Management
               </Link>
               <Link href="/videography" className="text-gray-700 hover:text-blue-600 font-medium">
                 Videography
@@ -93,7 +93,7 @@ export default function Home() {
             <div className="text-4xl mb-4">🚨</div>
             <h3 className="text-xl font-semibold mb-2">Emergency Management</h3>
             <p className="text-gray-600 mb-4">AI-powered emergency response and disaster management</p>
-            <Link href="/emergency" className="text-blue-600 hover:text-blue-800 font-medium">
+            <Link href="/emergency-management" className="text-blue-600 hover:text-blue-800 font-medium">
               Learn More →
             </Link>
           </div>
@@ -171,7 +171,7 @@ export default function Home() {
               <ul className="space-y-2 text-gray-400">
                 <li><Link href="/insurance" className="hover:text-white">Insurance & Finance</Link></li>
                 <li><Link href="/music" className="hover:text-white">Music & Creative</Link></li>
-                <li><Link href="/emergency" className="hover:text-white">Emergency Management</Link></li>
+                <li><Link href="/emergency-management" className="hover:text-white">Emergency Management</Link></li>
                 <li><Link href="/videography" className="hover:text-white">Videography & Photography</Link></li>
                 <li><Link href="/marketing" className="hover:text-white">Digital Marketing</Link></li>
                 <li><Link href="/portfolio" className="hover:text-white">Business Solutions</Link></li>

@@ -175,6 +175,6 @@ Your comprehensive FloFaction website is now ready for deployment. The site show
 
 ---
 
-*Generated on: December 2024*  
-*Flo Faction LLC - EIN #85-2167111*  
+*Generated on: December 2024*
+*Flo Faction LLC - EIN #85-2167111*
 *Port St. Lucie, Florida*

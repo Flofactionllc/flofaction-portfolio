@@ -23,8 +23,8 @@ export default function MusicPage() {
               <Link href="/music" className="text-blue-600 font-medium">
                 Music
               </Link>
-              <Link href="/emergency" className="text-gray-700 hover:text-blue-600 font-medium">
-                Emergency
+              <Link href="/emergency-management" className="text-gray-700 hover:text-blue-600 font-medium">
+                Emergency Management
               </Link>
               <Link href="/contact" className="text-gray-700 hover:text-blue-600 font-medium">
                 Contact
@@ -289,7 +289,7 @@ export default function MusicPage() {
                 <Link href="/contact" className="block text-purple-600 hover:text-purple-800">
                   → Contact Form & Consultation
                 </Link>
-                <Link href="/emergency" className="block text-purple-600 hover:text-purple-800">
+                <Link href="/emergency-management" className="block text-purple-600 hover:text-purple-800">
                   → Emergency Management Services
                 </Link>
                 <Link href="/insurance" className="block text-purple-600 hover:text-purple-800">

@@ -23,8 +23,8 @@ export default function MarketingPage() {
               <Link href="/music" className="text-gray-700 hover:text-blue-600 font-medium">
                 Music
               </Link>
-              <Link href="/emergency" className="text-gray-700 hover:text-blue-600 font-medium">
-                Emergency
+              <Link href="/emergency-management" className="text-gray-700 hover:text-blue-600 font-medium">
+                Emergency Management
               </Link>
               <Link href="/videography" className="text-gray-700 hover:text-blue-600 font-medium">
                 Videography
@@ -343,7 +343,7 @@ export default function MarketingPage() {
                 <Link href="/music" className="block text-green-600 hover:text-green-800">
                   → Music & Creative Services
                 </Link>
-                <Link href="/emergency" className="block text-green-600 hover:text-green-800">
+                <Link href="/emergency-management" className="block text-green-600 hover:text-green-800">
                   → Emergency Management
                 </Link>
                 <Link href="/insurance" className="block text-green-600 hover:text-green-800">

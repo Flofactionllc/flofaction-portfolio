@@ -23,8 +23,8 @@ export default function EmergencyPage() {
               <Link href="/music" className="text-gray-700 hover:text-blue-600 font-medium">
                 Music
               </Link>
-              <Link href="/emergency" className="text-blue-600 font-medium">
-                Emergency
+              <Link href="/emergency-management" className="text-blue-600 font-medium">
+                Emergency Management
               </Link>
               <Link href="/contact" className="text-gray-700 hover:text-blue-600 font-medium">
                 Contact

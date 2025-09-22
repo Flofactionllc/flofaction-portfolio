@@ -326,7 +326,7 @@ export default function PortfolioPage() {
             <Card className="p-6">
               <h3 className="text-lg font-semibold mb-4 text-blue-600">Quick Links</h3>
               <div className="space-y-2">
-                <Link href="/emergency" className="block text-blue-600 hover:text-blue-800">
+                <Link href="/emergency-management" className="block text-blue-600 hover:text-blue-800">
                   → GuardianAI Emergency Management Platform
                 </Link>
                 <Link href="/music" className="block text-blue-600 hover:text-blue-800">
