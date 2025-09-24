@@ -1,0 +1,1640 @@
+{
+  "channel_name": "Insurance Mastery",
+  "target_audience": "Insurance professionals, consumers, business owners",
+  "content_types": [
+    "educational",
+    "tips",
+    "reviews",
+    "case_studies"
+  ],
+  "video_count_target": 30,
+  "shorts_count_target": 30,
+  "content_schedule": [
+    {
+      "id": "insurance_video_001",
+      "type": "long_form",
+      "content_type": "educational",
+      "topic": "Auto Insurance Basics",
+      "title": "Understanding Auto Insurance Basics: A Complete Guide to Insurance",
+      "description": "Learn everything you need to know about Auto Insurance Basics in this comprehensive guide. We cover key concepts, best practices, and expert tips and provide expert insights for Insurance professionals, consumers, business owners.",
+      "outline": [
+        "Introduction to Auto Insurance Basics",
+        "Why Auto Insurance Basics matters for Insurance professionals, consumers, business owners",
+        "Key concepts and definitions",
+        "Common mistakes to avoid",
+        "Best practices and tips",
+        "Real-world examples",
+        "Conclusion and next steps"
+      ],
+      "duration": "10-15 minutes",
+      "tags": [
+        "insurance",
+        "education",
+        "tips",
+        "guide"
+      ],
+      "scheduled_date": "2025-09-24T13:19:45.940970",
+      "status": "planned",
+      "priority": "high"
+    },
+    {
+      "id": "insurance_video_002",
+      "type": "long_form",
+      "content_type": "tips",
+      "topic": "Home Insurance Coverage",
+      "title": "5 Essential Insurance Tips Every Insurance professionals, consumers, business owners Should Know",
+      "description": "Discover 5 crucial tips for Insurance that can save you time and money. Perfect for Insurance professionals, consumers, business owners.",
+      "outline": [
+        "Tip 1: Essential Home Insurance Coverage Tip 1",
+        "Tip 2: Essential Home Insurance Coverage Tip 2",
+        "Tip 3: Essential Home Insurance Coverage Tip 3",
+        "Tip 4: Essential Home Insurance Coverage Tip 4",
+        "Tip 5: Essential Home Insurance Coverage Tip 5",
+        "Bonus tip",
+        "Summary and action items"
+      ],
+      "duration": "5-8 minutes",
+      "tags": [
+        "insurance",
+        "tips",
+        "advice",
+        "money-saving"
+      ],
+      "scheduled_date": "2025-09-26T13:19:45.940994",
+      "status": "planned",
+      "priority": "high"
+    },
+    {
+      "id": "insurance_video_003",
+      "type": "long_form",
+      "content_type": "reviews",
+      "topic": "Life Insurance Planning",
+      "title": "Sample Insurance Company Review: Is It Right for Insurance professionals, consumers, business owners?",
+      "description": "In-depth review of Sample Insurance Company covering coverage options, pricing, customer service, and more. Find out if it's the right choice for Insurance professionals, consumers, business owners.",
+      "outline": [
+        "Company overview",
+        "Coverage options",
+        "Pricing analysis",
+        "Customer service review",
+        "Pros and cons",
+        "Who should choose this company",
+        "Final verdict and rating"
+      ],
+      "duration": "8-12 minutes",
+      "tags": [
+        "insurance",
+        "review",
+        "comparison",
+        "analysis"
+      ],
+      "scheduled_date": "2025-09-28T13:19:45.941012",
+      "status": "planned",
+      "priority": "high"
+    },
+    {
+      "id": "insurance_video_004",
+      "type": "long_form",
+      "content_type": "case_studies",
+      "topic": "Health Insurance Options",
+      "title": "Real Case Study: How Small Business Owner Saved $5,000 on Insurance",
+      "description": "Real-world case study showing how Small Business Owner optimized their Insurance coverage and saved $5,000. Learn from their experience.",
+      "outline": [
+        "Client background",
+        "Initial situation",
+        "Challenges faced",
+        "Solution implemented",
+        "Results achieved",
+        "Lessons learned",
+        "Key takeaways"
+      ],
+      "duration": "6-10 minutes",
+      "tags": [
+        "insurance",
+        "case-study",
+        "savings",
+        "optimization"
+      ],
+      "scheduled_date": "2025-09-30T13:19:45.941029",
+      "status": "planned",
+      "priority": "high"
+    },
+    {
+      "id": "insurance_video_005",
+      "type": "long_form",
+      "content_type": "educational",
+      "topic": "Business Insurance Needs",
+      "title": "Understanding Business Insurance Needs: A Complete Guide to Insurance",
+      "description": "Learn everything you need to know about Business Insurance Needs in this comprehensive guide. We cover key concepts, best practices, and expert tips and provide expert insights for Insurance professionals, consumers, business owners.",
+      "outline": [
+        "Introduction to Business Insurance Needs",
+        "Why Business Insurance Needs matters for Insurance professionals, consumers, business owners",
+        "Key concepts and definitions",
+        "Common mistakes to avoid",
+        "Best practices and tips",
+        "Real-world examples",
+        "Conclusion and next steps"
+      ],
+      "duration": "10-15 minutes",
+      "tags": [
+        "insurance",
+        "education",
+        "tips",
+        "guide"
+      ],
+      "scheduled_date": "2025-10-02T13:19:45.941045",
+      "status": "planned",
+      "priority": "high"
+    },
+    {
+      "id": "insurance_video_006",
+      "type": "long_form",
+      "content_type": "tips",
+      "topic": "Insurance Claims Process",
+      "title": "5 Essential Insurance Tips Every Insurance professionals, consumers, business owners Should Know",
+      "description": "Discover 5 crucial tips for Insurance that can save you time and money. Perfect for Insurance professionals, consumers, business owners.",
+      "outline": [
+        "Tip 1: Essential Insurance Claims Process Tip 1",
+        "Tip 2: Essential Insurance Claims Process Tip 2",
+        "Tip 3: Essential Insurance Claims Process Tip 3",
+        "Tip 4: Essential Insurance Claims Process Tip 4",
+        "Tip 5: Essential Insurance Claims Process Tip 5",
+        "Bonus tip",
+        "Summary and action items"
+      ],
+      "duration": "5-8 minutes",
+      "tags": [
+        "insurance",
+        "tips",
+        "advice",
+        "money-saving"
+      ],
+      "scheduled_date": "2025-10-04T13:19:45.941061",
+      "status": "planned",
+      "priority": "high"
+    },
+    {
+      "id": "insurance_video_007",
+      "type": "long_form",
+      "content_type": "reviews",
+      "topic": "Insurance Cost Optimization",
+      "title": "Sample Insurance Company Review: Is It Right for Insurance professionals, consumers, business owners?",
+      "description": "In-depth review of Sample Insurance Company covering coverage options, pricing, customer service, and more. Find out if it's the right choice for Insurance professionals, consumers, business owners.",
+      "outline": [
+        "Company overview",
+        "Coverage options",
+        "Pricing analysis",
+        "Customer service review",
+        "Pros and cons",
+        "Who should choose this company",
+        "Final verdict and rating"
+      ],
+      "duration": "8-12 minutes",
+      "tags": [
+        "insurance",
+        "review",
+        "comparison",
+        "analysis"
+      ],
+      "scheduled_date": "2025-10-06T13:19:45.941076",
+      "status": "planned",
+      "priority": "high"
+    },
+    {
+      "id": "insurance_video_008",
+      "type": "long_form",
+      "content_type": "case_studies",
+      "topic": "Insurance Policy Reviews",
+      "title": "Real Case Study: How Small Business Owner Saved $5,000 on Insurance",
+      "description": "Real-world case study showing how Small Business Owner optimized their Insurance coverage and saved $5,000. Learn from their experience.",
+      "outline": [
+        "Client background",
+        "Initial situation",
+        "Challenges faced",
+        "Solution implemented",
+        "Results achieved",
+        "Lessons learned",
+        "Key takeaways"
+      ],
+      "duration": "6-10 minutes",
+      "tags": [
+        "insurance",
+        "case-study",
+        "savings",
+        "optimization"
+      ],
+      "scheduled_date": "2025-10-08T13:19:45.941094",
+      "status": "planned",
+      "priority": "high"
+    },
+    {
+      "id": "insurance_video_009",
+      "type": "long_form",
+      "content_type": "educational",
+      "topic": "Insurance Fraud Prevention",
+      "title": "Understanding Insurance Fraud Prevention: A Complete Guide to Insurance",
+      "description": "Learn everything you need to know about Insurance Fraud Prevention in this comprehensive guide. We cover key concepts, best practices, and expert tips and provide expert insights for Insurance professionals, consumers, business owners.",
+      "outline": [
+        "Introduction to Insurance Fraud Prevention",
+        "Why Insurance Fraud Prevention matters for Insurance professionals, consumers, business owners",
+        "Key concepts and definitions",
+        "Common mistakes to avoid",
+        "Best practices and tips",
+        "Real-world examples",
+        "Conclusion and next steps"
+      ],
+      "duration": "10-15 minutes",
+      "tags": [
+        "insurance",
+        "education",
+        "tips",
+        "guide"
+      ],
+      "scheduled_date": "2025-10-10T13:19:45.941110",
+      "status": "planned",
+      "priority": "high"
+    },
+    {
+      "id": "insurance_video_010",
+      "type": "long_form",
+      "content_type": "tips",
+      "topic": "Insurance Technology Trends",
+      "title": "5 Essential Insurance Tips Every Insurance professionals, consumers, business owners Should Know",
+      "description": "Discover 5 crucial tips for Insurance that can save you time and money. Perfect for Insurance professionals, consumers, business owners.",
+      "outline": [
+        "Tip 1: Essential Insurance Technology Trends Tip 1",
+        "Tip 2: Essential Insurance Technology Trends Tip 2",
+        "Tip 3: Essential Insurance Technology Trends Tip 3",
+        "Tip 4: Essential Insurance Technology Trends Tip 4",
+        "Tip 5: Essential Insurance Technology Trends Tip 5",
+        "Bonus tip",
+        "Summary and action items"
+      ],
+      "duration": "5-8 minutes",
+      "tags": [
+        "insurance",
+        "tips",
+        "advice",
+        "money-saving"
+      ],
+      "scheduled_date": "2025-10-12T13:19:45.941126",
+      "status": "planned",
+      "priority": "high"
+    },
+    {
+      "id": "insurance_video_011",
+      "type": "long_form",
+      "content_type": "reviews",
+      "topic": "Auto Insurance Basics",
+      "title": "Sample Insurance Company Review: Is It Right for Insurance professionals, consumers, business owners?",
+      "description": "In-depth review of Sample Insurance Company covering coverage options, pricing, customer service, and more. Find out if it's the right choice for Insurance professionals, consumers, business owners.",
+      "outline": [
+        "Company overview",
+        "Coverage options",
+        "Pricing analysis",
+        "Customer service review",
+        "Pros and cons",
+        "Who should choose this company",
+        "Final verdict and rating"
+      ],
+      "duration": "8-12 minutes",
+      "tags": [
+        "insurance",
+        "review",
+        "comparison",
+        "analysis"
+      ],
+      "scheduled_date": "2025-10-14T13:19:45.941141",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_video_012",
+      "type": "long_form",
+      "content_type": "case_studies",
+      "topic": "Home Insurance Coverage",
+      "title": "Real Case Study: How Small Business Owner Saved $5,000 on Insurance",
+      "description": "Real-world case study showing how Small Business Owner optimized their Insurance coverage and saved $5,000. Learn from their experience.",
+      "outline": [
+        "Client background",
+        "Initial situation",
+        "Challenges faced",
+        "Solution implemented",
+        "Results achieved",
+        "Lessons learned",
+        "Key takeaways"
+      ],
+      "duration": "6-10 minutes",
+      "tags": [
+        "insurance",
+        "case-study",
+        "savings",
+        "optimization"
+      ],
+      "scheduled_date": "2025-10-16T13:19:45.941156",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_video_013",
+      "type": "long_form",
+      "content_type": "educational",
+      "topic": "Life Insurance Planning",
+      "title": "Understanding Life Insurance Planning: A Complete Guide to Insurance",
+      "description": "Learn everything you need to know about Life Insurance Planning in this comprehensive guide. We cover key concepts, best practices, and expert tips and provide expert insights for Insurance professionals, consumers, business owners.",
+      "outline": [
+        "Introduction to Life Insurance Planning",
+        "Why Life Insurance Planning matters for Insurance professionals, consumers, business owners",
+        "Key concepts and definitions",
+        "Common mistakes to avoid",
+        "Best practices and tips",
+        "Real-world examples",
+        "Conclusion and next steps"
+      ],
+      "duration": "10-15 minutes",
+      "tags": [
+        "insurance",
+        "education",
+        "tips",
+        "guide"
+      ],
+      "scheduled_date": "2025-10-18T13:19:45.941172",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_video_014",
+      "type": "long_form",
+      "content_type": "tips",
+      "topic": "Health Insurance Options",
+      "title": "5 Essential Insurance Tips Every Insurance professionals, consumers, business owners Should Know",
+      "description": "Discover 5 crucial tips for Insurance that can save you time and money. Perfect for Insurance professionals, consumers, business owners.",
+      "outline": [
+        "Tip 1: Essential Health Insurance Options Tip 1",
+        "Tip 2: Essential Health Insurance Options Tip 2",
+        "Tip 3: Essential Health Insurance Options Tip 3",
+        "Tip 4: Essential Health Insurance Options Tip 4",
+        "Tip 5: Essential Health Insurance Options Tip 5",
+        "Bonus tip",
+        "Summary and action items"
+      ],
+      "duration": "5-8 minutes",
+      "tags": [
+        "insurance",
+        "tips",
+        "advice",
+        "money-saving"
+      ],
+      "scheduled_date": "2025-10-20T13:19:45.941186",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_video_015",
+      "type": "long_form",
+      "content_type": "reviews",
+      "topic": "Business Insurance Needs",
+      "title": "Sample Insurance Company Review: Is It Right for Insurance professionals, consumers, business owners?",
+      "description": "In-depth review of Sample Insurance Company covering coverage options, pricing, customer service, and more. Find out if it's the right choice for Insurance professionals, consumers, business owners.",
+      "outline": [
+        "Company overview",
+        "Coverage options",
+        "Pricing analysis",
+        "Customer service review",
+        "Pros and cons",
+        "Who should choose this company",
+        "Final verdict and rating"
+      ],
+      "duration": "8-12 minutes",
+      "tags": [
+        "insurance",
+        "review",
+        "comparison",
+        "analysis"
+      ],
+      "scheduled_date": "2025-10-22T13:19:45.941200",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_video_016",
+      "type": "long_form",
+      "content_type": "case_studies",
+      "topic": "Insurance Claims Process",
+      "title": "Real Case Study: How Small Business Owner Saved $5,000 on Insurance",
+      "description": "Real-world case study showing how Small Business Owner optimized their Insurance coverage and saved $5,000. Learn from their experience.",
+      "outline": [
+        "Client background",
+        "Initial situation",
+        "Challenges faced",
+        "Solution implemented",
+        "Results achieved",
+        "Lessons learned",
+        "Key takeaways"
+      ],
+      "duration": "6-10 minutes",
+      "tags": [
+        "insurance",
+        "case-study",
+        "savings",
+        "optimization"
+      ],
+      "scheduled_date": "2025-10-24T13:19:45.941214",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_video_017",
+      "type": "long_form",
+      "content_type": "educational",
+      "topic": "Insurance Cost Optimization",
+      "title": "Understanding Insurance Cost Optimization: A Complete Guide to Insurance",
+      "description": "Learn everything you need to know about Insurance Cost Optimization in this comprehensive guide. We cover key concepts, best practices, and expert tips and provide expert insights for Insurance professionals, consumers, business owners.",
+      "outline": [
+        "Introduction to Insurance Cost Optimization",
+        "Why Insurance Cost Optimization matters for Insurance professionals, consumers, business owners",
+        "Key concepts and definitions",
+        "Common mistakes to avoid",
+        "Best practices and tips",
+        "Real-world examples",
+        "Conclusion and next steps"
+      ],
+      "duration": "10-15 minutes",
+      "tags": [
+        "insurance",
+        "education",
+        "tips",
+        "guide"
+      ],
+      "scheduled_date": "2025-10-26T13:19:45.941229",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_video_018",
+      "type": "long_form",
+      "content_type": "tips",
+      "topic": "Insurance Policy Reviews",
+      "title": "5 Essential Insurance Tips Every Insurance professionals, consumers, business owners Should Know",
+      "description": "Discover 5 crucial tips for Insurance that can save you time and money. Perfect for Insurance professionals, consumers, business owners.",
+      "outline": [
+        "Tip 1: Essential Insurance Policy Reviews Tip 1",
+        "Tip 2: Essential Insurance Policy Reviews Tip 2",
+        "Tip 3: Essential Insurance Policy Reviews Tip 3",
+        "Tip 4: Essential Insurance Policy Reviews Tip 4",
+        "Tip 5: Essential Insurance Policy Reviews Tip 5",
+        "Bonus tip",
+        "Summary and action items"
+      ],
+      "duration": "5-8 minutes",
+      "tags": [
+        "insurance",
+        "tips",
+        "advice",
+        "money-saving"
+      ],
+      "scheduled_date": "2025-10-28T13:19:45.941244",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_video_019",
+      "type": "long_form",
+      "content_type": "reviews",
+      "topic": "Insurance Fraud Prevention",
+      "title": "Sample Insurance Company Review: Is It Right for Insurance professionals, consumers, business owners?",
+      "description": "In-depth review of Sample Insurance Company covering coverage options, pricing, customer service, and more. Find out if it's the right choice for Insurance professionals, consumers, business owners.",
+      "outline": [
+        "Company overview",
+        "Coverage options",
+        "Pricing analysis",
+        "Customer service review",
+        "Pros and cons",
+        "Who should choose this company",
+        "Final verdict and rating"
+      ],
+      "duration": "8-12 minutes",
+      "tags": [
+        "insurance",
+        "review",
+        "comparison",
+        "analysis"
+      ],
+      "scheduled_date": "2025-10-30T13:19:45.941257",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_video_020",
+      "type": "long_form",
+      "content_type": "case_studies",
+      "topic": "Insurance Technology Trends",
+      "title": "Real Case Study: How Small Business Owner Saved $5,000 on Insurance",
+      "description": "Real-world case study showing how Small Business Owner optimized their Insurance coverage and saved $5,000. Learn from their experience.",
+      "outline": [
+        "Client background",
+        "Initial situation",
+        "Challenges faced",
+        "Solution implemented",
+        "Results achieved",
+        "Lessons learned",
+        "Key takeaways"
+      ],
+      "duration": "6-10 minutes",
+      "tags": [
+        "insurance",
+        "case-study",
+        "savings",
+        "optimization"
+      ],
+      "scheduled_date": "2025-11-01T13:19:45.941272",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_video_021",
+      "type": "long_form",
+      "content_type": "educational",
+      "topic": "Auto Insurance Basics",
+      "title": "Understanding Auto Insurance Basics: A Complete Guide to Insurance",
+      "description": "Learn everything you need to know about Auto Insurance Basics in this comprehensive guide. We cover key concepts, best practices, and expert tips and provide expert insights for Insurance professionals, consumers, business owners.",
+      "outline": [
+        "Introduction to Auto Insurance Basics",
+        "Why Auto Insurance Basics matters for Insurance professionals, consumers, business owners",
+        "Key concepts and definitions",
+        "Common mistakes to avoid",
+        "Best practices and tips",
+        "Real-world examples",
+        "Conclusion and next steps"
+      ],
+      "duration": "10-15 minutes",
+      "tags": [
+        "insurance",
+        "education",
+        "tips",
+        "guide"
+      ],
+      "scheduled_date": "2025-11-03T13:19:45.941286",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_video_022",
+      "type": "long_form",
+      "content_type": "tips",
+      "topic": "Home Insurance Coverage",
+      "title": "5 Essential Insurance Tips Every Insurance professionals, consumers, business owners Should Know",
+      "description": "Discover 5 crucial tips for Insurance that can save you time and money. Perfect for Insurance professionals, consumers, business owners.",
+      "outline": [
+        "Tip 1: Essential Home Insurance Coverage Tip 1",
+        "Tip 2: Essential Home Insurance Coverage Tip 2",
+        "Tip 3: Essential Home Insurance Coverage Tip 3",
+        "Tip 4: Essential Home Insurance Coverage Tip 4",
+        "Tip 5: Essential Home Insurance Coverage Tip 5",
+        "Bonus tip",
+        "Summary and action items"
+      ],
+      "duration": "5-8 minutes",
+      "tags": [
+        "insurance",
+        "tips",
+        "advice",
+        "money-saving"
+      ],
+      "scheduled_date": "2025-11-05T13:19:45.941301",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_video_023",
+      "type": "long_form",
+      "content_type": "reviews",
+      "topic": "Life Insurance Planning",
+      "title": "Sample Insurance Company Review: Is It Right for Insurance professionals, consumers, business owners?",
+      "description": "In-depth review of Sample Insurance Company covering coverage options, pricing, customer service, and more. Find out if it's the right choice for Insurance professionals, consumers, business owners.",
+      "outline": [
+        "Company overview",
+        "Coverage options",
+        "Pricing analysis",
+        "Customer service review",
+        "Pros and cons",
+        "Who should choose this company",
+        "Final verdict and rating"
+      ],
+      "duration": "8-12 minutes",
+      "tags": [
+        "insurance",
+        "review",
+        "comparison",
+        "analysis"
+      ],
+      "scheduled_date": "2025-11-07T13:19:45.941315",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_video_024",
+      "type": "long_form",
+      "content_type": "case_studies",
+      "topic": "Health Insurance Options",
+      "title": "Real Case Study: How Small Business Owner Saved $5,000 on Insurance",
+      "description": "Real-world case study showing how Small Business Owner optimized their Insurance coverage and saved $5,000. Learn from their experience.",
+      "outline": [
+        "Client background",
+        "Initial situation",
+        "Challenges faced",
+        "Solution implemented",
+        "Results achieved",
+        "Lessons learned",
+        "Key takeaways"
+      ],
+      "duration": "6-10 minutes",
+      "tags": [
+        "insurance",
+        "case-study",
+        "savings",
+        "optimization"
+      ],
+      "scheduled_date": "2025-11-09T13:19:45.941329",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_video_025",
+      "type": "long_form",
+      "content_type": "educational",
+      "topic": "Business Insurance Needs",
+      "title": "Understanding Business Insurance Needs: A Complete Guide to Insurance",
+      "description": "Learn everything you need to know about Business Insurance Needs in this comprehensive guide. We cover key concepts, best practices, and expert tips and provide expert insights for Insurance professionals, consumers, business owners.",
+      "outline": [
+        "Introduction to Business Insurance Needs",
+        "Why Business Insurance Needs matters for Insurance professionals, consumers, business owners",
+        "Key concepts and definitions",
+        "Common mistakes to avoid",
+        "Best practices and tips",
+        "Real-world examples",
+        "Conclusion and next steps"
+      ],
+      "duration": "10-15 minutes",
+      "tags": [
+        "insurance",
+        "education",
+        "tips",
+        "guide"
+      ],
+      "scheduled_date": "2025-11-11T13:19:45.941343",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_video_026",
+      "type": "long_form",
+      "content_type": "tips",
+      "topic": "Insurance Claims Process",
+      "title": "5 Essential Insurance Tips Every Insurance professionals, consumers, business owners Should Know",
+      "description": "Discover 5 crucial tips for Insurance that can save you time and money. Perfect for Insurance professionals, consumers, business owners.",
+      "outline": [
+        "Tip 1: Essential Insurance Claims Process Tip 1",
+        "Tip 2: Essential Insurance Claims Process Tip 2",
+        "Tip 3: Essential Insurance Claims Process Tip 3",
+        "Tip 4: Essential Insurance Claims Process Tip 4",
+        "Tip 5: Essential Insurance Claims Process Tip 5",
+        "Bonus tip",
+        "Summary and action items"
+      ],
+      "duration": "5-8 minutes",
+      "tags": [
+        "insurance",
+        "tips",
+        "advice",
+        "money-saving"
+      ],
+      "scheduled_date": "2025-11-13T13:19:45.941360",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_video_027",
+      "type": "long_form",
+      "content_type": "reviews",
+      "topic": "Insurance Cost Optimization",
+      "title": "Sample Insurance Company Review: Is It Right for Insurance professionals, consumers, business owners?",
+      "description": "In-depth review of Sample Insurance Company covering coverage options, pricing, customer service, and more. Find out if it's the right choice for Insurance professionals, consumers, business owners.",
+      "outline": [
+        "Company overview",
+        "Coverage options",
+        "Pricing analysis",
+        "Customer service review",
+        "Pros and cons",
+        "Who should choose this company",
+        "Final verdict and rating"
+      ],
+      "duration": "8-12 minutes",
+      "tags": [
+        "insurance",
+        "review",
+        "comparison",
+        "analysis"
+      ],
+      "scheduled_date": "2025-11-15T13:19:45.941374",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_video_028",
+      "type": "long_form",
+      "content_type": "case_studies",
+      "topic": "Insurance Policy Reviews",
+      "title": "Real Case Study: How Small Business Owner Saved $5,000 on Insurance",
+      "description": "Real-world case study showing how Small Business Owner optimized their Insurance coverage and saved $5,000. Learn from their experience.",
+      "outline": [
+        "Client background",
+        "Initial situation",
+        "Challenges faced",
+        "Solution implemented",
+        "Results achieved",
+        "Lessons learned",
+        "Key takeaways"
+      ],
+      "duration": "6-10 minutes",
+      "tags": [
+        "insurance",
+        "case-study",
+        "savings",
+        "optimization"
+      ],
+      "scheduled_date": "2025-11-17T13:19:45.941388",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_video_029",
+      "type": "long_form",
+      "content_type": "educational",
+      "topic": "Insurance Fraud Prevention",
+      "title": "Understanding Insurance Fraud Prevention: A Complete Guide to Insurance",
+      "description": "Learn everything you need to know about Insurance Fraud Prevention in this comprehensive guide. We cover key concepts, best practices, and expert tips and provide expert insights for Insurance professionals, consumers, business owners.",
+      "outline": [
+        "Introduction to Insurance Fraud Prevention",
+        "Why Insurance Fraud Prevention matters for Insurance professionals, consumers, business owners",
+        "Key concepts and definitions",
+        "Common mistakes to avoid",
+        "Best practices and tips",
+        "Real-world examples",
+        "Conclusion and next steps"
+      ],
+      "duration": "10-15 minutes",
+      "tags": [
+        "insurance",
+        "education",
+        "tips",
+        "guide"
+      ],
+      "scheduled_date": "2025-11-19T13:19:45.941402",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_video_030",
+      "type": "long_form",
+      "content_type": "tips",
+      "topic": "Insurance Technology Trends",
+      "title": "5 Essential Insurance Tips Every Insurance professionals, consumers, business owners Should Know",
+      "description": "Discover 5 crucial tips for Insurance that can save you time and money. Perfect for Insurance professionals, consumers, business owners.",
+      "outline": [
+        "Tip 1: Essential Insurance Technology Trends Tip 1",
+        "Tip 2: Essential Insurance Technology Trends Tip 2",
+        "Tip 3: Essential Insurance Technology Trends Tip 3",
+        "Tip 4: Essential Insurance Technology Trends Tip 4",
+        "Tip 5: Essential Insurance Technology Trends Tip 5",
+        "Bonus tip",
+        "Summary and action items"
+      ],
+      "duration": "5-8 minutes",
+      "tags": [
+        "insurance",
+        "tips",
+        "advice",
+        "money-saving"
+      ],
+      "scheduled_date": "2025-11-21T13:19:45.941417",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_short_001",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Auto Insurance Basics",
+      "title": "Quick Tip: Auto Insurance Basics for Insurance",
+      "description": "Quick insurance tip about Auto Insurance Basics. Save time and money with this simple advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "insurance",
+        "tips",
+        "advice",
+        "money-saving"
+      ],
+      "scheduled_date": "2025-09-25T01:19:45.941422",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_short_002",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Home Insurance Coverage",
+      "title": "Quick Tip: Home Insurance Coverage for Insurance",
+      "description": "Quick insurance tip about Home Insurance Coverage. Save time and money with this simple advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "insurance",
+        "tips",
+        "advice",
+        "money-saving"
+      ],
+      "scheduled_date": "2025-09-27T01:19:45.941429",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_short_003",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Life Insurance Planning",
+      "title": "Quick Tip: Life Insurance Planning for Insurance",
+      "description": "Quick insurance tip about Life Insurance Planning. Save time and money with this simple advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "insurance",
+        "tips",
+        "advice",
+        "money-saving"
+      ],
+      "scheduled_date": "2025-09-29T01:19:45.941434",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_short_004",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Health Insurance Options",
+      "title": "Quick Tip: Health Insurance Options for Insurance",
+      "description": "Quick insurance tip about Health Insurance Options. Save time and money with this simple advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "insurance",
+        "tips",
+        "advice",
+        "money-saving"
+      ],
+      "scheduled_date": "2025-10-01T01:19:45.941438",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_short_005",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Business Insurance Needs",
+      "title": "Quick Tip: Business Insurance Needs for Insurance",
+      "description": "Quick insurance tip about Business Insurance Needs. Save time and money with this simple advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "insurance",
+        "tips",
+        "advice",
+        "money-saving"
+      ],
+      "scheduled_date": "2025-10-03T01:19:45.941442",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_short_006",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Insurance Claims Process",
+      "title": "Quick Tip: Insurance Claims Process for Insurance",
+      "description": "Quick insurance tip about Insurance Claims Process. Save time and money with this simple advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "insurance",
+        "tips",
+        "advice",
+        "money-saving"
+      ],
+      "scheduled_date": "2025-10-05T01:19:45.941446",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_short_007",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Insurance Cost Optimization",
+      "title": "Quick Tip: Insurance Cost Optimization for Insurance",
+      "description": "Quick insurance tip about Insurance Cost Optimization. Save time and money with this simple advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "insurance",
+        "tips",
+        "advice",
+        "money-saving"
+      ],
+      "scheduled_date": "2025-10-07T01:19:45.941450",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_short_008",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Insurance Policy Reviews",
+      "title": "Quick Tip: Insurance Policy Reviews for Insurance",
+      "description": "Quick insurance tip about Insurance Policy Reviews. Save time and money with this simple advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "insurance",
+        "tips",
+        "advice",
+        "money-saving"
+      ],
+      "scheduled_date": "2025-10-09T01:19:45.941453",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_short_009",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Insurance Fraud Prevention",
+      "title": "Quick Tip: Insurance Fraud Prevention for Insurance",
+      "description": "Quick insurance tip about Insurance Fraud Prevention. Save time and money with this simple advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "insurance",
+        "tips",
+        "advice",
+        "money-saving"
+      ],
+      "scheduled_date": "2025-10-11T01:19:45.941457",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_short_010",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Insurance Technology Trends",
+      "title": "Quick Tip: Insurance Technology Trends for Insurance",
+      "description": "Quick insurance tip about Insurance Technology Trends. Save time and money with this simple advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "insurance",
+        "tips",
+        "advice",
+        "money-saving"
+      ],
+      "scheduled_date": "2025-10-13T01:19:45.941461",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_short_011",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Auto Insurance Basics",
+      "title": "Quick Tip: Auto Insurance Basics for Insurance",
+      "description": "Quick insurance tip about Auto Insurance Basics. Save time and money with this simple advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "insurance",
+        "tips",
+        "advice",
+        "money-saving"
+      ],
+      "scheduled_date": "2025-10-15T01:19:45.941465",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_short_012",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Home Insurance Coverage",
+      "title": "Quick Tip: Home Insurance Coverage for Insurance",
+      "description": "Quick insurance tip about Home Insurance Coverage. Save time and money with this simple advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "insurance",
+        "tips",
+        "advice",
+        "money-saving"
+      ],
+      "scheduled_date": "2025-10-17T01:19:45.941469",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_short_013",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Life Insurance Planning",
+      "title": "Quick Tip: Life Insurance Planning for Insurance",
+      "description": "Quick insurance tip about Life Insurance Planning. Save time and money with this simple advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "insurance",
+        "tips",
+        "advice",
+        "money-saving"
+      ],
+      "scheduled_date": "2025-10-19T01:19:45.941473",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_short_014",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Health Insurance Options",
+      "title": "Quick Tip: Health Insurance Options for Insurance",
+      "description": "Quick insurance tip about Health Insurance Options. Save time and money with this simple advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "insurance",
+        "tips",
+        "advice",
+        "money-saving"
+      ],
+      "scheduled_date": "2025-10-21T01:19:45.941476",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_short_015",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Business Insurance Needs",
+      "title": "Quick Tip: Business Insurance Needs for Insurance",
+      "description": "Quick insurance tip about Business Insurance Needs. Save time and money with this simple advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "insurance",
+        "tips",
+        "advice",
+        "money-saving"
+      ],
+      "scheduled_date": "2025-10-23T01:19:45.941480",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_short_016",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Insurance Claims Process",
+      "title": "Quick Tip: Insurance Claims Process for Insurance",
+      "description": "Quick insurance tip about Insurance Claims Process. Save time and money with this simple advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "insurance",
+        "tips",
+        "advice",
+        "money-saving"
+      ],
+      "scheduled_date": "2025-10-25T01:19:45.941484",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_short_017",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Insurance Cost Optimization",
+      "title": "Quick Tip: Insurance Cost Optimization for Insurance",
+      "description": "Quick insurance tip about Insurance Cost Optimization. Save time and money with this simple advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "insurance",
+        "tips",
+        "advice",
+        "money-saving"
+      ],
+      "scheduled_date": "2025-10-27T01:19:45.941488",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_short_018",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Insurance Policy Reviews",
+      "title": "Quick Tip: Insurance Policy Reviews for Insurance",
+      "description": "Quick insurance tip about Insurance Policy Reviews. Save time and money with this simple advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "insurance",
+        "tips",
+        "advice",
+        "money-saving"
+      ],
+      "scheduled_date": "2025-10-29T01:19:45.941491",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_short_019",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Insurance Fraud Prevention",
+      "title": "Quick Tip: Insurance Fraud Prevention for Insurance",
+      "description": "Quick insurance tip about Insurance Fraud Prevention. Save time and money with this simple advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "insurance",
+        "tips",
+        "advice",
+        "money-saving"
+      ],
+      "scheduled_date": "2025-10-31T01:19:45.941495",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_short_020",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Insurance Technology Trends",
+      "title": "Quick Tip: Insurance Technology Trends for Insurance",
+      "description": "Quick insurance tip about Insurance Technology Trends. Save time and money with this simple advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "insurance",
+        "tips",
+        "advice",
+        "money-saving"
+      ],
+      "scheduled_date": "2025-11-02T01:19:45.941499",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_short_021",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Auto Insurance Basics",
+      "title": "Quick Tip: Auto Insurance Basics for Insurance",
+      "description": "Quick insurance tip about Auto Insurance Basics. Save time and money with this simple advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "insurance",
+        "tips",
+        "advice",
+        "money-saving"
+      ],
+      "scheduled_date": "2025-11-04T01:19:45.941503",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_short_022",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Home Insurance Coverage",
+      "title": "Quick Tip: Home Insurance Coverage for Insurance",
+      "description": "Quick insurance tip about Home Insurance Coverage. Save time and money with this simple advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "insurance",
+        "tips",
+        "advice",
+        "money-saving"
+      ],
+      "scheduled_date": "2025-11-06T01:19:45.941506",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_short_023",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Life Insurance Planning",
+      "title": "Quick Tip: Life Insurance Planning for Insurance",
+      "description": "Quick insurance tip about Life Insurance Planning. Save time and money with this simple advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "insurance",
+        "tips",
+        "advice",
+        "money-saving"
+      ],
+      "scheduled_date": "2025-11-08T01:19:45.941510",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_short_024",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Health Insurance Options",
+      "title": "Quick Tip: Health Insurance Options for Insurance",
+      "description": "Quick insurance tip about Health Insurance Options. Save time and money with this simple advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "insurance",
+        "tips",
+        "advice",
+        "money-saving"
+      ],
+      "scheduled_date": "2025-11-10T01:19:45.941514",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_short_025",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Business Insurance Needs",
+      "title": "Quick Tip: Business Insurance Needs for Insurance",
+      "description": "Quick insurance tip about Business Insurance Needs. Save time and money with this simple advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "insurance",
+        "tips",
+        "advice",
+        "money-saving"
+      ],
+      "scheduled_date": "2025-11-12T01:19:45.941518",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_short_026",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Insurance Claims Process",
+      "title": "Quick Tip: Insurance Claims Process for Insurance",
+      "description": "Quick insurance tip about Insurance Claims Process. Save time and money with this simple advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "insurance",
+        "tips",
+        "advice",
+        "money-saving"
+      ],
+      "scheduled_date": "2025-11-14T01:19:45.941522",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_short_027",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Insurance Cost Optimization",
+      "title": "Quick Tip: Insurance Cost Optimization for Insurance",
+      "description": "Quick insurance tip about Insurance Cost Optimization. Save time and money with this simple advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "insurance",
+        "tips",
+        "advice",
+        "money-saving"
+      ],
+      "scheduled_date": "2025-11-16T01:19:45.941525",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_short_028",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Insurance Policy Reviews",
+      "title": "Quick Tip: Insurance Policy Reviews for Insurance",
+      "description": "Quick insurance tip about Insurance Policy Reviews. Save time and money with this simple advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "insurance",
+        "tips",
+        "advice",
+        "money-saving"
+      ],
+      "scheduled_date": "2025-11-18T01:19:45.941529",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_short_029",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Insurance Fraud Prevention",
+      "title": "Quick Tip: Insurance Fraud Prevention for Insurance",
+      "description": "Quick insurance tip about Insurance Fraud Prevention. Save time and money with this simple advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "insurance",
+        "tips",
+        "advice",
+        "money-saving"
+      ],
+      "scheduled_date": "2025-11-20T01:19:45.941533",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "insurance_short_030",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Insurance Technology Trends",
+      "title": "Quick Tip: Insurance Technology Trends for Insurance",
+      "description": "Quick insurance tip about Insurance Technology Trends. Save time and money with this simple advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "insurance",
+        "tips",
+        "advice",
+        "money-saving"
+      ],
+      "scheduled_date": "2025-11-22T01:19:45.941536",
+      "status": "planned",
+      "priority": "medium"
+    }
+  ],
+  "topics": [
+    "Auto Insurance Basics",
+    "Home Insurance Coverage",
+    "Life Insurance Planning",
+    "Health Insurance Options",
+    "Business Insurance Needs",
+    "Insurance Claims Process",
+    "Insurance Cost Optimization",
+    "Insurance Policy Reviews",
+    "Insurance Fraud Prevention",
+    "Insurance Technology Trends"
+  ],
+  "templates": {
+    "educational": {
+      "title_template": "Understanding {topic}: A Complete Guide to {insurance_type}",
+      "description_template": "Learn everything you need to know about {topic} in this comprehensive guide. We cover {key_points} and provide expert insights for {target_audience}.",
+      "outline_template": [
+        "Introduction to {topic}",
+        "Why {topic} matters for {target_audience}",
+        "Key concepts and definitions",
+        "Common mistakes to avoid",
+        "Best practices and tips",
+        "Real-world examples",
+        "Conclusion and next steps"
+      ],
+      "duration": "10-15 minutes",
+      "tags": [
+        "insurance",
+        "education",
+        "tips",
+        "guide"
+      ]
+    },
+    "tips": {
+      "title_template": "5 Essential {insurance_type} Tips Every {target_audience} Should Know",
+      "description_template": "Discover 5 crucial tips for {insurance_type} that can save you time and money. Perfect for {target_audience}.",
+      "outline_template": [
+        "Tip 1: {tip_1}",
+        "Tip 2: {tip_2}",
+        "Tip 3: {tip_3}",
+        "Tip 4: {tip_4}",
+        "Tip 5: {tip_5}",
+        "Bonus tip",
+        "Summary and action items"
+      ],
+      "duration": "5-8 minutes",
+      "tags": [
+        "insurance",
+        "tips",
+        "advice",
+        "money-saving"
+      ]
+    },
+    "reviews": {
+      "title_template": "{insurance_company} Review: Is It Right for {target_audience}?",
+      "description_template": "In-depth review of {insurance_company} covering coverage options, pricing, customer service, and more. Find out if it's the right choice for {target_audience}.",
+      "outline_template": [
+        "Company overview",
+        "Coverage options",
+        "Pricing analysis",
+        "Customer service review",
+        "Pros and cons",
+        "Who should choose this company",
+        "Final verdict and rating"
+      ],
+      "duration": "8-12 minutes",
+      "tags": [
+        "insurance",
+        "review",
+        "comparison",
+        "analysis"
+      ]
+    },
+    "case_studies": {
+      "title_template": "Real Case Study: How {client_type} Saved {amount} on {insurance_type}",
+      "description_template": "Real-world case study showing how {client_type} optimized their {insurance_type} coverage and saved {amount}. Learn from their experience.",
+      "outline_template": [
+        "Client background",
+        "Initial situation",
+        "Challenges faced",
+        "Solution implemented",
+        "Results achieved",
+        "Lessons learned",
+        "Key takeaways"
+      ],
+      "duration": "6-10 minutes",
+      "tags": [
+        "insurance",
+        "case-study",
+        "savings",
+        "optimization"
+      ]
+    }
+  },
+  "creation_status": "planned",
+  "created_date": "2025-09-24T13:19:45.940940"
+}

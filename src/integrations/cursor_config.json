@@ -1,0 +1,15 @@
+{
+  "tool_name": "Cursor",
+  "category": "ai_development",
+  "features": [
+    "ai_editing",
+    "code_completion",
+    "intelligent_assistance"
+  ],
+  "integration_date": "2025-09-24T13:19:44.097783",
+  "status": "active",
+  "configuration": {},
+  "dependencies": [],
+  "api_keys": [],
+  "settings": {}
+}

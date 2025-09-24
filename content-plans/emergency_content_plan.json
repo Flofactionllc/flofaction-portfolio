@@ -1,0 +1,1640 @@
+{
+  "channel_name": "Emergency Management Pro",
+  "target_audience": "Emergency managers, safety professionals, general public",
+  "content_types": [
+    "preparedness",
+    "training",
+    "case_studies",
+    "tips"
+  ],
+  "video_count_target": 30,
+  "shorts_count_target": 30,
+  "content_schedule": [
+    {
+      "id": "emergency_video_001",
+      "type": "long_form",
+      "content_type": "preparedness",
+      "topic": "Natural Disaster Preparedness",
+      "title": "Emergency Preparedness Guide: Natural Disasters Safety Tips",
+      "description": "Complete guide to preparing for Natural Disasters. Learn essential safety tips, emergency supplies, and response procedures.",
+      "outline": [
+        "Understanding Natural Disasters",
+        "Risk assessment",
+        "Emergency supplies checklist",
+        "Evacuation planning",
+        "Communication plans",
+        "Recovery procedures",
+        "Resources and contacts"
+      ],
+      "duration": "12-15 minutes",
+      "tags": [
+        "emergency",
+        "preparedness",
+        "safety",
+        "disaster"
+      ],
+      "scheduled_date": "2025-09-24T13:19:45.944219",
+      "status": "planned",
+      "priority": "high"
+    },
+    {
+      "id": "emergency_video_002",
+      "type": "long_form",
+      "content_type": "training",
+      "topic": "Emergency Response Planning",
+      "title": "Emergency Response Training: Emergency Response for Professionals",
+      "description": "Professional training on Emergency Response for Professionals. Learn essential skills for emergency response and management.",
+      "outline": [
+        "Skill overview",
+        "Prerequisites",
+        "Step-by-step training",
+        "Practice exercises",
+        "Common mistakes",
+        "Certification requirements",
+        "Next steps"
+      ],
+      "duration": "10-15 minutes",
+      "tags": [
+        "emergency",
+        "training",
+        "skills",
+        "certification"
+      ],
+      "scheduled_date": "2025-09-26T13:19:45.944235",
+      "status": "planned",
+      "priority": "high"
+    },
+    {
+      "id": "emergency_video_003",
+      "type": "long_form",
+      "content_type": "case_studies",
+      "topic": "First Aid and Medical Emergencies",
+      "title": "Emergency Response Case Study: Emergency Response in Major City",
+      "description": "Detailed analysis of Emergency Response response in Major City. Learn from real emergency management scenarios.",
+      "outline": [
+        "Incident overview",
+        "Initial response",
+        "Challenges faced",
+        "Response strategies",
+        "Lessons learned",
+        "Improvements made",
+        "Best practices"
+      ],
+      "duration": "8-12 minutes",
+      "tags": [
+        "emergency",
+        "case-study",
+        "response",
+        "management"
+      ],
+      "scheduled_date": "2025-09-28T13:19:45.944250",
+      "status": "planned",
+      "priority": "high"
+    },
+    {
+      "id": "emergency_video_004",
+      "type": "long_form",
+      "content_type": "tips",
+      "topic": "Fire Safety and Prevention",
+      "title": "Emergency Safety Tips: Fire Safety and Prevention for Emergency managers, safety professionals, general public",
+      "description": "Essential safety tips for Fire Safety and Prevention. Protect yourself and your family with these expert recommendations.",
+      "outline": [
+        "Why Fire Safety and Prevention safety matters",
+        "Tip 1: Essential Fire Safety and Prevention Tip 1",
+        "Tip 2: Essential Fire Safety and Prevention Tip 2",
+        "Tip 3: Essential Fire Safety and Prevention Tip 3",
+        "Tip 4: Essential Fire Safety and Prevention Tip 4",
+        "Tip 5: Essential Fire Safety and Prevention Tip 5",
+        "Summary and resources"
+      ],
+      "duration": "5-8 minutes",
+      "tags": [
+        "emergency",
+        "safety",
+        "tips",
+        "protection"
+      ],
+      "scheduled_date": "2025-09-30T13:19:45.944266",
+      "status": "planned",
+      "priority": "high"
+    },
+    {
+      "id": "emergency_video_005",
+      "type": "long_form",
+      "content_type": "preparedness",
+      "topic": "Severe Weather Safety",
+      "title": "Emergency Preparedness Guide: Natural Disasters Safety Tips",
+      "description": "Complete guide to preparing for Natural Disasters. Learn essential safety tips, emergency supplies, and response procedures.",
+      "outline": [
+        "Understanding Natural Disasters",
+        "Risk assessment",
+        "Emergency supplies checklist",
+        "Evacuation planning",
+        "Communication plans",
+        "Recovery procedures",
+        "Resources and contacts"
+      ],
+      "duration": "12-15 minutes",
+      "tags": [
+        "emergency",
+        "preparedness",
+        "safety",
+        "disaster"
+      ],
+      "scheduled_date": "2025-10-02T13:19:45.944280",
+      "status": "planned",
+      "priority": "high"
+    },
+    {
+      "id": "emergency_video_006",
+      "type": "long_form",
+      "content_type": "training",
+      "topic": "Emergency Communication",
+      "title": "Emergency Response Training: Emergency Response for Professionals",
+      "description": "Professional training on Emergency Response for Professionals. Learn essential skills for emergency response and management.",
+      "outline": [
+        "Skill overview",
+        "Prerequisites",
+        "Step-by-step training",
+        "Practice exercises",
+        "Common mistakes",
+        "Certification requirements",
+        "Next steps"
+      ],
+      "duration": "10-15 minutes",
+      "tags": [
+        "emergency",
+        "training",
+        "skills",
+        "certification"
+      ],
+      "scheduled_date": "2025-10-04T13:19:45.944294",
+      "status": "planned",
+      "priority": "high"
+    },
+    {
+      "id": "emergency_video_007",
+      "type": "long_form",
+      "content_type": "case_studies",
+      "topic": "Evacuation Planning",
+      "title": "Emergency Response Case Study: Emergency Response in Major City",
+      "description": "Detailed analysis of Emergency Response response in Major City. Learn from real emergency management scenarios.",
+      "outline": [
+        "Incident overview",
+        "Initial response",
+        "Challenges faced",
+        "Response strategies",
+        "Lessons learned",
+        "Improvements made",
+        "Best practices"
+      ],
+      "duration": "8-12 minutes",
+      "tags": [
+        "emergency",
+        "case-study",
+        "response",
+        "management"
+      ],
+      "scheduled_date": "2025-10-06T13:19:45.944307",
+      "status": "planned",
+      "priority": "high"
+    },
+    {
+      "id": "emergency_video_008",
+      "type": "long_form",
+      "content_type": "tips",
+      "topic": "Emergency Supply Kits",
+      "title": "Emergency Safety Tips: Emergency Supply Kits for Emergency managers, safety professionals, general public",
+      "description": "Essential safety tips for Emergency Supply Kits. Protect yourself and your family with these expert recommendations.",
+      "outline": [
+        "Why Emergency Supply Kits safety matters",
+        "Tip 1: Essential Emergency Supply Kits Tip 1",
+        "Tip 2: Essential Emergency Supply Kits Tip 2",
+        "Tip 3: Essential Emergency Supply Kits Tip 3",
+        "Tip 4: Essential Emergency Supply Kits Tip 4",
+        "Tip 5: Essential Emergency Supply Kits Tip 5",
+        "Summary and resources"
+      ],
+      "duration": "5-8 minutes",
+      "tags": [
+        "emergency",
+        "safety",
+        "tips",
+        "protection"
+      ],
+      "scheduled_date": "2025-10-08T13:19:45.944323",
+      "status": "planned",
+      "priority": "high"
+    },
+    {
+      "id": "emergency_video_009",
+      "type": "long_form",
+      "content_type": "preparedness",
+      "topic": "Business Continuity Planning",
+      "title": "Emergency Preparedness Guide: Natural Disasters Safety Tips",
+      "description": "Complete guide to preparing for Natural Disasters. Learn essential safety tips, emergency supplies, and response procedures.",
+      "outline": [
+        "Understanding Natural Disasters",
+        "Risk assessment",
+        "Emergency supplies checklist",
+        "Evacuation planning",
+        "Communication plans",
+        "Recovery procedures",
+        "Resources and contacts"
+      ],
+      "duration": "12-15 minutes",
+      "tags": [
+        "emergency",
+        "preparedness",
+        "safety",
+        "disaster"
+      ],
+      "scheduled_date": "2025-10-10T13:19:45.944336",
+      "status": "planned",
+      "priority": "high"
+    },
+    {
+      "id": "emergency_video_010",
+      "type": "long_form",
+      "content_type": "training",
+      "topic": "Emergency Management Training",
+      "title": "Emergency Response Training: Emergency Response for Professionals",
+      "description": "Professional training on Emergency Response for Professionals. Learn essential skills for emergency response and management.",
+      "outline": [
+        "Skill overview",
+        "Prerequisites",
+        "Step-by-step training",
+        "Practice exercises",
+        "Common mistakes",
+        "Certification requirements",
+        "Next steps"
+      ],
+      "duration": "10-15 minutes",
+      "tags": [
+        "emergency",
+        "training",
+        "skills",
+        "certification"
+      ],
+      "scheduled_date": "2025-10-12T13:19:45.944350",
+      "status": "planned",
+      "priority": "high"
+    },
+    {
+      "id": "emergency_video_011",
+      "type": "long_form",
+      "content_type": "case_studies",
+      "topic": "Natural Disaster Preparedness",
+      "title": "Emergency Response Case Study: Emergency Response in Major City",
+      "description": "Detailed analysis of Emergency Response response in Major City. Learn from real emergency management scenarios.",
+      "outline": [
+        "Incident overview",
+        "Initial response",
+        "Challenges faced",
+        "Response strategies",
+        "Lessons learned",
+        "Improvements made",
+        "Best practices"
+      ],
+      "duration": "8-12 minutes",
+      "tags": [
+        "emergency",
+        "case-study",
+        "response",
+        "management"
+      ],
+      "scheduled_date": "2025-10-14T13:19:45.944364",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_video_012",
+      "type": "long_form",
+      "content_type": "tips",
+      "topic": "Emergency Response Planning",
+      "title": "Emergency Safety Tips: Emergency Response Planning for Emergency managers, safety professionals, general public",
+      "description": "Essential safety tips for Emergency Response Planning. Protect yourself and your family with these expert recommendations.",
+      "outline": [
+        "Why Emergency Response Planning safety matters",
+        "Tip 1: Essential Emergency Response Planning Tip 1",
+        "Tip 2: Essential Emergency Response Planning Tip 2",
+        "Tip 3: Essential Emergency Response Planning Tip 3",
+        "Tip 4: Essential Emergency Response Planning Tip 4",
+        "Tip 5: Essential Emergency Response Planning Tip 5",
+        "Summary and resources"
+      ],
+      "duration": "5-8 minutes",
+      "tags": [
+        "emergency",
+        "safety",
+        "tips",
+        "protection"
+      ],
+      "scheduled_date": "2025-10-16T13:19:45.944378",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_video_013",
+      "type": "long_form",
+      "content_type": "preparedness",
+      "topic": "First Aid and Medical Emergencies",
+      "title": "Emergency Preparedness Guide: Natural Disasters Safety Tips",
+      "description": "Complete guide to preparing for Natural Disasters. Learn essential safety tips, emergency supplies, and response procedures.",
+      "outline": [
+        "Understanding Natural Disasters",
+        "Risk assessment",
+        "Emergency supplies checklist",
+        "Evacuation planning",
+        "Communication plans",
+        "Recovery procedures",
+        "Resources and contacts"
+      ],
+      "duration": "12-15 minutes",
+      "tags": [
+        "emergency",
+        "preparedness",
+        "safety",
+        "disaster"
+      ],
+      "scheduled_date": "2025-10-18T13:19:45.944391",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_video_014",
+      "type": "long_form",
+      "content_type": "training",
+      "topic": "Fire Safety and Prevention",
+      "title": "Emergency Response Training: Emergency Response for Professionals",
+      "description": "Professional training on Emergency Response for Professionals. Learn essential skills for emergency response and management.",
+      "outline": [
+        "Skill overview",
+        "Prerequisites",
+        "Step-by-step training",
+        "Practice exercises",
+        "Common mistakes",
+        "Certification requirements",
+        "Next steps"
+      ],
+      "duration": "10-15 minutes",
+      "tags": [
+        "emergency",
+        "training",
+        "skills",
+        "certification"
+      ],
+      "scheduled_date": "2025-10-20T13:19:45.944405",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_video_015",
+      "type": "long_form",
+      "content_type": "case_studies",
+      "topic": "Severe Weather Safety",
+      "title": "Emergency Response Case Study: Emergency Response in Major City",
+      "description": "Detailed analysis of Emergency Response response in Major City. Learn from real emergency management scenarios.",
+      "outline": [
+        "Incident overview",
+        "Initial response",
+        "Challenges faced",
+        "Response strategies",
+        "Lessons learned",
+        "Improvements made",
+        "Best practices"
+      ],
+      "duration": "8-12 minutes",
+      "tags": [
+        "emergency",
+        "case-study",
+        "response",
+        "management"
+      ],
+      "scheduled_date": "2025-10-22T13:19:45.944418",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_video_016",
+      "type": "long_form",
+      "content_type": "tips",
+      "topic": "Emergency Communication",
+      "title": "Emergency Safety Tips: Emergency Communication for Emergency managers, safety professionals, general public",
+      "description": "Essential safety tips for Emergency Communication. Protect yourself and your family with these expert recommendations.",
+      "outline": [
+        "Why Emergency Communication safety matters",
+        "Tip 1: Essential Emergency Communication Tip 1",
+        "Tip 2: Essential Emergency Communication Tip 2",
+        "Tip 3: Essential Emergency Communication Tip 3",
+        "Tip 4: Essential Emergency Communication Tip 4",
+        "Tip 5: Essential Emergency Communication Tip 5",
+        "Summary and resources"
+      ],
+      "duration": "5-8 minutes",
+      "tags": [
+        "emergency",
+        "safety",
+        "tips",
+        "protection"
+      ],
+      "scheduled_date": "2025-10-24T13:19:45.944433",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_video_017",
+      "type": "long_form",
+      "content_type": "preparedness",
+      "topic": "Evacuation Planning",
+      "title": "Emergency Preparedness Guide: Natural Disasters Safety Tips",
+      "description": "Complete guide to preparing for Natural Disasters. Learn essential safety tips, emergency supplies, and response procedures.",
+      "outline": [
+        "Understanding Natural Disasters",
+        "Risk assessment",
+        "Emergency supplies checklist",
+        "Evacuation planning",
+        "Communication plans",
+        "Recovery procedures",
+        "Resources and contacts"
+      ],
+      "duration": "12-15 minutes",
+      "tags": [
+        "emergency",
+        "preparedness",
+        "safety",
+        "disaster"
+      ],
+      "scheduled_date": "2025-10-26T13:19:45.944446",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_video_018",
+      "type": "long_form",
+      "content_type": "training",
+      "topic": "Emergency Supply Kits",
+      "title": "Emergency Response Training: Emergency Response for Professionals",
+      "description": "Professional training on Emergency Response for Professionals. Learn essential skills for emergency response and management.",
+      "outline": [
+        "Skill overview",
+        "Prerequisites",
+        "Step-by-step training",
+        "Practice exercises",
+        "Common mistakes",
+        "Certification requirements",
+        "Next steps"
+      ],
+      "duration": "10-15 minutes",
+      "tags": [
+        "emergency",
+        "training",
+        "skills",
+        "certification"
+      ],
+      "scheduled_date": "2025-10-28T13:19:45.944459",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_video_019",
+      "type": "long_form",
+      "content_type": "case_studies",
+      "topic": "Business Continuity Planning",
+      "title": "Emergency Response Case Study: Emergency Response in Major City",
+      "description": "Detailed analysis of Emergency Response response in Major City. Learn from real emergency management scenarios.",
+      "outline": [
+        "Incident overview",
+        "Initial response",
+        "Challenges faced",
+        "Response strategies",
+        "Lessons learned",
+        "Improvements made",
+        "Best practices"
+      ],
+      "duration": "8-12 minutes",
+      "tags": [
+        "emergency",
+        "case-study",
+        "response",
+        "management"
+      ],
+      "scheduled_date": "2025-10-30T13:19:45.944473",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_video_020",
+      "type": "long_form",
+      "content_type": "tips",
+      "topic": "Emergency Management Training",
+      "title": "Emergency Safety Tips: Emergency Management Training for Emergency managers, safety professionals, general public",
+      "description": "Essential safety tips for Emergency Management Training. Protect yourself and your family with these expert recommendations.",
+      "outline": [
+        "Why Emergency Management Training safety matters",
+        "Tip 1: Essential Emergency Management Training Tip 1",
+        "Tip 2: Essential Emergency Management Training Tip 2",
+        "Tip 3: Essential Emergency Management Training Tip 3",
+        "Tip 4: Essential Emergency Management Training Tip 4",
+        "Tip 5: Essential Emergency Management Training Tip 5",
+        "Summary and resources"
+      ],
+      "duration": "5-8 minutes",
+      "tags": [
+        "emergency",
+        "safety",
+        "tips",
+        "protection"
+      ],
+      "scheduled_date": "2025-11-01T13:19:45.944487",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_video_021",
+      "type": "long_form",
+      "content_type": "preparedness",
+      "topic": "Natural Disaster Preparedness",
+      "title": "Emergency Preparedness Guide: Natural Disasters Safety Tips",
+      "description": "Complete guide to preparing for Natural Disasters. Learn essential safety tips, emergency supplies, and response procedures.",
+      "outline": [
+        "Understanding Natural Disasters",
+        "Risk assessment",
+        "Emergency supplies checklist",
+        "Evacuation planning",
+        "Communication plans",
+        "Recovery procedures",
+        "Resources and contacts"
+      ],
+      "duration": "12-15 minutes",
+      "tags": [
+        "emergency",
+        "preparedness",
+        "safety",
+        "disaster"
+      ],
+      "scheduled_date": "2025-11-03T13:19:45.944501",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_video_022",
+      "type": "long_form",
+      "content_type": "training",
+      "topic": "Emergency Response Planning",
+      "title": "Emergency Response Training: Emergency Response for Professionals",
+      "description": "Professional training on Emergency Response for Professionals. Learn essential skills for emergency response and management.",
+      "outline": [
+        "Skill overview",
+        "Prerequisites",
+        "Step-by-step training",
+        "Practice exercises",
+        "Common mistakes",
+        "Certification requirements",
+        "Next steps"
+      ],
+      "duration": "10-15 minutes",
+      "tags": [
+        "emergency",
+        "training",
+        "skills",
+        "certification"
+      ],
+      "scheduled_date": "2025-11-05T13:19:45.944514",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_video_023",
+      "type": "long_form",
+      "content_type": "case_studies",
+      "topic": "First Aid and Medical Emergencies",
+      "title": "Emergency Response Case Study: Emergency Response in Major City",
+      "description": "Detailed analysis of Emergency Response response in Major City. Learn from real emergency management scenarios.",
+      "outline": [
+        "Incident overview",
+        "Initial response",
+        "Challenges faced",
+        "Response strategies",
+        "Lessons learned",
+        "Improvements made",
+        "Best practices"
+      ],
+      "duration": "8-12 minutes",
+      "tags": [
+        "emergency",
+        "case-study",
+        "response",
+        "management"
+      ],
+      "scheduled_date": "2025-11-07T13:19:45.944527",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_video_024",
+      "type": "long_form",
+      "content_type": "tips",
+      "topic": "Fire Safety and Prevention",
+      "title": "Emergency Safety Tips: Fire Safety and Prevention for Emergency managers, safety professionals, general public",
+      "description": "Essential safety tips for Fire Safety and Prevention. Protect yourself and your family with these expert recommendations.",
+      "outline": [
+        "Why Fire Safety and Prevention safety matters",
+        "Tip 1: Essential Fire Safety and Prevention Tip 1",
+        "Tip 2: Essential Fire Safety and Prevention Tip 2",
+        "Tip 3: Essential Fire Safety and Prevention Tip 3",
+        "Tip 4: Essential Fire Safety and Prevention Tip 4",
+        "Tip 5: Essential Fire Safety and Prevention Tip 5",
+        "Summary and resources"
+      ],
+      "duration": "5-8 minutes",
+      "tags": [
+        "emergency",
+        "safety",
+        "tips",
+        "protection"
+      ],
+      "scheduled_date": "2025-11-09T13:19:45.944541",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_video_025",
+      "type": "long_form",
+      "content_type": "preparedness",
+      "topic": "Severe Weather Safety",
+      "title": "Emergency Preparedness Guide: Natural Disasters Safety Tips",
+      "description": "Complete guide to preparing for Natural Disasters. Learn essential safety tips, emergency supplies, and response procedures.",
+      "outline": [
+        "Understanding Natural Disasters",
+        "Risk assessment",
+        "Emergency supplies checklist",
+        "Evacuation planning",
+        "Communication plans",
+        "Recovery procedures",
+        "Resources and contacts"
+      ],
+      "duration": "12-15 minutes",
+      "tags": [
+        "emergency",
+        "preparedness",
+        "safety",
+        "disaster"
+      ],
+      "scheduled_date": "2025-11-11T13:19:45.944555",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_video_026",
+      "type": "long_form",
+      "content_type": "training",
+      "topic": "Emergency Communication",
+      "title": "Emergency Response Training: Emergency Response for Professionals",
+      "description": "Professional training on Emergency Response for Professionals. Learn essential skills for emergency response and management.",
+      "outline": [
+        "Skill overview",
+        "Prerequisites",
+        "Step-by-step training",
+        "Practice exercises",
+        "Common mistakes",
+        "Certification requirements",
+        "Next steps"
+      ],
+      "duration": "10-15 minutes",
+      "tags": [
+        "emergency",
+        "training",
+        "skills",
+        "certification"
+      ],
+      "scheduled_date": "2025-11-13T13:19:45.944569",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_video_027",
+      "type": "long_form",
+      "content_type": "case_studies",
+      "topic": "Evacuation Planning",
+      "title": "Emergency Response Case Study: Emergency Response in Major City",
+      "description": "Detailed analysis of Emergency Response response in Major City. Learn from real emergency management scenarios.",
+      "outline": [
+        "Incident overview",
+        "Initial response",
+        "Challenges faced",
+        "Response strategies",
+        "Lessons learned",
+        "Improvements made",
+        "Best practices"
+      ],
+      "duration": "8-12 minutes",
+      "tags": [
+        "emergency",
+        "case-study",
+        "response",
+        "management"
+      ],
+      "scheduled_date": "2025-11-15T13:19:45.944583",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_video_028",
+      "type": "long_form",
+      "content_type": "tips",
+      "topic": "Emergency Supply Kits",
+      "title": "Emergency Safety Tips: Emergency Supply Kits for Emergency managers, safety professionals, general public",
+      "description": "Essential safety tips for Emergency Supply Kits. Protect yourself and your family with these expert recommendations.",
+      "outline": [
+        "Why Emergency Supply Kits safety matters",
+        "Tip 1: Essential Emergency Supply Kits Tip 1",
+        "Tip 2: Essential Emergency Supply Kits Tip 2",
+        "Tip 3: Essential Emergency Supply Kits Tip 3",
+        "Tip 4: Essential Emergency Supply Kits Tip 4",
+        "Tip 5: Essential Emergency Supply Kits Tip 5",
+        "Summary and resources"
+      ],
+      "duration": "5-8 minutes",
+      "tags": [
+        "emergency",
+        "safety",
+        "tips",
+        "protection"
+      ],
+      "scheduled_date": "2025-11-17T13:19:45.944601",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_video_029",
+      "type": "long_form",
+      "content_type": "preparedness",
+      "topic": "Business Continuity Planning",
+      "title": "Emergency Preparedness Guide: Natural Disasters Safety Tips",
+      "description": "Complete guide to preparing for Natural Disasters. Learn essential safety tips, emergency supplies, and response procedures.",
+      "outline": [
+        "Understanding Natural Disasters",
+        "Risk assessment",
+        "Emergency supplies checklist",
+        "Evacuation planning",
+        "Communication plans",
+        "Recovery procedures",
+        "Resources and contacts"
+      ],
+      "duration": "12-15 minutes",
+      "tags": [
+        "emergency",
+        "preparedness",
+        "safety",
+        "disaster"
+      ],
+      "scheduled_date": "2025-11-19T13:19:45.944615",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_video_030",
+      "type": "long_form",
+      "content_type": "training",
+      "topic": "Emergency Management Training",
+      "title": "Emergency Response Training: Emergency Response for Professionals",
+      "description": "Professional training on Emergency Response for Professionals. Learn essential skills for emergency response and management.",
+      "outline": [
+        "Skill overview",
+        "Prerequisites",
+        "Step-by-step training",
+        "Practice exercises",
+        "Common mistakes",
+        "Certification requirements",
+        "Next steps"
+      ],
+      "duration": "10-15 minutes",
+      "tags": [
+        "emergency",
+        "training",
+        "skills",
+        "certification"
+      ],
+      "scheduled_date": "2025-11-21T13:19:45.944628",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_short_001",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Natural Disaster Preparedness",
+      "title": "Emergency Tip: Natural Disaster Preparedness Safety",
+      "description": "Essential safety tip for Natural Disaster Preparedness. Stay safe with this quick emergency advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "emergency",
+        "safety",
+        "tips",
+        "protection"
+      ],
+      "scheduled_date": "2025-09-25T01:19:45.944633",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_short_002",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Emergency Response Planning",
+      "title": "Emergency Tip: Emergency Response Planning Safety",
+      "description": "Essential safety tip for Emergency Response Planning. Stay safe with this quick emergency advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "emergency",
+        "safety",
+        "tips",
+        "protection"
+      ],
+      "scheduled_date": "2025-09-27T01:19:45.944638",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_short_003",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "First Aid and Medical Emergencies",
+      "title": "Emergency Tip: First Aid and Medical Emergencies Safety",
+      "description": "Essential safety tip for First Aid and Medical Emergencies. Stay safe with this quick emergency advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "emergency",
+        "safety",
+        "tips",
+        "protection"
+      ],
+      "scheduled_date": "2025-09-29T01:19:45.944642",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_short_004",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Fire Safety and Prevention",
+      "title": "Emergency Tip: Fire Safety and Prevention Safety",
+      "description": "Essential safety tip for Fire Safety and Prevention. Stay safe with this quick emergency advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "emergency",
+        "safety",
+        "tips",
+        "protection"
+      ],
+      "scheduled_date": "2025-10-01T01:19:45.944646",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_short_005",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Severe Weather Safety",
+      "title": "Emergency Tip: Severe Weather Safety Safety",
+      "description": "Essential safety tip for Severe Weather Safety. Stay safe with this quick emergency advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "emergency",
+        "safety",
+        "tips",
+        "protection"
+      ],
+      "scheduled_date": "2025-10-03T01:19:45.944650",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_short_006",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Emergency Communication",
+      "title": "Emergency Tip: Emergency Communication Safety",
+      "description": "Essential safety tip for Emergency Communication. Stay safe with this quick emergency advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "emergency",
+        "safety",
+        "tips",
+        "protection"
+      ],
+      "scheduled_date": "2025-10-05T01:19:45.944654",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_short_007",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Evacuation Planning",
+      "title": "Emergency Tip: Evacuation Planning Safety",
+      "description": "Essential safety tip for Evacuation Planning. Stay safe with this quick emergency advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "emergency",
+        "safety",
+        "tips",
+        "protection"
+      ],
+      "scheduled_date": "2025-10-07T01:19:45.944657",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_short_008",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Emergency Supply Kits",
+      "title": "Emergency Tip: Emergency Supply Kits Safety",
+      "description": "Essential safety tip for Emergency Supply Kits. Stay safe with this quick emergency advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "emergency",
+        "safety",
+        "tips",
+        "protection"
+      ],
+      "scheduled_date": "2025-10-09T01:19:45.944661",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_short_009",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Business Continuity Planning",
+      "title": "Emergency Tip: Business Continuity Planning Safety",
+      "description": "Essential safety tip for Business Continuity Planning. Stay safe with this quick emergency advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "emergency",
+        "safety",
+        "tips",
+        "protection"
+      ],
+      "scheduled_date": "2025-10-11T01:19:45.944665",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_short_010",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Emergency Management Training",
+      "title": "Emergency Tip: Emergency Management Training Safety",
+      "description": "Essential safety tip for Emergency Management Training. Stay safe with this quick emergency advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "emergency",
+        "safety",
+        "tips",
+        "protection"
+      ],
+      "scheduled_date": "2025-10-13T01:19:45.944668",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_short_011",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Natural Disaster Preparedness",
+      "title": "Emergency Tip: Natural Disaster Preparedness Safety",
+      "description": "Essential safety tip for Natural Disaster Preparedness. Stay safe with this quick emergency advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "emergency",
+        "safety",
+        "tips",
+        "protection"
+      ],
+      "scheduled_date": "2025-10-15T01:19:45.944672",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_short_012",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Emergency Response Planning",
+      "title": "Emergency Tip: Emergency Response Planning Safety",
+      "description": "Essential safety tip for Emergency Response Planning. Stay safe with this quick emergency advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "emergency",
+        "safety",
+        "tips",
+        "protection"
+      ],
+      "scheduled_date": "2025-10-17T01:19:45.944676",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_short_013",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "First Aid and Medical Emergencies",
+      "title": "Emergency Tip: First Aid and Medical Emergencies Safety",
+      "description": "Essential safety tip for First Aid and Medical Emergencies. Stay safe with this quick emergency advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "emergency",
+        "safety",
+        "tips",
+        "protection"
+      ],
+      "scheduled_date": "2025-10-19T01:19:45.944679",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_short_014",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Fire Safety and Prevention",
+      "title": "Emergency Tip: Fire Safety and Prevention Safety",
+      "description": "Essential safety tip for Fire Safety and Prevention. Stay safe with this quick emergency advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "emergency",
+        "safety",
+        "tips",
+        "protection"
+      ],
+      "scheduled_date": "2025-10-21T01:19:45.944683",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_short_015",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Severe Weather Safety",
+      "title": "Emergency Tip: Severe Weather Safety Safety",
+      "description": "Essential safety tip for Severe Weather Safety. Stay safe with this quick emergency advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "emergency",
+        "safety",
+        "tips",
+        "protection"
+      ],
+      "scheduled_date": "2025-10-23T01:19:45.944687",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_short_016",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Emergency Communication",
+      "title": "Emergency Tip: Emergency Communication Safety",
+      "description": "Essential safety tip for Emergency Communication. Stay safe with this quick emergency advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "emergency",
+        "safety",
+        "tips",
+        "protection"
+      ],
+      "scheduled_date": "2025-10-25T01:19:45.944690",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_short_017",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Evacuation Planning",
+      "title": "Emergency Tip: Evacuation Planning Safety",
+      "description": "Essential safety tip for Evacuation Planning. Stay safe with this quick emergency advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "emergency",
+        "safety",
+        "tips",
+        "protection"
+      ],
+      "scheduled_date": "2025-10-27T01:19:45.944694",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_short_018",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Emergency Supply Kits",
+      "title": "Emergency Tip: Emergency Supply Kits Safety",
+      "description": "Essential safety tip for Emergency Supply Kits. Stay safe with this quick emergency advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "emergency",
+        "safety",
+        "tips",
+        "protection"
+      ],
+      "scheduled_date": "2025-10-29T01:19:45.944698",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_short_019",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Business Continuity Planning",
+      "title": "Emergency Tip: Business Continuity Planning Safety",
+      "description": "Essential safety tip for Business Continuity Planning. Stay safe with this quick emergency advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "emergency",
+        "safety",
+        "tips",
+        "protection"
+      ],
+      "scheduled_date": "2025-10-31T01:19:45.944701",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_short_020",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Emergency Management Training",
+      "title": "Emergency Tip: Emergency Management Training Safety",
+      "description": "Essential safety tip for Emergency Management Training. Stay safe with this quick emergency advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "emergency",
+        "safety",
+        "tips",
+        "protection"
+      ],
+      "scheduled_date": "2025-11-02T01:19:45.944705",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_short_021",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Natural Disaster Preparedness",
+      "title": "Emergency Tip: Natural Disaster Preparedness Safety",
+      "description": "Essential safety tip for Natural Disaster Preparedness. Stay safe with this quick emergency advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "emergency",
+        "safety",
+        "tips",
+        "protection"
+      ],
+      "scheduled_date": "2025-11-04T01:19:45.944709",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_short_022",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Emergency Response Planning",
+      "title": "Emergency Tip: Emergency Response Planning Safety",
+      "description": "Essential safety tip for Emergency Response Planning. Stay safe with this quick emergency advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "emergency",
+        "safety",
+        "tips",
+        "protection"
+      ],
+      "scheduled_date": "2025-11-06T01:19:45.944713",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_short_023",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "First Aid and Medical Emergencies",
+      "title": "Emergency Tip: First Aid and Medical Emergencies Safety",
+      "description": "Essential safety tip for First Aid and Medical Emergencies. Stay safe with this quick emergency advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "emergency",
+        "safety",
+        "tips",
+        "protection"
+      ],
+      "scheduled_date": "2025-11-08T01:19:45.944716",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_short_024",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Fire Safety and Prevention",
+      "title": "Emergency Tip: Fire Safety and Prevention Safety",
+      "description": "Essential safety tip for Fire Safety and Prevention. Stay safe with this quick emergency advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "emergency",
+        "safety",
+        "tips",
+        "protection"
+      ],
+      "scheduled_date": "2025-11-10T01:19:45.944720",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_short_025",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Severe Weather Safety",
+      "title": "Emergency Tip: Severe Weather Safety Safety",
+      "description": "Essential safety tip for Severe Weather Safety. Stay safe with this quick emergency advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "emergency",
+        "safety",
+        "tips",
+        "protection"
+      ],
+      "scheduled_date": "2025-11-12T01:19:45.944724",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_short_026",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Emergency Communication",
+      "title": "Emergency Tip: Emergency Communication Safety",
+      "description": "Essential safety tip for Emergency Communication. Stay safe with this quick emergency advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "emergency",
+        "safety",
+        "tips",
+        "protection"
+      ],
+      "scheduled_date": "2025-11-14T01:19:45.944727",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_short_027",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Evacuation Planning",
+      "title": "Emergency Tip: Evacuation Planning Safety",
+      "description": "Essential safety tip for Evacuation Planning. Stay safe with this quick emergency advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "emergency",
+        "safety",
+        "tips",
+        "protection"
+      ],
+      "scheduled_date": "2025-11-16T01:19:45.944731",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_short_028",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Emergency Supply Kits",
+      "title": "Emergency Tip: Emergency Supply Kits Safety",
+      "description": "Essential safety tip for Emergency Supply Kits. Stay safe with this quick emergency advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "emergency",
+        "safety",
+        "tips",
+        "protection"
+      ],
+      "scheduled_date": "2025-11-18T01:19:45.944735",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_short_029",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Business Continuity Planning",
+      "title": "Emergency Tip: Business Continuity Planning Safety",
+      "description": "Essential safety tip for Business Continuity Planning. Stay safe with this quick emergency advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "emergency",
+        "safety",
+        "tips",
+        "protection"
+      ],
+      "scheduled_date": "2025-11-20T01:19:45.944738",
+      "status": "planned",
+      "priority": "medium"
+    },
+    {
+      "id": "emergency_short_030",
+      "type": "short_form",
+      "content_type": "tips",
+      "topic": "Emergency Management Training",
+      "title": "Emergency Tip: Emergency Management Training Safety",
+      "description": "Essential safety tip for Emergency Management Training. Stay safe with this quick emergency advice!",
+      "outline": [
+        "Hook: Attention-grabbing opening",
+        "Main tip: Core advice",
+        "Example: Real-world application",
+        "Call to action: What to do next"
+      ],
+      "duration": "30-60 seconds",
+      "tags": [
+        "emergency",
+        "safety",
+        "tips",
+        "protection"
+      ],
+      "scheduled_date": "2025-11-22T01:19:45.944742",
+      "status": "planned",
+      "priority": "medium"
+    }
+  ],
+  "topics": [
+    "Natural Disaster Preparedness",
+    "Emergency Response Planning",
+    "First Aid and Medical Emergencies",
+    "Fire Safety and Prevention",
+    "Severe Weather Safety",
+    "Emergency Communication",
+    "Evacuation Planning",
+    "Emergency Supply Kits",
+    "Business Continuity Planning",
+    "Emergency Management Training"
+  ],
+  "templates": {
+    "preparedness": {
+      "title_template": "Emergency Preparedness Guide: {disaster_type} Safety Tips",
+      "description_template": "Complete guide to preparing for {disaster_type}. Learn essential safety tips, emergency supplies, and response procedures.",
+      "outline_template": [
+        "Understanding {disaster_type}",
+        "Risk assessment",
+        "Emergency supplies checklist",
+        "Evacuation planning",
+        "Communication plans",
+        "Recovery procedures",
+        "Resources and contacts"
+      ],
+      "duration": "12-15 minutes",
+      "tags": [
+        "emergency",
+        "preparedness",
+        "safety",
+        "disaster"
+      ]
+    },
+    "training": {
+      "title_template": "Emergency Response Training: {skill_topic} for {target_group}",
+      "description_template": "Professional training on {skill_topic} for {target_group}. Learn essential skills for emergency response and management.",
+      "outline_template": [
+        "Skill overview",
+        "Prerequisites",
+        "Step-by-step training",
+        "Practice exercises",
+        "Common mistakes",
+        "Certification requirements",
+        "Next steps"
+      ],
+      "duration": "10-15 minutes",
+      "tags": [
+        "emergency",
+        "training",
+        "skills",
+        "certification"
+      ]
+    },
+    "case_studies": {
+      "title_template": "Emergency Response Case Study: {incident_type} in {location}",
+      "description_template": "Detailed analysis of {incident_type} response in {location}. Learn from real emergency management scenarios.",
+      "outline_template": [
+        "Incident overview",
+        "Initial response",
+        "Challenges faced",
+        "Response strategies",
+        "Lessons learned",
+        "Improvements made",
+        "Best practices"
+      ],
+      "duration": "8-12 minutes",
+      "tags": [
+        "emergency",
+        "case-study",
+        "response",
+        "management"
+      ]
+    },
+    "tips": {
+      "title_template": "Emergency Safety Tips: {topic} for {target_audience}",
+      "description_template": "Essential safety tips for {topic}. Protect yourself and your family with these expert recommendations.",
+      "outline_template": [
+        "Why {topic} safety matters",
+        "Tip 1: {tip_1}",
+        "Tip 2: {tip_2}",
+        "Tip 3: {tip_3}",
+        "Tip 4: {tip_4}",
+        "Tip 5: {tip_5}",
+        "Summary and resources"
+      ],
+      "duration": "5-8 minutes",
+      "tags": [
+        "emergency",
+        "safety",
+        "tips",
+        "protection"
+      ]
+    }
+  },
+  "creation_status": "planned",
+  "created_date": "2025-09-24T13:19:45.944200"
+}

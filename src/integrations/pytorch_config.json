@@ -1,0 +1,15 @@
+{
+  "tool_name": "PyTorch",
+  "category": "machine_learning",
+  "features": [
+    "deep_learning",
+    "neural_networks",
+    "research"
+  ],
+  "integration_date": "2025-09-24T13:19:44.095787",
+  "status": "active",
+  "configuration": {},
+  "dependencies": [],
+  "api_keys": [],
+  "settings": {}
+}

@@ -1,0 +1,15 @@
+{
+  "tool_name": "Nmap",
+  "category": "security",
+  "features": [
+    "network_scanning",
+    "vulnerability_assessment",
+    "security_auditing"
+  ],
+  "integration_date": "2025-09-24T13:19:44.094794",
+  "status": "active",
+  "configuration": {},
+  "dependencies": [],
+  "api_keys": [],
+  "settings": {}
+}

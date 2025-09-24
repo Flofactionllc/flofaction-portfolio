@@ -1,0 +1,37 @@
+2025-09-24 13:19:44,091 - INFO - 🚀 Starting AI Tool Discovery and Integration System
+2025-09-24 13:19:44,091 - INFO - 🔍 Starting AI tool discovery from YouTube channels
+2025-09-24 13:19:44,091 - INFO - 📺 Analyzing channel: AI Revolution
+2025-09-24 13:19:44,091 - INFO - ✅ Found 3 tools from AI Revolution
+2025-09-24 13:19:44,092 - INFO - 📺 Analyzing channel: G Man Security
+2025-09-24 13:19:44,092 - INFO - ✅ Found 3 tools from G Man Security
+2025-09-24 13:19:44,092 - INFO - 📺 Analyzing channel: WorldofAI
+2025-09-24 13:19:44,092 - INFO - ✅ Found 3 tools from WorldofAI
+2025-09-24 13:19:44,092 - INFO - 📺 Analyzing channel: Aicodeking
+2025-09-24 13:19:44,092 - INFO - ✅ Found 3 tools from Aicodeking
+2025-09-24 13:19:44,093 - INFO - 📊 Summary report created: logs/ai_tool_discovery_report.md
+2025-09-24 13:19:44,093 - INFO - 🔧 Integrating 9 high-priority tools
+2025-09-24 13:19:44,093 - INFO - 🔧 Integrating tool: OpenAI GPT-4
+2025-09-24 13:19:44,094 - INFO - ✅ Successfully integrated: OpenAI GPT-4
+2025-09-24 13:19:44,094 - INFO - Integration result for OpenAI GPT-4: success
+2025-09-24 13:19:44,094 - INFO - 🔧 Integrating tool: Anthropic Claude
+2025-09-24 13:19:44,094 - INFO - ✅ Successfully integrated: Anthropic Claude
+2025-09-24 13:19:44,094 - INFO - Integration result for Anthropic Claude: success
+2025-09-24 13:19:44,094 - INFO - 🔧 Integrating tool: Nmap
+2025-09-24 13:19:44,095 - INFO - ✅ Successfully integrated: Nmap
+2025-09-24 13:19:44,095 - INFO - Integration result for Nmap: success
+2025-09-24 13:19:44,095 - INFO - 🔧 Integrating tool: TensorFlow
+2025-09-24 13:19:44,095 - INFO - ✅ Successfully integrated: TensorFlow
+2025-09-24 13:19:44,095 - INFO - Integration result for TensorFlow: success
+2025-09-24 13:19:44,095 - INFO - 🔧 Integrating tool: PyTorch
+2025-09-24 13:19:44,096 - INFO - ✅ Successfully integrated: PyTorch
+2025-09-24 13:19:44,096 - INFO - Integration result for PyTorch: success
+2025-09-24 13:19:44,096 - INFO - 🔧 Integrating tool: Hugging Face Transformers
+2025-09-24 13:19:44,096 - INFO - ✅ Successfully integrated: Hugging Face Transformers
+2025-09-24 13:19:44,096 - INFO - Integration result for Hugging Face Transformers: success
+2025-09-24 13:19:44,096 - INFO - 🔧 Integrating tool: GitHub Copilot
+2025-09-24 13:19:44,097 - INFO - ✅ Successfully integrated: GitHub Copilot
+2025-09-24 13:19:44,097 - INFO - Integration result for GitHub Copilot: success
+2025-09-24 13:19:44,097 - INFO - 🔧 Integrating tool: Cursor
+2025-09-24 13:19:44,098 - INFO - ✅ Successfully integrated: Cursor
+2025-09-24 13:19:44,098 - INFO - Integration result for Cursor: success
+2025-09-24 13:19:44,098 - INFO - ✅ AI Tool Discovery and Integration completed successfully

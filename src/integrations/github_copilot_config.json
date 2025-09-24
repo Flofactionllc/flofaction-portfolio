@@ -1,0 +1,15 @@
+{
+  "tool_name": "GitHub Copilot",
+  "category": "ai_development",
+  "features": [
+    "code_generation",
+    "pair_programming",
+    "autocomplete"
+  ],
+  "integration_date": "2025-09-24T13:19:44.096950",
+  "status": "active",
+  "configuration": {},
+  "dependencies": [],
+  "api_keys": [],
+  "settings": {}
+}
