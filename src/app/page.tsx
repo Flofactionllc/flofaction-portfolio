@@ -1,41 +1,12 @@
 import React from 'react';
 import Link from "next/link";
+import Navigation from '../components/Navigation';
+import Footer from '../components/Footer';
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
-      {/* Navigation */}
-      <nav className="bg-white shadow-lg">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between h-16">
-            <div className="flex items-center">
-              <Link href="/" className="text-2xl font-bold text-blue-600">
-                Flo Faction
-              </Link>
-            </div>
-            <div className="flex items-center space-x-8">
-              <Link href="/portfolio" className="text-gray-700 hover:text-blue-600 font-medium">
-                Portfolio
-              </Link>
-              <Link href="/insurance" className="text-gray-700 hover:text-blue-600 font-medium">
-                Insurance
-              </Link>
-              <Link href="/music" className="text-gray-700 hover:text-blue-600 font-medium">
-                Music
-              </Link>
-              <Link href="/emergency" className="text-gray-700 hover:text-blue-600 font-medium">
-                Emergency
-              </Link>
-              <Link href="/ai-services" className="text-gray-700 hover:text-blue-600 font-medium">
-                AI Services
-              </Link>
-              <Link href="/contact" className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors">
-                Contact
-              </Link>
-            </div>
-          </div>
-        </div>
-      </nav>
+      <Navigation />
 
       {/* Hero Section */}
       <section className="relative py-20 px-4 sm:px-6 lg:px-8">
@@ -71,7 +42,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Insurance Services */}
             <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
               <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-6">
@@ -115,7 +86,7 @@ export default function Home() {
               <p className="text-gray-600 mb-6">
                 Professional emergency management services including disaster preparedness and response coordination.
               </p>
-              <Link href="/emergency" className="text-red-600 font-semibold hover:text-red-700">
+              <Link href="/emergency-management" className="text-red-600 font-semibold hover:text-red-700">
                 Learn More →
               </Link>
             </div>
@@ -132,6 +103,38 @@ export default function Home() {
                 Cutting-edge AI solutions including custom development, automation, and intelligent business systems.
               </p>
               <Link href="/ai-services" className="text-blue-600 font-semibold hover:text-blue-700">
+                Learn More →
+              </Link>
+            </div>
+
+            {/* Videography Services */}
+            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center mb-6">
+                <svg className="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Videography & Photography</h3>
+              <p className="text-gray-600 mb-6">
+                Professional videography and photography services with mobile and studio production capabilities.
+              </p>
+              <Link href="/videography" className="text-indigo-600 font-semibold hover:text-indigo-700">
+                Learn More →
+              </Link>
+            </div>
+
+            {/* Digital Marketing */}
+            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-6">
+                <svg className="w-6 h-6 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Digital Marketing</h3>
+              <p className="text-gray-600 mb-6">
+                Comprehensive digital marketing services including SEO, social media, and web design.
+              </p>
+              <Link href="/marketing" className="text-orange-600 font-semibold hover:text-orange-700">
                 Learn More →
               </Link>
             </div>
@@ -159,47 +162,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-gray-900 text-white py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-4 gap-8">
-            <div>
-              <h3 className="text-xl font-bold mb-4">Flo Faction</h3>
-              <p className="text-gray-400">
-                Professional business services including insurance, music production, emergency management, and AI solutions.
-              </p>
-            </div>
-            <div>
-              <h4 className="text-lg font-semibold mb-4">Services</h4>
-              <ul className="space-y-2 text-gray-400">
-                <li><Link href="/insurance" className="hover:text-white">Insurance</Link></li>
-                <li><Link href="/music" className="hover:text-white">Music Production</Link></li>
-                <li><Link href="/emergency" className="hover:text-white">Emergency Management</Link></li>
-                <li><Link href="/ai-services" className="hover:text-white">AI Services</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="text-lg font-semibold mb-4">Company</h4>
-              <ul className="space-y-2 text-gray-400">
-                <li><Link href="/portfolio" className="hover:text-white">Portfolio</Link></li>
-                <li><Link href="/contact" className="hover:text-white">Contact</Link></li>
-                <li><Link href="/about" className="hover:text-white">About</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
-              <div className="text-gray-400 space-y-2">
-                <p>Email: flofaction.insurance@gmail.com</p>
-                <p>Phone: +1 (772) 208-9646</p>
-                <p>Location: Florida, USA</p>
-              </div>
-            </div>
-          </div>
-          <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 Flo Faction LLC. All rights reserved.</p>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }

@@ -6,7 +6,10 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "ai-integration": "node scripts/ai-tool-integration.js",
+    "ai-analyze": "node scripts/ai-tool-integration.js --analyze-only",
+    "ai-integrate": "node scripts/ai-tool-integration.js --integrate-only"
   },
   "dependencies": {
     "next": "15.5.3",
