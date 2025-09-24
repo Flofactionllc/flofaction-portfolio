@@ -1,0 +1,202 @@
+{
+  "mainStudio": {
+    "dimensions": "20x15 feet",
+    "layout": {
+      "cameraPositions": [
+        {
+          "position": "Center",
+          "distance": "8 feet",
+          "purpose": "Main talking head"
+        },
+        {
+          "position": "Left",
+          "distance": "6 feet",
+          "purpose": "Secondary angle"
+        },
+        {
+          "position": "Right",
+          "distance": "6 feet",
+          "purpose": "B-roll camera"
+        },
+        {
+          "position": "Mobile",
+          "distance": "Variable",
+          "purpose": "Dynamic shots"
+        }
+      ],
+      "lightingSetup": [
+        {
+          "position": "Key Light",
+          "location": "Front left",
+          "height": "7 feet",
+          "purpose": "Main illumination"
+        },
+        {
+          "position": "Fill Light",
+          "location": "Front right",
+          "height": "6 feet",
+          "purpose": "Fill shadows"
+        },
+        {
+          "position": "Back Light",
+          "location": "Behind subject",
+          "height": "8 feet",
+          "purpose": "Separation"
+        },
+        {
+          "position": "Accent Lights",
+          "location": "Variable",
+          "height": "Variable",
+          "purpose": "Creative effects"
+        }
+      ],
+      "audioSetup": [
+        {
+          "position": "Main Mic",
+          "location": "Above subject",
+          "height": "6 feet",
+          "purpose": "Primary audio"
+        },
+        {
+          "position": "Backup Mic",
+          "location": "Side position",
+          "height": "5 feet",
+          "purpose": "Backup audio"
+        },
+        {
+          "position": "Ambient Mic",
+          "location": "Room corners",
+          "height": "8 feet",
+          "purpose": "Room tone"
+        }
+      ],
+      "backdrop": {
+        "type": "Green screen",
+        "size": "10x8 feet",
+        "position": "Back wall",
+        "purpose": "Virtual backgrounds and effects"
+      }
+    },
+    "electrical": {
+      "outlets": "12 outlets minimum",
+      "circuits": "3 dedicated circuits",
+      "power": "20 amp circuits",
+      "backup": "UPS battery backup"
+    },
+    "hvac": {
+      "cooling": "Central air conditioning",
+      "heating": "Central heating",
+      "ventilation": "Exhaust fans",
+      "control": "Programmable thermostat"
+    }
+  },
+  "editingSuite": {
+    "dimensions": "12x10 feet",
+    "layout": {
+      "workstations": [
+        {
+          "position": "Primary",
+          "equipment": "Mac Studio + Dual Monitors",
+          "purpose": "Main editing"
+        },
+        {
+          "position": "Secondary",
+          "equipment": "MacBook Pro + Monitor",
+          "purpose": "Backup editing"
+        }
+      ],
+      "storage": [
+        {
+          "type": "File Server",
+          "capacity": "20TB",
+          "purpose": "Project storage"
+        },
+        {
+          "type": "Backup Drives",
+          "capacity": "40TB",
+          "purpose": "Redundant backup"
+        },
+        {
+          "type": "Archive Storage",
+          "capacity": "100TB",
+          "purpose": "Long-term storage"
+        }
+      ],
+      "acoustics": [
+        {
+          "treatment": "Soundproofing",
+          "purpose": "Noise isolation"
+        },
+        {
+          "treatment": "Acoustic panels",
+          "purpose": "Sound quality"
+        },
+        {
+          "treatment": "Bass traps",
+          "purpose": "Low frequency control"
+        }
+      ]
+    }
+  },
+  "storageRoom": {
+    "dimensions": "8x8 feet",
+    "layout": {
+      "equipmentStorage": [
+        {
+          "type": "Camera cases",
+          "quantity": "10",
+          "purpose": "Camera protection"
+        },
+        {
+          "type": "Lens cases",
+          "quantity": "15",
+          "purpose": "Lens protection"
+        },
+        {
+          "type": "Audio cases",
+          "quantity": "8",
+          "purpose": "Audio equipment"
+        },
+        {
+          "type": "Lighting cases",
+          "quantity": "12",
+          "purpose": "Lighting equipment"
+        }
+      ],
+      "propStorage": [
+        {
+          "type": "Costume rack",
+          "quantity": "1",
+          "purpose": "Clothing storage"
+        },
+        {
+          "type": "Prop shelves",
+          "quantity": "4",
+          "purpose": "Set pieces"
+        },
+        {
+          "type": "Furniture storage",
+          "quantity": "1",
+          "purpose": "Set furniture"
+        }
+      ],
+      "maintenance": [
+        {
+          "type": "Workbench",
+          "quantity": "1",
+          "purpose": "Equipment maintenance"
+        },
+        {
+          "type": "Tool storage",
+          "quantity": "1",
+          "purpose": "Maintenance tools"
+        },
+        {
+          "type": "Cleaning supplies",
+          "quantity": "1",
+          "purpose": "Equipment cleaning"
+        }
+      ]
+    }
+  }
+}

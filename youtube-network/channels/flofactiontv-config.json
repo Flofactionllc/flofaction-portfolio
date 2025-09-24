@@ -1,0 +1,15 @@
+{
+  "id": "flofactiontv",
+  "name": "FloFactionTV",
+  "focus": "Comedy shorts, reposts, entertainment, urban culture",
+  "contentTypes": [
+    "Daily comedy sketches",
+    "Viral content reposts",
+    "Community engagement",
+    "Behind-the-scenes content",
+    "Urban lifestyle content"
+  ],
+  "targetAudience": "Urban culture enthusiasts, comedy fans",
+  "postingSchedule": "Daily at 6 PM EST",
+  "monetization": "Ad revenue, sponsorships, merchandise"
+}

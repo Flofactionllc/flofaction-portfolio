@@ -1,0 +1,58 @@
+{
+  "main": {
+    "name": "Aputure Light Storm 300d",
+    "price": 800,
+    "features": [
+      "300W LED power",
+      "High CRI (96+)",
+      "DMX control",
+      "Bowens mount",
+      "Professional quality",
+      "Long lifespan"
+    ],
+    "useCase": "Main key light for all content",
+    "quantity": 1
+  },
+  "fill": {
+    "name": "Aputure Light Storm 60d",
+    "price": 200,
+    "features": [
+      "60W LED power",
+      "High CRI (96+)",
+      "DMX control",
+      "Bowens mount",
+      "Compact design",
+      "Professional quality"
+    ],
+    "useCase": "Fill light and accent lighting",
+    "quantity": 2
+  },
+  "accent": {
+    "name": "Aputure MC Pro",
+    "price": 100,
+    "features": [
+      "RGB color changing",
+      "Wireless control",
+      "Compact size",
+      "Long battery life",
+      "Versatile mounting",
+      "Creative effects"
+    ],
+    "useCase": "Accent lighting and effects",
+    "quantity": 4
+  },
+  "diffusion": {
+    "name": "Neewer Softbox Kit",
+    "price": 80,
+    "features": [
+      "Professional softbox",
+      "Multiple sizes",
+      "Easy setup",
+      "Quality diffusion",
+      "Bowens mount",
+      "Durable construction"
+    ],
+    "useCase": "Soft lighting and diffusion",
+    "quantity": 2
+  }
+}

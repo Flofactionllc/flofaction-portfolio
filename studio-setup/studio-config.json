@@ -1,0 +1,627 @@
+{
+  "studioRequirements": {
+    "primaryStudio": {
+      "purpose": "Main content creation and live streaming",
+      "size": "20x15 feet (300 sq ft)",
+      "capacity": "Up to 4 people",
+      "features": [
+        "Multi-camera setup",
+        "Professional lighting grid",
+        "Audio booth for voiceovers",
+        "Green screen backdrop",
+        "Live streaming capabilities",
+        "Climate control",
+        "Soundproofing"
+      ]
+    },
+    "editingSuite": {
+      "purpose": "Post-production and content management",
+      "size": "12x10 feet (120 sq ft)",
+      "capacity": "2 editors",
+      "features": [
+        "Dual monitor editing stations",
+        "Audio mixing console",
+        "Storage and backup systems",
+        "Color correction monitor",
+        "Comfortable workspace",
+        "Quiet environment"
+      ]
+    },
+    "storageRoom": {
+      "purpose": "Equipment storage and maintenance",
+      "size": "8x8 feet (64 sq ft)",
+      "capacity": "All equipment and props",
+      "features": [
+        "Secure equipment storage",
+        "Prop and set piece storage",
+        "Maintenance workspace",
+        "Cable management",
+        "Climate control"
+      ]
+    },
+    "totalSpace": "484 sq ft",
+    "location": "Port St. Lucie, Florida",
+    "accessibility": "Ground floor with loading dock access"
+  },
+  "equipmentSpecifications": {
+    "cameras": {
+      "primary": {
+        "name": "Sony FX6",
+        "price": 6000,
+        "features": [
+          "4K recording capability",
+          "Full-frame sensor",
+          "Professional audio inputs",
+          "ND filter system",
+          "Long battery life",
+          "Low-light performance"
+        ],
+        "useCase": "Main camera for all content",
+        "quantity": 1
+      },
+      "secondary": {
+        "name": "Canon EOS R5",
+        "price": 3900,
+        "features": [
+          "8K video recording",
+          "45MP still photography",
+          "In-body stabilization",
+          "Dual card slots",
+          "Weather sealing",
+          "Fast autofocus"
+        ],
+        "useCase": "Secondary angles and B-roll",
+        "quantity": 1
+      },
+      "mobile": {
+        "name": "iPhone 15 Pro",
+        "price": 1200,
+        "features": [
+          "4K ProRes recording",
+          "Cinematic mode",
+          "Action mode stabilization",
+          "Professional audio",
+          "Portable and versatile",
+          "Easy social media integration"
+        ],
+        "useCase": "Mobile content and social media",
+        "quantity": 2
+      },
+      "action": {
+        "name": "GoPro Hero 12",
+        "price": 400,
+        "features": [
+          "5.3K video recording",
+          "Waterproof design",
+          "HyperSmooth stabilization",
+          "TimeWarp 3.0",
+          "Voice control",
+          "Compact size"
+        ],
+        "useCase": "Action shots and unique angles",
+        "quantity": 2
+      }
+    },
+    "audio": {
+      "wireless": {
+        "name": "Rode Wireless Pro",
+        "price": 1200,
+        "features": [
+          "Dual-channel wireless",
+          "32-bit float recording",
+          "Noise cancellation",
+          "Long battery life",
+          "Professional quality",
+          "Easy setup"
+        ],
+        "useCase": "Wireless microphones for interviews",
+        "quantity": 1
+      },
+      "studio": {
+        "name": "Shure SM7B",
+        "price": 400,
+        "features": [
+          "Professional broadcast quality",
+          "Cardioid pattern",
+          "Low noise floor",
+          "Built-in pop filter",
+          "Industry standard",
+          "Versatile applications"
+        ],
+        "useCase": "Studio voiceovers and podcasts",
+        "quantity": 2
+      },
+      "interface": {
+        "name": "Focusrite Scarlett 4i4",
+        "price": 200,
+        "features": [
+          "4 inputs, 4 outputs",
+          "High-quality preamps",
+          "Low latency",
+          "USB connectivity",
+          "Professional software",
+          "Reliable performance"
+        ],
+        "useCase": "Audio interface for recording",
+        "quantity": 1
+      },
+      "headphones": {
+        "name": "Audio-Technica ATH-M50x",
+        "price": 150,
+        "features": [
+          "Professional monitoring",
+          "Excellent sound quality",
+          "Comfortable design",
+          "Detachable cable",
+          "Industry standard",
+          "Durable construction"
+        ],
+        "useCase": "Audio monitoring during production",
+        "quantity": 4
+      }
+    },
+    "lighting": {
+      "main": {
+        "name": "Aputure Light Storm 300d",
+        "price": 800,
+        "features": [
+          "300W LED power",
+          "High CRI (96+)",
+          "DMX control",
+          "Bowens mount",
+          "Professional quality",
+          "Long lifespan"
+        ],
+        "useCase": "Main key light for all content",
+        "quantity": 1
+      },
+      "fill": {
+        "name": "Aputure Light Storm 60d",
+        "price": 200,
+        "features": [
+          "60W LED power",
+          "High CRI (96+)",
+          "DMX control",
+          "Bowens mount",
+          "Compact design",
+          "Professional quality"
+        ],
+        "useCase": "Fill light and accent lighting",
+        "quantity": 2
+      },
+      "accent": {
+        "name": "Aputure MC Pro",
+        "price": 100,
+        "features": [
+          "RGB color changing",
+          "Wireless control",
+          "Compact size",
+          "Long battery life",
+          "Versatile mounting",
+          "Creative effects"
+        ],
+        "useCase": "Accent lighting and effects",
+        "quantity": 4
+      },
+      "diffusion": {
+        "name": "Neewer Softbox Kit",
+        "price": 80,
+        "features": [
+          "Professional softbox",
+          "Multiple sizes",
+          "Easy setup",
+          "Quality diffusion",
+          "Bowens mount",
+          "Durable construction"
+        ],
+        "useCase": "Soft lighting and diffusion",
+        "quantity": 2
+      }
+    },
+    "editing": {
+      "workstation": {
+        "name": "Mac Studio M2 Ultra",
+        "price": 4000,
+        "features": [
+          "M2 Ultra chip",
+          "64GB unified memory",
+          "1TB SSD storage",
+          "Professional performance",
+          "Multiple ports",
+          "Quiet operation"
+        ],
+        "useCase": "Main editing workstation",
+        "quantity": 1
+      },
+      "mobile": {
+        "name": "MacBook Pro M3",
+        "price": 2000,
+        "features": [
+          "M3 chip",
+          "16GB unified memory",
+          "512GB SSD storage",
+          "Portable editing",
+          "Long battery life",
+          "Professional quality"
+        ],
+        "useCase": "Mobile editing and backup",
+        "quantity": 1
+      },
+      "monitor": {
+        "name": "Dell UltraSharp 32\"",
+        "price": 800,
+        "features": [
+          "4K resolution",
+          "Professional color accuracy",
+          "Large workspace",
+          "Multiple inputs",
+          "Ergonomic design",
+          "Reliable performance"
+        ],
+        "useCase": "Primary editing monitor",
+        "quantity": 2
+      },
+      "storage": {
+        "name": "LaCie 4TB SSD",
+        "price": 400,
+        "features": [
+          "4TB capacity",
+          "Fast transfer speeds",
+          "Reliable storage",
+          "Portable design",
+          "Professional grade",
+          "Long warranty"
+        ],
+        "useCase": "Project storage and backup",
+        "quantity": 3
+      }
+    },
+    "software": {
+      "editing": {
+        "name": "Adobe Creative Suite",
+        "price": 60,
+        "period": "month",
+        "features": [
+          "Premiere Pro - Video editing",
+          "After Effects - Motion graphics",
+          "Photoshop - Image editing",
+          "Illustrator - Graphics design",
+          "Audition - Audio editing",
+          "Media Encoder - Export optimization"
+        ],
+        "useCase": "Complete creative suite",
+        "quantity": 2
+      },
+      "productivity": {
+        "name": "Productivity Suite",
+        "price": 50,
+        "period": "month",
+        "features": [
+          "Notion - Project management",
+          "Slack - Team communication",
+          "Zoom - Video conferencing",
+          "Google Workspace - Collaboration",
+          "Dropbox - File sharing",
+          "Calendly - Scheduling"
+        ],
+        "useCase": "Team productivity and collaboration",
+        "quantity": 1
+      },
+      "analytics": {
+        "name": "Analytics Tools",
+        "price": 25,
+        "period": "month",
+        "features": [
+          "TubeBuddy - YouTube optimization",
+          "VidIQ - Video analytics",
+          "Social Blade - Social media tracking",
+          "Hootsuite - Social media management",
+          "Google Analytics - Website analytics",
+          "Mailchimp - Email marketing"
+        ],
+        "useCase": "Performance monitoring and optimization",
+        "quantity": 1
+      }
+    }
+  },
+  "studioLayout": {
+    "mainStudio": {
+      "dimensions": "20x15 feet",
+      "layout": {
+        "cameraPositions": [
+          {
+            "position": "Center",
+            "distance": "8 feet",
+            "purpose": "Main talking head"
+          },
+          {
+            "position": "Left",
+            "distance": "6 feet",
+            "purpose": "Secondary angle"
+          },
+          {
+            "position": "Right",
+            "distance": "6 feet",
+            "purpose": "B-roll camera"
+          },
+          {
+            "position": "Mobile",
+            "distance": "Variable",
+            "purpose": "Dynamic shots"
+          }
+        ],
+        "lightingSetup": [
+          {
+            "position": "Key Light",
+            "location": "Front left",
+            "height": "7 feet",
+            "purpose": "Main illumination"
+          },
+          {
+            "position": "Fill Light",
+            "location": "Front right",
+            "height": "6 feet",
+            "purpose": "Fill shadows"
+          },
+          {
+            "position": "Back Light",
+            "location": "Behind subject",
+            "height": "8 feet",
+            "purpose": "Separation"
+          },
+          {
+            "position": "Accent Lights",
+            "location": "Variable",
+            "height": "Variable",
+            "purpose": "Creative effects"
+          }
+        ],
+        "audioSetup": [
+          {
+            "position": "Main Mic",
+            "location": "Above subject",
+            "height": "6 feet",
+            "purpose": "Primary audio"
+          },
+          {
+            "position": "Backup Mic",
+            "location": "Side position",
+            "height": "5 feet",
+            "purpose": "Backup audio"
+          },
+          {
+            "position": "Ambient Mic",
+            "location": "Room corners",
+            "height": "8 feet",
+            "purpose": "Room tone"
+          }
+        ],
+        "backdrop": {
+          "type": "Green screen",
+          "size": "10x8 feet",
+          "position": "Back wall",
+          "purpose": "Virtual backgrounds and effects"
+        }
+      },
+      "electrical": {
+        "outlets": "12 outlets minimum",
+        "circuits": "3 dedicated circuits",
+        "power": "20 amp circuits",
+        "backup": "UPS battery backup"
+      },
+      "hvac": {
+        "cooling": "Central air conditioning",
+        "heating": "Central heating",
+        "ventilation": "Exhaust fans",
+        "control": "Programmable thermostat"
+      }
+    },
+    "editingSuite": {
+      "dimensions": "12x10 feet",
+      "layout": {
+        "workstations": [
+          {
+            "position": "Primary",
+            "equipment": "Mac Studio + Dual Monitors",
+            "purpose": "Main editing"
+          },
+          {
+            "position": "Secondary",
+            "equipment": "MacBook Pro + Monitor",
+            "purpose": "Backup editing"
+          }
+        ],
+        "storage": [
+          {
+            "type": "File Server",
+            "capacity": "20TB",
+            "purpose": "Project storage"
+          },
+          {
+            "type": "Backup Drives",
+            "capacity": "40TB",
+            "purpose": "Redundant backup"
+          },
+          {
+            "type": "Archive Storage",
+            "capacity": "100TB",
+            "purpose": "Long-term storage"
+          }
+        ],
+        "acoustics": [
+          {
+            "treatment": "Soundproofing",
+            "purpose": "Noise isolation"
+          },
+          {
+            "treatment": "Acoustic panels",
+            "purpose": "Sound quality"
+          },
+          {
+            "treatment": "Bass traps",
+            "purpose": "Low frequency control"
+          }
+        ]
+      }
+    },
+    "storageRoom": {
+      "dimensions": "8x8 feet",
+      "layout": {
+        "equipmentStorage": [
+          {
+            "type": "Camera cases",
+            "quantity": "10",
+            "purpose": "Camera protection"
+          },
+          {
+            "type": "Lens cases",
+            "quantity": "15",
+            "purpose": "Lens protection"
+          },
+          {
+            "type": "Audio cases",
+            "quantity": "8",
+            "purpose": "Audio equipment"
+          },
+          {
+            "type": "Lighting cases",
+            "quantity": "12",
+            "purpose": "Lighting equipment"
+          }
+        ],
+        "propStorage": [
+          {
+            "type": "Costume rack",
+            "quantity": "1",
+            "purpose": "Clothing storage"
+          },
+          {
+            "type": "Prop shelves",
+            "quantity": "4",
+            "purpose": "Set pieces"
+          },
+          {
+            "type": "Furniture storage",
+            "quantity": "1",
+            "purpose": "Set furniture"
+          }
+        ],
+        "maintenance": [
+          {
+            "type": "Workbench",
+            "quantity": "1",
+            "purpose": "Equipment maintenance"
+          },
+          {
+            "type": "Tool storage",
+            "quantity": "1",
+            "purpose": "Maintenance tools"
+          },
+          {
+            "type": "Cleaning supplies",
+            "quantity": "1",
+            "purpose": "Equipment cleaning"
+          }
+        ]
+      }
+    }
+  },
+  "installationPlan": {
+    "phase1": {
+      "duration": "Week 1",
+      "tasks": [
+        "Space preparation and cleaning",
+        "Electrical installation and testing",
+        "HVAC system setup and testing",
+        "Basic lighting installation",
+        "Internet and network setup"
+      ],
+      "deliverables": [
+        "Prepared studio space",
+        "Functional electrical system",
+        "Climate control system",
+        "Basic lighting grid",
+        "High-speed internet connection"
+      ]
+    },
+    "phase2": {
+      "duration": "Week 2",
+      "tasks": [
+        "Camera system installation",
+        "Audio system setup",
+        "Professional lighting installation",
+        "Backdrop and set installation",
+        "Equipment testing and calibration"
+      ],
+      "deliverables": [
+        "Multi-camera setup",
+        "Professional audio system",
+        "Complete lighting grid",
+        "Green screen backdrop",
+        "Calibrated equipment"
+      ]
+    },
+    "phase3": {
+      "duration": "Week 3",
+      "tasks": [
+        "Editing suite setup",
+        "Storage system installation",
+        "Software installation and configuration",
+        "Network and backup systems",
+        "Final testing and optimization"
+      ],
+      "deliverables": [
+        "Complete editing suite",
+        "Storage and backup systems",
+        "Software licenses and configuration",
+        "Network infrastructure",
+        "Optimized production workflow"
+      ]
+    },
+    "phase4": {
+      "duration": "Week 4",
+      "tasks": [
+        "Team training and orientation",
+        "Workflow testing and refinement",
+        "Documentation and procedures",
+        "Quality control implementation",
+        "Go-live preparation"
+      ],
+      "deliverables": [
+        "Trained production team",
+        "Refined workflows",
+        "Complete documentation",
+        "Quality control processes",
+        "Production-ready studio"
+      ]
+    }
+  },
+  "budgetBreakdown": {
+    "equipment": {
+      "cameras": 13100,
+      "audio": 2800,
+      "lighting": 1760,
+      "editing": 8800,
+      "total": 26460
+    },
+    "software": {
+      "monthly": 195,
+      "yearly": 2340
+    },
+    "setup": {
+      "electrical": 5000,
+      "hvac": 3000,
+      "internet": 2000,
+      "furniture": 5000,
+      "installation": 10000,
+      "permits": 2000,
+      "total": 27000
+    },
+    "total": {
+      "oneTime": 53460,
+      "monthly": 195,
+      "yearly": 2340
+    }
+  },
+  "generatedAt": "2025-09-24T06:01:52.514Z"
+}

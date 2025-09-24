@@ -1,0 +1,15 @@
+{
+  "id": "emergencymanagementpro",
+  "name": "Emergency Management Pro",
+  "focus": "Emergency preparedness, disaster response, public safety",
+  "contentTypes": [
+    "Emergency preparedness guides",
+    "Disaster response tutorials",
+    "Public safety awareness",
+    "Professional training content",
+    "Case studies and real incidents"
+  ],
+  "targetAudience": "Emergency managers, first responders, community leaders",
+  "postingSchedule": "Tuesday, Thursday at 10 AM EST",
+  "monetization": "Training courses, consulting services, certifications"
+}

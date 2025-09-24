@@ -1,0 +1,84 @@
+{
+  "contentDirector": {
+    "role": "Content Director",
+    "responsibilities": [
+      "Content strategy and planning",
+      "YouTube network management",
+      "Team coordination and management",
+      "Brand consistency oversight",
+      "Performance optimization"
+    ],
+    "requirements": [
+      "5+ years content creation experience",
+      "YouTube channel management expertise",
+      "Strong leadership and communication skills",
+      "Analytics and performance optimization knowledge",
+      "Creative vision and strategic thinking"
+    ],
+    "salary": "$60,000-$80,000",
+    "equity": "2-5%",
+    "status": "Priority Hire #1"
+  },
+  "productionManager": {
+    "role": "Production Manager",
+    "responsibilities": [
+      "Content calendar management",
+      "Resource allocation and scheduling",
+      "Equipment and studio management",
+      "Quality control and standards",
+      "Workflow optimization"
+    ],
+    "requirements": [
+      "3+ years production experience",
+      "Project management skills",
+      "Technical equipment knowledge",
+      "Organizational and time management skills",
+      "Problem-solving abilities"
+    ],
+    "salary": "$45,000-$60,000",
+    "equity": "1-3%",
+    "status": "Priority Hire #2"
+  },
+  "videoEditors": {
+    "role": "Video Editors",
+    "count": 2,
+    "responsibilities": [
+      "Video editing and post-production",
+      "Thumbnail creation",
+      "Audio mixing and enhancement",
+      "Graphics and effects implementation",
+      "Quality control"
+    ],
+    "requirements": [
+      "2+ years video editing experience",
+      "Proficiency in Adobe Creative Suite",
+      "Understanding of YouTube optimization",
+      "Creative and technical skills",
+      "Attention to detail"
+    ],
+    "salary": "$35,000-$50,000 each",
+    "equity": "0.5-1% each",
+    "status": "Month 2 Hire"
+  },
+  "socialMediaManagers": {
+    "role": "Social Media Managers",
+    "count": 2,
+    "responsibilities": [
+      "Social media content creation",
+      "Community engagement and management",
+      "Cross-platform promotion",
+      "Analytics and performance tracking",
+      "Brand voice maintenance"
+    ],
+    "requirements": [
+      "2+ years social media experience",
+      "Platform-specific expertise",
+      "Content creation skills",
+      "Analytics and reporting knowledge",
+      "Community management experience"
+    ],
+    "salary": "$30,000-$45,000 each",
+    "equity": "0.5-1% each",
+    "status": "Month 2 Hire"
+  }
+}

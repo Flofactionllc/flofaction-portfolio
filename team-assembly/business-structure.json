@@ -1,0 +1,62 @@
+{
+  "salesManager": {
+    "role": "Sales Manager",
+    "responsibilities": [
+      "Client acquisition and retention",
+      "Sales strategy and execution",
+      "Revenue growth and optimization",
+      "Client relationship management",
+      "Market expansion"
+    ],
+    "requirements": [
+      "5+ years sales experience",
+      "B2B sales expertise",
+      "Strong negotiation skills",
+      "CRM and sales tools proficiency",
+      "Results-driven mindset"
+    ],
+    "salary": "$50,000-$70,000 + commission",
+    "equity": "2-4%",
+    "status": "Month 3 Hire"
+  },
+  "accountManager": {
+    "role": "Account Manager",
+    "responsibilities": [
+      "Client relationship management",
+      "Project coordination and delivery",
+      "Client satisfaction and retention",
+      "Upselling and cross-selling",
+      "Account growth"
+    ],
+    "requirements": [
+      "3+ years account management experience",
+      "Strong communication skills",
+      "Project management abilities",
+      "Client service excellence",
+      "Problem-solving skills"
+    ],
+    "salary": "$40,000-$55,000",
+    "equity": "1-2%",
+    "status": "Month 4 Hire"
+  },
+  "operationsManager": {
+    "role": "Operations Manager",
+    "responsibilities": [
+      "Operational efficiency optimization",
+      "Process improvement and automation",
+      "Resource management and allocation",
+      "Quality control and standards",
+      "Team coordination"
+    ],
+    "requirements": [
+      "4+ years operations experience",
+      "Process improvement expertise",
+      "Project management skills",
+      "Analytical and problem-solving abilities",
+      "Leadership and team management"
+    ],
+    "salary": "$55,000-$75,000",
+    "equity": "2-3%",
+    "status": "Month 3 Hire"
+  }
+}

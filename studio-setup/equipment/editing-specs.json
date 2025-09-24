@@ -1,0 +1,58 @@
+{
+  "workstation": {
+    "name": "Mac Studio M2 Ultra",
+    "price": 4000,
+    "features": [
+      "M2 Ultra chip",
+      "64GB unified memory",
+      "1TB SSD storage",
+      "Professional performance",
+      "Multiple ports",
+      "Quiet operation"
+    ],
+    "useCase": "Main editing workstation",
+    "quantity": 1
+  },
+  "mobile": {
+    "name": "MacBook Pro M3",
+    "price": 2000,
+    "features": [
+      "M3 chip",
+      "16GB unified memory",
+      "512GB SSD storage",
+      "Portable editing",
+      "Long battery life",
+      "Professional quality"
+    ],
+    "useCase": "Mobile editing and backup",
+    "quantity": 1
+  },
+  "monitor": {
+    "name": "Dell UltraSharp 32\"",
+    "price": 800,
+    "features": [
+      "4K resolution",
+      "Professional color accuracy",
+      "Large workspace",
+      "Multiple inputs",
+      "Ergonomic design",
+      "Reliable performance"
+    ],
+    "useCase": "Primary editing monitor",
+    "quantity": 2
+  },
+  "storage": {
+    "name": "LaCie 4TB SSD",
+    "price": 400,
+    "features": [
+      "4TB capacity",
+      "Fast transfer speeds",
+      "Reliable storage",
+      "Portable design",
+      "Professional grade",
+      "Long warranty"
+    ],
+    "useCase": "Project storage and backup",
+    "quantity": 3
+  }
+}

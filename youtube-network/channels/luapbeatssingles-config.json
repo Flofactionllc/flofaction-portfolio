@@ -1,0 +1,15 @@
+{
+  "id": "luapbeatssingles",
+  "name": "Luap Beats & Singles",
+  "focus": "Original music, beats, singles, streaming",
+  "contentTypes": [
+    "Original song releases",
+    "Beat showcases",
+    "Recording session videos",
+    "Music production tutorials",
+    "Streaming platform comparisons"
+  ],
+  "targetAudience": "Music fans, producers, artists",
+  "postingSchedule": "Daily at 8 PM EST",
+  "monetization": "Music sales, streaming revenue, merchandise"
+}

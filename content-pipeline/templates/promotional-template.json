@@ -1,0 +1,18 @@
+{
+  "structure": [
+    "Hook (0-15s): Benefit or solution",
+    "Introduction (15-45s): Service overview",
+    "Main Content (45s-end): Features and benefits",
+    "Call-to-Action (last 30s): Contact and subscribe",
+    "Outro (last 10s): Brand reminder"
+  ],
+  "elements": [
+    "Clear value proposition",
+    "Social proof and testimonials",
+    "Service demonstrations",
+    "Contact information",
+    "Related services"
+  ],
+  "duration": "5-10 minutes",
+  "thumbnailStyle": "Professional, trustworthy, branded"
+}

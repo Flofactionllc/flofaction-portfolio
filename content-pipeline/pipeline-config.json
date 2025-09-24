@@ -1,0 +1,469 @@
+{
+  "contentTypes": {
+    "educational": {
+      "insurance": [
+        "Product comparisons",
+        "Market analysis",
+        "Client success stories"
+      ],
+      "emergency": [
+        "Preparedness guides",
+        "Response tutorials",
+        "Case studies"
+      ],
+      "finance": [
+        "Investment strategies",
+        "Wealth building",
+        "Credit management"
+      ],
+      "music": [
+        "Sync licensing tutorials",
+        "Industry insights",
+        "Artist spotlights"
+      ],
+      "ai": [
+        "Tool reviews",
+        "Workflow optimization",
+        "Case studies"
+      ]
+    },
+    "entertainment": {
+      "comedy": [
+        "Daily sketches",
+        "Viral reposts",
+        "Behind-the-scenes"
+      ],
+      "music": [
+        "Beat showcases",
+        "Song premieres",
+        "Recording sessions"
+      ],
+      "lifestyle": [
+        "Urban culture",
+        "Community events",
+        "Personal stories"
+      ]
+    },
+    "promotional": {
+      "services": [
+        "Service overviews",
+        "Client testimonials",
+        "Portfolio showcases"
+      ],
+      "courses": [
+        "Course previews",
+        "Student success stories",
+        "Free samples"
+      ],
+      "events": [
+        "Event announcements",
+        "Live coverage",
+        "Recap videos"
+      ]
+    }
+  },
+  "productionWorkflow": {
+    "ideation": {
+      "step": 1,
+      "duration": "2 hours",
+      "process": [
+        "AI-powered topic research using Nova Act",
+        "Trend analysis and keyword research",
+        "Content gap identification",
+        "Audience demand analysis",
+        "Competitor content review"
+      ],
+      "tools": [
+        "Nova Act",
+        "Google Trends",
+        "TubeBuddy",
+        "VidIQ"
+      ],
+      "output": "Content brief and script outline"
+    },
+    "scripting": {
+      "step": 2,
+      "duration": "4 hours",
+      "process": [
+        "AI-assisted script writing",
+        "SEO optimization for titles and descriptions",
+        "Call-to-action integration",
+        "Hook and retention optimization",
+        "Brand voice consistency check"
+      ],
+      "tools": [
+        "ChatGPT",
+        "Grammarly",
+        "Hemingway Editor"
+      ],
+      "output": "Final script with metadata"
+    },
+    "preProduction": {
+      "step": 3,
+      "duration": "2 hours",
+      "process": [
+        "Equipment setup and testing",
+        "Lighting and audio configuration",
+        "Set design and props preparation",
+        "Talent briefing and rehearsal",
+        "Technical checklist verification"
+      ],
+      "tools": [
+        "Equipment checklist",
+        "Lighting diagrams",
+        "Audio tests"
+      ],
+      "output": "Production-ready setup"
+    },
+    "production": {
+      "step": 4,
+      "duration": "3 hours",
+      "process": [
+        "Multi-camera recording",
+        "Audio capture and monitoring",
+        "B-roll and cutaway shots",
+        "Live streaming capabilities",
+        "Quality control during recording"
+      ],
+      "tools": [
+        "Sony FX6",
+        "Canon EOS R5",
+        "Rode Wireless Pro",
+        "Aputure lighting"
+      ],
+      "output": "Raw video and audio files"
+    },
+    "postProduction": {
+      "step": 5,
+      "duration": "6 hours",
+      "process": [
+        "Video editing and color correction",
+        "Audio mixing and enhancement",
+        "Graphics and text overlay creation",
+        "Thumbnail design and optimization",
+        "Quality control and final review"
+      ],
+      "tools": [
+        "Adobe Premiere Pro",
+        "After Effects",
+        "DaVinci Resolve",
+        "Photoshop"
+      ],
+      "output": "Final video ready for upload"
+    },
+    "distribution": {
+      "step": 6,
+      "duration": "1 hour",
+      "process": [
+        "Multi-platform upload scheduling",
+        "SEO metadata optimization",
+        "Social media cross-posting",
+        "Email newsletter integration",
+        "Analytics tracking setup"
+      ],
+      "tools": [
+        "YouTube Studio",
+        "Hootsuite",
+        "Mailchimp",
+        "Google Analytics"
+      ],
+      "output": "Published content across all platforms"
+    },
+    "optimization": {
+      "step": 7,
+      "duration": "2 hours",
+      "process": [
+        "Performance monitoring",
+        "Audience engagement analysis",
+        "A/B testing of thumbnails and titles",
+        "SEO optimization based on data",
+        "Content improvement recommendations"
+      ],
+      "tools": [
+        "YouTube Analytics",
+        "TubeBuddy",
+        "VidIQ",
+        "Social Blade"
+      ],
+      "output": "Performance report and optimization plan"
+    }
+  },
+  "automationScripts": {
+    "contentIdeation": "\n        # AI-Powered Content Ideation Script\n        import openai\n        import requests\n        from datetime import datetime, timedelta\n        \n        class ContentIdeator:\n            def __init__(self, openai_api_key):\n                self.client = openai.OpenAI(api_key=openai_api_key)\n                self.youtube_api_key = \"YOUR_YOUTUBE_API_KEY\"\n            \n            def generate_content_ideas(self, channel_focus, num_ideas=10):\n                prompt = f\"\"\"\n                Generate {num_ideas} engaging YouTube video ideas for a channel focused on {channel_focus}.\n                Each idea should include:\n                1. Compelling title\n                2. Brief description\n                3. Target audience\n                4. Estimated duration\n                5. Key talking points\n                6. SEO keywords\n                \n                Focus on trending topics and evergreen content that will perform well.\n                \"\"\"\n                \n                response = self.client.chat.completions.create(\n                    model=\"gpt-4\",\n                    messages=[{\"role\": \"user\", \"content\": prompt}],\n                    max_tokens=2000\n                )\n                \n                return response.choices[0].message.content\n            \n            def analyze_trending_topics(self):\n                # Use YouTube API to get trending topics\n                url = \"https://www.googleapis.com/youtube/v3/videos\"\n                params = {\n                    'part': 'snippet',\n                    'chart': 'mostPopular',\n                    'regionCode': 'US',\n                    'maxResults': 50,\n                    'key': self.youtube_api_key\n                }\n                \n                response = requests.get(url, params=params)\n                return response.json()\n      ",
+    "scriptGeneration": "\n        # AI Script Generation Script\n        import openai\n        import json\n        \n        class ScriptGenerator:\n            def __init__(self, openai_api_key):\n                self.client = openai.OpenAI(api_key=openai_api_key)\n            \n            def generate_script(self, topic, duration, style, channel_brand):\n                prompt = f\"\"\"\n                Write a {duration}-minute YouTube script about \"{topic}\" in a {style} style for {channel_brand}.\n                \n                Include:\n                1. Hook (first 15 seconds)\n                2. Introduction and value proposition\n                3. Main content with clear structure\n                4. Call-to-action\n                5. Outro and subscribe reminder\n                \n                Make it engaging, informative, and optimized for YouTube's algorithm.\n                Include timestamps and speaking notes.\n                \"\"\"\n                \n                response = self.client.chat.completions.create(\n                    model=\"gpt-4\",\n                    messages=[{\"role\": \"user\", \"content\": prompt}],\n                    max_tokens=3000\n                )\n                \n                return response.choices[0].message.content\n            \n            def optimize_for_seo(self, script, keywords):\n                # Add SEO optimization to script\n                optimized_script = script\n                for keyword in keywords:\n                    # Insert keywords naturally into the script\n                    pass\n                return optimized_script\n      ",
+    "thumbnailGeneration": "\n        # AI Thumbnail Generation Script\n        import openai\n        from PIL import Image, ImageDraw, ImageFont\n        import requests\n        \n        class ThumbnailGenerator:\n            def __init__(self, openai_api_key):\n                self.client = openai.OpenAI(api_key=openai_api_key)\n            \n            def generate_thumbnail_concept(self, video_title, channel_style):\n                prompt = f\"\"\"\n                Design a compelling YouTube thumbnail concept for a video titled \"{video_title}\" \n                in the style of {channel_style}.\n                \n                Include:\n                1. Visual elements and composition\n                2. Color scheme\n                3. Text placement and font suggestions\n                4. Emotional appeal strategy\n                5. Click-through optimization tips\n                \"\"\"\n                \n                response = self.client.chat.completions.create(\n                    model=\"gpt-4\",\n                    messages=[{\"role\": \"user\", \"content\": prompt}],\n                    max_tokens=1000\n                )\n                \n                return response.choices[0].message.content\n            \n            def create_thumbnail(self, concept, title, background_image):\n                # Create thumbnail using PIL\n                img = Image.open(background_image)\n                draw = ImageDraw.Draw(img)\n                \n                # Add title text\n                font = ImageFont.truetype(\"arial.ttf\", 36)\n                draw.text((50, 50), title, fill=\"white\", font=font)\n                \n                return img\n      ",
+    "uploadAutomation": "\n        # Automated Upload Script\n        from googleapiclient.discovery import build\n        from googleapiclient.http import MediaFileUpload\n        import os\n        \n        class UploadAutomator:\n            def __init__(self, credentials_file):\n                self.youtube = build('youtube', 'v3', credentials=credentials_file)\n            \n            def upload_video(self, video_path, title, description, tags, channel_id):\n                body = {\n                    'snippet': {\n                        'title': title,\n                        'description': description,\n                        'tags': tags,\n                        'channelId': channel_id\n                    },\n                    'status': {\n                        'privacyStatus': 'public',\n                        'selfDeclaredMadeForKids': False\n                    }\n                }\n                \n                media = MediaFileUpload(video_path, chunksize=-1, resumable=True)\n                \n                insert_request = self.youtube.videos().insert(\n                    part=','.join(body.keys()),\n                    body=body,\n                    media_body=media\n                )\n                \n                return insert_request.execute()\n            \n            def schedule_upload(self, video_path, title, description, tags, publish_time):\n                # Schedule video for specific time\n                body = {\n                    'snippet': {\n                        'title': title,\n                        'description': description,\n                        'tags': tags\n                    },\n                    'status': {\n                        'privacyStatus': 'private',\n                        'publishAt': publish_time.isoformat()\n                    }\n                }\n                \n                media = MediaFileUpload(video_path, chunksize=-1, resumable=True)\n                \n                insert_request = self.youtube.videos().insert(\n                    part=','.join(body.keys()),\n                    body=body,\n                    media_body=media\n                )\n                \n                return insert_request.execute()\n      ",
+    "analyticsMonitoring": "\n        # Analytics Monitoring Script\n        from googleapiclient.discovery import build\n        import pandas as pd\n        from datetime import datetime, timedelta\n        \n        class AnalyticsMonitor:\n            def __init__(self, credentials_file):\n                self.youtube = build('youtubeAnalytics', 'v2', credentials=credentials_file)\n            \n            def get_channel_metrics(self, channel_id, start_date, end_date):\n                request = self.youtube.reports().query(\n                    ids=f'channel=={channel_id}',\n                    startDate=start_date,\n                    endDate=end_date,\n                    metrics='views,estimatedMinutesWatched,averageViewDuration,subscribersGained,subscribersLost',\n                    dimensions='day'\n                )\n                \n                return request.execute()\n            \n            def get_video_performance(self, video_id):\n                request = self.youtube.videos().list(\n                    part='statistics,snippet',\n                    id=video_id\n                )\n                \n                return request.execute()\n            \n            def generate_performance_report(self, channel_id):\n                end_date = datetime.now().strftime('%Y-%m-%d')\n                start_date = (datetime.now() - timedelta(days=30)).strftime('%Y-%m-%d')\n                \n                metrics = self.get_channel_metrics(channel_id, start_date, end_date)\n                \n                report = {\n                    'period': f'{start_date} to {end_date}',\n                    'total_views': sum(row[1] for row in metrics['rows']),\n                    'total_watch_time': sum(row[2] for row in metrics['rows']),\n                    'average_duration': sum(row[3] for row in metrics['rows']) / len(metrics['rows']),\n                    'subscriber_growth': sum(row[4] for row in metrics['rows']) - sum(row[5] for row in metrics['rows'])\n                }\n                \n                return report\n      "
+  },
+  "contentTemplates": {
+    "educational": {
+      "structure": [
+        "Hook (0-15s): Problem or question",
+        "Introduction (15-30s): Value proposition",
+        "Main Content (30s-end): Step-by-step explanation",
+        "Call-to-Action (last 30s): Subscribe and engage",
+        "Outro (last 10s): Brand reminder"
+      ],
+      "elements": [
+        "Clear learning objectives",
+        "Visual aids and graphics",
+        "Examples and case studies",
+        "Actionable takeaways",
+        "Related content suggestions"
+      ],
+      "duration": "8-15 minutes",
+      "thumbnailStyle": "Clean, professional, educational"
+    },
+    "entertainment": {
+      "structure": [
+        "Hook (0-10s): Immediate engagement",
+        "Setup (10-30s): Context and characters",
+        "Main Content (30s-end): Entertainment value",
+        "Call-to-Action (last 20s): Subscribe and share",
+        "Outro (last 10s): Brand reminder"
+      ],
+      "elements": [
+        "High energy and engagement",
+        "Visual effects and editing",
+        "Music and sound effects",
+        "Comedy or entertainment value",
+        "Trending elements"
+      ],
+      "duration": "3-8 minutes",
+      "thumbnailStyle": "Bold, colorful, attention-grabbing"
+    },
+    "promotional": {
+      "structure": [
+        "Hook (0-15s): Benefit or solution",
+        "Introduction (15-45s): Service overview",
+        "Main Content (45s-end): Features and benefits",
+        "Call-to-Action (last 30s): Contact and subscribe",
+        "Outro (last 10s): Brand reminder"
+      ],
+      "elements": [
+        "Clear value proposition",
+        "Social proof and testimonials",
+        "Service demonstrations",
+        "Contact information",
+        "Related services"
+      ],
+      "duration": "5-10 minutes",
+      "thumbnailStyle": "Professional, trustworthy, branded"
+    }
+  },
+  "contentCalendar": {
+    "weeklySchedule": {
+      "monday": [
+        {
+          "time": "10:00",
+          "channel": "emergencymanagementpro",
+          "type": "educational",
+          "topic": "Emergency Preparedness Guide"
+        },
+        {
+          "time": "15:00",
+          "channel": "musicsynccentral",
+          "type": "educational",
+          "topic": "Sync Licensing Tutorial"
+        },
+        {
+          "time": "19:00",
+          "channel": "urbanfinanceguide",
+          "type": "educational",
+          "topic": "Investment Strategy"
+        }
+      ],
+      "tuesday": [
+        {
+          "time": "14:00",
+          "channel": "aicontentcreators",
+          "type": "educational",
+          "topic": "AI Tool Review"
+        },
+        {
+          "time": "18:00",
+          "channel": "flofactiontv",
+          "type": "entertainment",
+          "topic": "Comedy Sketch"
+        },
+        {
+          "time": "20:00",
+          "channel": "luapbeatssingles",
+          "type": "entertainment",
+          "topic": "Beat Showcase"
+        }
+      ],
+      "wednesday": [
+        {
+          "time": "12:00",
+          "channel": "insurancemastery",
+          "type": "educational",
+          "topic": "Product Comparison"
+        },
+        {
+          "time": "15:00",
+          "channel": "musicsynccentral",
+          "type": "educational",
+          "topic": "Industry Insights"
+        },
+        {
+          "time": "19:00",
+          "channel": "urbanfinanceguide",
+          "type": "educational",
+          "topic": "Wealth Building"
+        }
+      ],
+      "thursday": [
+        {
+          "time": "10:00",
+          "channel": "emergencymanagementpro",
+          "type": "educational",
+          "topic": "Response Tutorial"
+        },
+        {
+          "time": "14:00",
+          "channel": "aicontentcreators",
+          "type": "educational",
+          "topic": "Workflow Optimization"
+        },
+        {
+          "time": "18:00",
+          "channel": "flofactiontv",
+          "type": "entertainment",
+          "topic": "Urban Culture"
+        }
+      ],
+      "friday": [
+        {
+          "time": "12:00",
+          "channel": "insurancemastery",
+          "type": "educational",
+          "topic": "Market Analysis"
+        },
+        {
+          "time": "19:00",
+          "channel": "urbanfinanceguide",
+          "type": "educational",
+          "topic": "Credit Management"
+        },
+        {
+          "time": "20:00",
+          "channel": "luapbeatssingles",
+          "type": "entertainment",
+          "topic": "Song Premiere"
+        }
+      ],
+      "saturday": [
+        {
+          "time": "14:00",
+          "channel": "aicontentcreators",
+          "type": "educational",
+          "topic": "Case Study"
+        },
+        {
+          "time": "18:00",
+          "channel": "flofactiontv",
+          "type": "entertainment",
+          "topic": "Community Event"
+        },
+        {
+          "time": "20:00",
+          "channel": "luapbeatssingles",
+          "type": "entertainment",
+          "topic": "Recording Session"
+        }
+      ],
+      "sunday": [
+        {
+          "time": "10:00",
+          "channel": "emergencymanagementpro",
+          "type": "educational",
+          "topic": "Case Study"
+        },
+        {
+          "time": "15:00",
+          "channel": "musicsynccentral",
+          "type": "educational",
+          "topic": "Artist Spotlight"
+        },
+        {
+          "time": "18:00",
+          "channel": "flofactiontv",
+          "type": "entertainment",
+          "topic": "Behind-the-Scenes"
+        }
+      ]
+    },
+    "monthlyThemes": {
+      "january": "New Year, New Goals",
+      "february": "Love and Relationships",
+      "march": "Spring Cleaning and Organization",
+      "april": "Growth and Development",
+      "may": "Mother's Day and Family",
+      "june": "Summer Preparation",
+      "july": "Independence and Freedom",
+      "august": "Back to School",
+      "september": "Fall Preparation",
+      "october": "Halloween and Spooky",
+      "november": "Thanksgiving and Gratitude",
+      "december": "Holiday Season"
+    },
+    "seasonalContent": {
+      "spring": [
+        "Fresh starts",
+        "Growth strategies",
+        "Spring cleaning",
+        "New opportunities"
+      ],
+      "summer": [
+        "Summer activities",
+        "Vacation planning",
+        "Outdoor content",
+        "Summer goals"
+      ],
+      "fall": [
+        "Back to school",
+        "Fall preparation",
+        "Harvest season",
+        "Cozy content"
+      ],
+      "winter": [
+        "Holiday content",
+        "Winter preparation",
+        "Indoor activities",
+        "Year-end reviews"
+      ]
+    }
+  },
+  "qualityControl": {
+    "preProduction": [
+      "Script review and approval",
+      "Equipment functionality test",
+      "Lighting and audio check",
+      "Talent preparation",
+      "Set design verification"
+    ],
+    "production": [
+      "Video quality monitoring",
+      "Audio level monitoring",
+      "Content accuracy check",
+      "Brand consistency verification",
+      "Technical quality control"
+    ],
+    "postProduction": [
+      "Video editing review",
+      "Audio mixing check",
+      "Graphics and text accuracy",
+      "Thumbnail optimization",
+      "Final quality control"
+    ],
+    "distribution": [
+      "Metadata accuracy",
+      "SEO optimization",
+      "Cross-platform consistency",
+      "Analytics tracking",
+      "Performance monitoring"
+    ]
+  },
+  "generatedAt": "2025-09-24T06:00:50.698Z"
+}

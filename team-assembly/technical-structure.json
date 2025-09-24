@@ -1,0 +1,42 @@
+{
+  "webDeveloper": {
+    "role": "Web Developer",
+    "responsibilities": [
+      "Website development and maintenance",
+      "Technical infrastructure management",
+      "AI system integration",
+      "Performance optimization",
+      "Security and compliance"
+    ],
+    "requirements": [
+      "3+ years web development experience",
+      "Full-stack development skills",
+      "AI and automation knowledge",
+      "Modern frameworks expertise",
+      "Problem-solving abilities"
+    ],
+    "salary": "$60,000-$85,000",
+    "equity": "2-4%",
+    "status": "Month 2 Hire"
+  },
+  "aiSpecialist": {
+    "role": "AI Specialist",
+    "responsibilities": [
+      "AI system development and optimization",
+      "Nova Act integration and management",
+      "Automation workflow creation",
+      "Performance monitoring and improvement",
+      "Technical innovation"
+    ],
+    "requirements": [
+      "3+ years AI/ML experience",
+      "Python and AI frameworks expertise",
+      "Automation and integration skills",
+      "Analytical and problem-solving abilities",
+      "Continuous learning mindset"
+    ],
+    "salary": "$70,000-$95,000",
+    "equity": "3-5%",
+    "status": "Priority Hire #3"
+  }
+}

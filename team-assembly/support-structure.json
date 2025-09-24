@@ -1,0 +1,42 @@
+{
+  "administrativeAssistant": {
+    "role": "Administrative Assistant",
+    "responsibilities": [
+      "Administrative support and coordination",
+      "Schedule management and organization",
+      "Documentation and record keeping",
+      "Office management and supplies",
+      "Team support and coordination"
+    ],
+    "requirements": [
+      "2+ years administrative experience",
+      "Strong organizational skills",
+      "Communication and interpersonal abilities",
+      "Software proficiency",
+      "Attention to detail"
+    ],
+    "salary": "$30,000-$40,000",
+    "equity": "0.5-1%",
+    "status": "Month 1 Hire"
+  },
+  "customerService": {
+    "role": "Customer Service Representative",
+    "responsibilities": [
+      "Client support and assistance",
+      "Inquiry handling and resolution",
+      "Customer satisfaction management",
+      "Communication and relationship building",
+      "Support documentation"
+    ],
+    "requirements": [
+      "2+ years customer service experience",
+      "Excellent communication skills",
+      "Problem-solving abilities",
+      "Patience and empathy",
+      "CRM system proficiency"
+    ],
+    "salary": "$28,000-$38,000",
+    "equity": "0.5-1%",
+    "status": "Month 2 Hire"
+  }
+}

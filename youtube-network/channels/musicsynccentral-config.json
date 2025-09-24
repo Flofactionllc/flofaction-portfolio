@@ -1,0 +1,15 @@
+{
+  "id": "musicsynccentral",
+  "name": "Music Sync Central",
+  "focus": "Music licensing, sync deals, industry insights",
+  "contentTypes": [
+    "Sync licensing tutorials",
+    "Industry news and trends",
+    "Artist spotlights",
+    "Deal negotiation guides",
+    "Catalog management tips"
+  ],
+  "targetAudience": "Music supervisors, artists, content creators",
+  "postingSchedule": "Monday, Wednesday at 3 PM EST",
+  "monetization": "Music sales, licensing deals, artist services"
+}

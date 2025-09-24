@@ -1,0 +1,47 @@
+{
+  "editing": {
+    "name": "Adobe Creative Suite",
+    "price": 60,
+    "period": "month",
+    "features": [
+      "Premiere Pro - Video editing",
+      "After Effects - Motion graphics",
+      "Photoshop - Image editing",
+      "Illustrator - Graphics design",
+      "Audition - Audio editing",
+      "Media Encoder - Export optimization"
+    ],
+    "useCase": "Complete creative suite",
+    "quantity": 2
+  },
+  "productivity": {
+    "name": "Productivity Suite",
+    "price": 50,
+    "period": "month",
+    "features": [
+      "Notion - Project management",
+      "Slack - Team communication",
+      "Zoom - Video conferencing",
+      "Google Workspace - Collaboration",
+      "Dropbox - File sharing",
+      "Calendly - Scheduling"
+    ],
+    "useCase": "Team productivity and collaboration",
+    "quantity": 1
+  },
+  "analytics": {
+    "name": "Analytics Tools",
+    "price": 25,
+    "period": "month",
+    "features": [
+      "TubeBuddy - YouTube optimization",
+      "VidIQ - Video analytics",
+      "Social Blade - Social media tracking",
+      "Hootsuite - Social media management",
+      "Google Analytics - Website analytics",
+      "Mailchimp - Email marketing"
+    ],
+    "useCase": "Performance monitoring and optimization",
+    "quantity": 1
+  }
+}

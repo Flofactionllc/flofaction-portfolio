@@ -1,0 +1,58 @@
+{
+  "primary": {
+    "name": "Sony FX6",
+    "price": 6000,
+    "features": [
+      "4K recording capability",
+      "Full-frame sensor",
+      "Professional audio inputs",
+      "ND filter system",
+      "Long battery life",
+      "Low-light performance"
+    ],
+    "useCase": "Main camera for all content",
+    "quantity": 1
+  },
+  "secondary": {
+    "name": "Canon EOS R5",
+    "price": 3900,
+    "features": [
+      "8K video recording",
+      "45MP still photography",
+      "In-body stabilization",
+      "Dual card slots",
+      "Weather sealing",
+      "Fast autofocus"
+    ],
+    "useCase": "Secondary angles and B-roll",
+    "quantity": 1
+  },
+  "mobile": {
+    "name": "iPhone 15 Pro",
+    "price": 1200,
+    "features": [
+      "4K ProRes recording",
+      "Cinematic mode",
+      "Action mode stabilization",
+      "Professional audio",
+      "Portable and versatile",
+      "Easy social media integration"
+    ],
+    "useCase": "Mobile content and social media",
+    "quantity": 2
+  },
+  "action": {
+    "name": "GoPro Hero 12",
+    "price": 400,
+    "features": [
+      "5.3K video recording",
+      "Waterproof design",
+      "HyperSmooth stabilization",
+      "TimeWarp 3.0",
+      "Voice control",
+      "Compact size"
+    ],
+    "useCase": "Action shots and unique angles",
+    "quantity": 2
+  }
+}

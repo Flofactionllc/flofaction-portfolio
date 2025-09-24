@@ -1,0 +1,15 @@
+{
+  "id": "insurancemastery",
+  "name": "Insurance Mastery",
+  "focus": "Financial education, insurance products, retirement planning",
+  "contentTypes": [
+    "Educational guides",
+    "Product comparisons",
+    "Client success stories",
+    "Market analysis",
+    "Retirement planning tutorials"
+  ],
+  "targetAudience": "Insurance professionals, financial advisors, consumers",
+  "postingSchedule": "Monday, Wednesday, Friday at 12 PM EST",
+  "monetization": "Lead generation, course sales, consulting"
+}

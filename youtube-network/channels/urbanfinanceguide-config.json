@@ -1,0 +1,15 @@
+{
+  "id": "urbanfinanceguide",
+  "name": "Urban Finance Guide",
+  "focus": "Financial literacy, investment strategies, wealth building",
+  "contentTypes": [
+    "Personal finance basics",
+    "Investment strategies",
+    "Wealth building tactics",
+    "Credit and debt management",
+    "Real estate investing"
+  ],
+  "targetAudience": "Urban professionals, young adults, entrepreneurs",
+  "postingSchedule": "Monday, Wednesday, Friday at 7 PM EST",
+  "monetization": "Financial courses, investment products, consulting"
+}

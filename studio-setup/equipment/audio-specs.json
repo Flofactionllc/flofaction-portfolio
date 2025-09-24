@@ -1,0 +1,58 @@
+{
+  "wireless": {
+    "name": "Rode Wireless Pro",
+    "price": 1200,
+    "features": [
+      "Dual-channel wireless",
+      "32-bit float recording",
+      "Noise cancellation",
+      "Long battery life",
+      "Professional quality",
+      "Easy setup"
+    ],
+    "useCase": "Wireless microphones for interviews",
+    "quantity": 1
+  },
+  "studio": {
+    "name": "Shure SM7B",
+    "price": 400,
+    "features": [
+      "Professional broadcast quality",
+      "Cardioid pattern",
+      "Low noise floor",
+      "Built-in pop filter",
+      "Industry standard",
+      "Versatile applications"
+    ],
+    "useCase": "Studio voiceovers and podcasts",
+    "quantity": 2
+  },
+  "interface": {
+    "name": "Focusrite Scarlett 4i4",
+    "price": 200,
+    "features": [
+      "4 inputs, 4 outputs",
+      "High-quality preamps",
+      "Low latency",
+      "USB connectivity",
+      "Professional software",
+      "Reliable performance"
+    ],
+    "useCase": "Audio interface for recording",
+    "quantity": 1
+  },
+  "headphones": {
+    "name": "Audio-Technica ATH-M50x",
+    "price": 150,
+    "features": [
+      "Professional monitoring",
+      "Excellent sound quality",
+      "Comfortable design",
+      "Detachable cable",
+      "Industry standard",
+      "Durable construction"
+    ],
+    "useCase": "Audio monitoring during production",
+    "quantity": 4
+  }
+}

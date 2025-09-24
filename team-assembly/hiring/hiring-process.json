@@ -1,0 +1,110 @@
+{
+  "recruitment": {
+    "jobBoards": [
+      "LinkedIn",
+      "Indeed",
+      "Glassdoor",
+      "AngelList",
+      "Remote.co",
+      "We Work Remotely"
+    ],
+    "networking": [
+      "Industry events and conferences",
+      "Professional associations",
+      "University partnerships",
+      "Referral programs",
+      "Social media outreach"
+    ],
+    "branding": [
+      "Company culture and values",
+      "Growth opportunities",
+      "Competitive compensation",
+      "Flexible work arrangements",
+      "Professional development"
+    ]
+  },
+  "screening": {
+    "initialReview": [
+      "Resume and portfolio review",
+      "Cover letter assessment",
+      "Application completeness check",
+      "Basic qualifications verification",
+      "Cultural fit evaluation"
+    ],
+    "phoneScreening": [
+      "Initial conversation and rapport",
+      "Basic qualifications confirmation",
+      "Salary expectations discussion",
+      "Availability and timeline",
+      "Interest level assessment"
+    ],
+    "technicalAssessment": [
+      "Skills-based testing",
+      "Portfolio review",
+      "Technical problem solving",
+      "Industry knowledge evaluation",
+      "Practical application testing"
+    ]
+  },
+  "interviews": {
+    "firstRound": {
+      "format": "Video interview",
+      "duration": "30-45 minutes",
+      "participants": "Hiring manager + HR",
+      "focus": [
+        "Experience and background",
+        "Skills and qualifications",
+        "Cultural fit assessment",
+        "Motivation and interest",
+        "Basic technical knowledge"
+      ]
+    },
+    "secondRound": {
+      "format": "In-person or video panel",
+      "duration": "60-90 minutes",
+      "participants": "Team members + leadership",
+      "focus": [
+        "Technical skills demonstration",
+        "Problem-solving abilities",
+        "Team collaboration assessment",
+        "Leadership potential evaluation",
+        "Cultural alignment verification"
+      ]
+    },
+    "finalRound": {
+      "format": "Executive interview",
+      "duration": "30-45 minutes",
+      "participants": "CEO + Department head",
+      "focus": [
+        "Strategic thinking",
+        "Leadership potential",
+        "Company vision alignment",
+        "Compensation negotiation",
+        "Final decision making"
+      ]
+    }
+  },
+  "decision": {
+    "evaluationCriteria": [
+      "Technical skills and experience",
+      "Cultural fit and values alignment",
+      "Communication and interpersonal skills",
+      "Problem-solving and analytical abilities",
+      "Growth potential and motivation"
+    ],
+    "scoringSystem": [
+      "Technical skills (30%)",
+      "Cultural fit (25%)",
+      "Communication (20%)",
+      "Problem-solving (15%)",
+      "Growth potential (10%)"
+    ],
+    "referenceChecks": [
+      "Previous employer verification",
+      "Performance feedback collection",
+      "Character and work ethic assessment",
+      "Skills and abilities confirmation",
+      "Red flag identification"
+    ]
+  }
+}

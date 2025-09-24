@@ -1,0 +1,18 @@
+{
+  "structure": [
+    "Hook (0-15s): Problem or question",
+    "Introduction (15-30s): Value proposition",
+    "Main Content (30s-end): Step-by-step explanation",
+    "Call-to-Action (last 30s): Subscribe and engage",
+    "Outro (last 10s): Brand reminder"
+  ],
+  "elements": [
+    "Clear learning objectives",
+    "Visual aids and graphics",
+    "Examples and case studies",
+    "Actionable takeaways",
+    "Related content suggestions"
+  ],
+  "duration": "8-15 minutes",
+  "thumbnailStyle": "Clean, professional, educational"
+}

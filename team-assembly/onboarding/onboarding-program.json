@@ -1,0 +1,101 @@
+{
+  "preBoarding": {
+    "weekBefore": [
+      "Welcome email and introduction",
+      "Equipment and access preparation",
+      "Documentation and forms completion",
+      "Schedule and expectations communication",
+      "Team introduction and contact information"
+    ],
+    "dayBefore": [
+      "Final preparation and confirmation",
+      "Equipment delivery and setup",
+      "Access credentials and accounts",
+      "First day schedule confirmation",
+      "Welcome package preparation"
+    ]
+  },
+  "firstWeek": {
+    "day1": [
+      "Welcome and orientation",
+      "Company culture and values introduction",
+      "Team introductions and meetings",
+      "Equipment setup and training",
+      "Basic systems and tools training"
+    ],
+    "day2": [
+      "Role-specific training",
+      "Process and workflow introduction",
+      "Tools and software training",
+      "Documentation and resources review",
+      "Mentor assignment and introduction"
+    ],
+    "day3": [
+      "Hands-on training and practice",
+      "Project assignment and guidance",
+      "Team collaboration training",
+      "Communication protocols training",
+      "Feedback and support provision"
+    ],
+    "day4": [
+      "Independent work and practice",
+      "Mentor check-in and support",
+      "Process refinement and questions",
+      "Team integration activities",
+      "Progress assessment and feedback"
+    ],
+    "day5": [
+      "Week review and assessment",
+      "Goal setting and planning",
+      "Team building activities",
+      "Feedback collection and improvement",
+      "Next week planning and preparation"
+    ]
+  },
+  "firstMonth": {
+    "week2": [
+      "Advanced training and development",
+      "Project ownership and responsibility",
+      "Team collaboration and communication",
+      "Performance monitoring and feedback",
+      "Goal progress tracking"
+    ],
+    "week3": [
+      "Independent project work",
+      "Mentor guidance and support",
+      "Skill development and improvement",
+      "Team integration and contribution",
+      "Performance evaluation and feedback"
+    ],
+    "week4": [
+      "Full responsibility assumption",
+      "Performance review and assessment",
+      "Goal achievement evaluation",
+      "Improvement plan development",
+      "Long-term planning and development"
+    ]
+  },
+  "ongoing": {
+    "monthly": [
+      "Performance review and feedback",
+      "Goal setting and planning",
+      "Development opportunities identification",
+      "Team building and culture reinforcement",
+      "Career development planning"
+    ],
+    "quarterly": [
+      "Comprehensive performance review",
+      "Career development assessment",
+      "Compensation and benefits review",
+      "Team contribution evaluation",
+      "Future planning and goal setting"
+    ],
+    "annually": [
+      "Full performance evaluation",
+      "Career advancement planning",
+      "Compensation and equity review",
+      "Leadership development assessment",
+      "Long-term career planning"
+    ]
+  }
+}
