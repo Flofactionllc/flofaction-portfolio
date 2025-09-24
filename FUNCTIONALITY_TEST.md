@@ -219,6 +219,6 @@ The FloFaction website is **100% functional** and ready for deployment. All page
 
 ---
 
-*Test completed on: December 2024*  
-*Flo Faction LLC - EIN #85-2167111*  
+*Test completed on: December 2024*
+*Flo Faction LLC - EIN #85-2167111*
 *Port St. Lucie, Florida*

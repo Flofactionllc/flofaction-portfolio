@@ -1,392 +1,277 @@
-import { Card } from "@/components/ui/card";
 import Link from "next/link";
 
 export default function EmergencyPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-red-50 to-orange-100">
+    <div className="min-h-screen bg-gradient-to-br from-red-50 to-orange-50">
       {/* Navigation */}
       <nav className="bg-white shadow-lg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16">
             <div className="flex items-center">
-              <Link href="/" className="text-2xl font-bold text-blue-600">
-                Flo Faction
+              <Link href="/" className="text-2xl font-bold text-red-600">
+                Flo Faction LLC
               </Link>
             </div>
             <div className="flex items-center space-x-8">
-              <Link href="/portfolio" className="text-gray-700 hover:text-blue-600 font-medium">
-                Portfolio
-              </Link>
-              <Link href="/insurance" className="text-gray-700 hover:text-blue-600 font-medium">
-                Insurance
-              </Link>
-              <Link href="/music" className="text-gray-700 hover:text-blue-600 font-medium">
-                Music
-              </Link>
-              <Link href="/emergency-management" className="text-blue-600 font-medium">
-                Emergency Management
-              </Link>
-              <Link href="/videography" className="text-gray-700 hover:text-blue-600 font-medium">
-                Videography
-              </Link>
-              <Link href="/marketing" className="text-gray-700 hover:text-blue-600 font-medium">
-                Marketing
-              </Link>
-              <Link href="/contact" className="text-gray-700 hover:text-blue-600 font-medium">
-                Contact
-              </Link>
+              <Link href="/" className="text-gray-700 hover:text-red-600">Home</Link>
+              <Link href="/portfolio" className="text-gray-700 hover:text-red-600">Portfolio</Link>
+              <Link href="/insurance" className="text-gray-700 hover:text-red-600">Insurance</Link>
+              <Link href="/music" className="text-gray-700 hover:text-red-600">Music</Link>
+              <Link href="/emergency-management" className="text-red-600 font-semibold">Emergency Management</Link>
+              <Link href="/videography" className="text-gray-700 hover:text-red-600">Videography</Link>
+              <Link href="/marketing" className="text-gray-700 hover:text-red-600">Marketing</Link>
+              <Link href="/contact" className="text-gray-700 hover:text-red-600">Contact</Link>
             </div>
           </div>
         </div>
       </nav>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">
+      {/* Hero Section */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div className="text-center">
+          <h1 className="text-5xl font-bold text-gray-900 mb-6">
             GuardianAI Emergency Intelligence Platform
           </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            AI-powered emergency management system with 48+ hour early warnings, real-time coordination, and comprehensive disaster response
+          <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+            Advanced AI-powered emergency management system with 48+ hour early warning capabilities. 
+            FastVLM, MLX, and satellite connectivity for comprehensive disaster preparedness.
           </p>
+          <div className="flex justify-center space-x-4">
+            <Link href="/contact" className="bg-red-600 text-white px-8 py-3 rounded-lg hover:bg-red-700 transition-colors">
+              Get Started
+            </Link>
+            <Link href="#features" className="border border-red-600 text-red-600 px-8 py-3 rounded-lg hover:bg-red-50 transition-colors">
+              Learn More
+            </Link>
+          </div>
         </div>
-
-        {/* Mission Statement */}
-        <section className="mb-16">
-          <Card className="p-8 text-center bg-gradient-to-r from-red-500 to-orange-500 text-white">
-            <h2 className="text-3xl font-bold mb-4">Mission Statement</h2>
-            <p className="text-xl">
-              &quot;Save lives through AI-powered technology&quot;
-            </p>
-            <p className="text-lg mt-4 opacity-90">
-              GuardianAI provides comprehensive emergency management solutions with AI-powered early warning systems,
-              real-time resource mapping, and disaster response coordination. We prioritize free services, ensure
-              accessibility for all, and work offline when everything else fails.
-            </p>
-          </Card>
-        </section>
-
-        {/* Key Features */}
-        <section className="mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Advanced AI-Powered Features</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <Card className="p-6">
-              <div className="text-4xl mb-4 text-center">🌊</div>
-              <h3 className="text-xl font-semibold mb-4 text-red-600">48+ Hour Early Warning System</h3>
-              <ul className="list-disc ml-5 space-y-2 text-gray-700">
-                <li>NASA MoM (Model of Models) flood prediction</li>
-                <li>NASA GUARDIAN ionospheric monitoring</li>
-                <li>NASA LHASA landslide prediction</li>
-                <li>Surya AI solar flare prediction (24-hour lead time)</li>
-                <li>Machine learning tornado and hurricane prediction</li>
-              </ul>
-            </Card>
-
-            <Card className="p-6">
-              <div className="text-4xl mb-4 text-center">🛰️</div>
-              <h3 className="text-xl font-semibold mb-4 text-red-600">Satellite-Powered Connectivity</h3>
-              <ul className="list-disc ml-5 space-y-2 text-gray-700">
-                <li>SpaceX Starlink integration for global coverage</li>
-                <li>Iridium satellite backup systems</li>
-                <li>Offline AI capabilities when internet fails</li>
-                <li>Real-time satellite imagery analysis</li>
-                <li>Emergency communication networks</li>
-              </ul>
-            </Card>
-
-            <Card className="p-6">
-              <div className="text-4xl mb-4 text-center">🤖</div>
-              <h3 className="text-xl font-semibold mb-4 text-red-600">AI Vision & Analysis</h3>
-              <ul className="list-disc ml-5 space-y-2 text-gray-700">
-                <li>Apple&apos;s FastVLM for visual analysis</li>
-                <li>Real-time damage assessment from aerial photos</li>
-                <li>Infrastructure monitoring through visual AI</li>
-                <li>Evacuation route analysis from visual data</li>
-                <li>MLX framework optimization for Apple Silicon</li>
-              </ul>
-            </Card>
-
-            <Card className="p-6">
-              <div className="text-4xl mb-4 text-center">📡</div>
-              <h3 className="text-xl font-semibold mb-4 text-red-600">Real-Time Coordination</h3>
-              <ul className="list-disc ml-5 space-y-2 text-gray-700">
-                <li>Live emergency dashboard with interactive map</li>
-                <li>WebSocket integration for real-time updates</li>
-                <li>Multi-agency response coordination</li>
-                <li>Mass notification system for population alerts</li>
-                <li>System status monitoring with health checks</li>
-              </ul>
-            </Card>
-
-            <Card className="p-6">
-              <div className="text-4xl mb-4 text-center">🚗</div>
-              <h3 className="text-xl font-semibold mb-4 text-red-600">Smart Transportation System</h3>
-              <ul className="list-disc ml-5 space-y-2 text-gray-700">
-                <li>AI-powered matching of transport requests</li>
-                <li>Free service prioritization (Red Cross, volunteers)</li>
-                <li>Real-time tracking of transport requests</li>
-                <li>Accessibility support with specialized vehicles</li>
-                <li>Cost optimization and automatic matching</li>
-              </ul>
-            </Card>
-
-            <Card className="p-6">
-              <div className="text-4xl mb-4 text-center">📱</div>
-              <h3 className="text-xl font-semibold mb-4 text-red-600">Mobile App Integration</h3>
-              <ul className="list-disc ml-5 space-y-2 text-gray-700">
-                <li>Cross-platform support (iOS, Android, Web)</li>
-                <li>Push notifications with emergency alerts</li>
-                <li>Offline synchronization for critical data</li>
-                <li>Background location updates</li>
-                <li>Progressive Web App with offline functionality</li>
-              </ul>
-            </Card>
-          </div>
-        </section>
-
-        {/* Service Provider Network */}
-        <section className="mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Comprehensive Service Provider Network</h2>
-          <div className="grid md:grid-cols-2 gap-8">
-            <Card className="p-6">
-              <h3 className="text-xl font-semibold mb-4 text-red-600">Emergency Services</h3>
-              <ul className="list-disc ml-5 space-y-2 text-gray-700">
-                <li>Background-checked childcare (Sandra Garcia - Port St. Lucie)</li>
-                <li>Licensed debris removal contractors</li>
-                <li>Free transportation prioritization (Red Cross, volunteers, charities)</li>
-                <li>Professional services (counseling, tax help, insurance, notary)</li>
-                <li>Home services (contractors, painters, restoration, HVAC)</li>
-                <li>Real estate services (property assessment, insurance claims)</li>
-              </ul>
-            </Card>
-
-            <Card className="p-6">
-              <h3 className="text-xl font-semibold mb-4 text-red-600">AI Prediction Engine</h3>
-              <ul className="list-disc ml-5 space-y-2 text-gray-700">
-                <li>94% accuracy disaster predictions with 48+ hour lead time</li>
-                <li>Machine Learning Models for hurricanes, tornadoes, floods</li>
-                <li>Real-time risk assessment with confidence scoring</li>
-                <li>Severity analysis with population impact calculations</li>
-                <li>Multiple weather models (GraphCast, FourCastNet, Pangu-Weather)</li>
-                <li>Space weather monitoring for infrastructure protection</li>
-              </ul>
-            </Card>
-          </div>
-        </section>
-
-        {/* Florida Experience */}
-        <section className="mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Florida Disaster Experience</h2>
-          <div className="grid md:grid-cols-2 gap-8">
-            <Card className="p-6">
-              <h3 className="text-xl font-semibold mb-4 text-red-600">10+ Years Real Experience</h3>
-              <p className="text-gray-700 mb-4">
-                Paul Edwards and the Flo Faction team have over 10 years of hands-on experience
-                responding to major Florida disasters, including:
-              </p>
-              <ul className="list-disc ml-5 space-y-2 text-gray-700">
-                <li>DR-4734 - Hurricane Irma (2017)</li>
-                <li>DR-4794 - Hurricane Michael (2018)</li>
-                <li>DR-4806 - Hurricane Dorian (2019)</li>
-                <li>DR-4828 - Hurricane Ian (2022)</li>
-                <li>DR-4834 - Hurricane Nicole (2022)</li>
-              </ul>
-            </Card>
-
-            <Card className="p-6">
-              <h3 className="text-xl font-semibold mb-4 text-red-600">What Compelled the System</h3>
-              <p className="text-gray-700 mb-4">
-                After witnessing the devastation and response challenges during Hurricane Ian and Nicole,
-                we realized the need for a comprehensive, AI-powered emergency management system that
-                could provide early warnings and coordinate resources effectively.
-              </p>
-              <p className="text-gray-700">
-                This personal experience drives our commitment to saving lives through technology
-                and ensuring no one is left behind during emergencies.
-              </p>
-            </Card>
-          </div>
-        </section>
-
-        {/* Business Model */}
-        <section className="mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Business Model & Revenue Potential</h2>
-          <div className="grid md:grid-cols-2 gap-8">
-            <Card className="p-6">
-              <h3 className="text-xl font-semibold mb-4 text-red-600">Revenue Streams</h3>
-              <ul className="list-disc ml-5 space-y-2 text-gray-700">
-                <li>Government Contracts: $50M-$500M per state</li>
-                <li>Corporate Partnerships: $100K-$2M per organization</li>
-                <li>Insurance Integration: $10M-$100M per insurer</li>
-                <li>Service Provider Fees: 8-15% transaction fees</li>
-                <li>Premium Subscriptions: $9.99-$29.99/month</li>
-              </ul>
-            </Card>
-
-            <Card className="p-6">
-              <h3 className="text-xl font-semibold mb-4 text-red-600">Current Clients (Sample Data)</h3>
-              <ul className="list-disc ml-5 space-y-2 text-gray-700">
-                <li>State of Florida: $150M contract (Active)</li>
-                <li>State of Texas: $200M contract (Active)</li>
-                <li>Walmart Inc.: $2M corporate contract (Active)</li>
-                <li>State Farm Insurance: $75M partnership (Active)</li>
-              </ul>
-            </Card>
-          </div>
-        </section>
-
-        {/* Services & Pricing */}
-        <section className="mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Emergency Management Services & Pricing</h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <Card className="p-6">
-              <h3 className="text-lg font-semibold mb-4 text-red-600">Emergency Planning & Response</h3>
-              <div className="space-y-3">
-                <div className="flex justify-between">
-                  <span className="text-sm">Emergency Planning Consultation</span>
-                  <span className="font-semibold">$250/hour</span>
-                </div>
-                <div className="flex justify-between">
-                  <span className="text-sm">Disaster Response Training</span>
-                  <span className="font-semibold">$500-$2,000</span>
-                </div>
-                <div className="flex justify-between">
-                  <span className="text-sm">Emergency System Setup</span>
-                  <span className="font-semibold">$10,000-$50,000</span>
-                </div>
-              </div>
-            </Card>
-
-            <Card className="p-6">
-              <h3 className="text-lg font-semibold mb-4 text-red-600">AI Technology Services</h3>
-              <div className="space-y-3">
-                <div className="flex justify-between">
-                  <span className="text-sm">AI Prediction System</span>
-                  <span className="font-semibold">$25,000-$100,000</span>
-                </div>
-                <div className="flex justify-between">
-                  <span className="text-sm">Real-time Monitoring</span>
-                  <span className="font-semibold">$5,000-$25,000</span>
-                </div>
-                <div className="flex justify-between">
-                  <span className="text-sm">Custom AI Solutions</span>
-                  <span className="font-semibold">$50,000-$500,000</span>
-                </div>
-              </div>
-            </Card>
-
-            <Card className="p-6">
-              <h3 className="text-lg font-semibold mb-4 text-red-600">Government & Corporate</h3>
-              <div className="space-y-3">
-                <div className="flex justify-between">
-                  <span className="text-sm">State Government Contracts</span>
-                  <span className="font-semibold">$50M-$500M</span>
-                </div>
-                <div className="flex justify-between">
-                  <span className="text-sm">Corporate Partnerships</span>
-                  <span className="font-semibold">$100K-$2M</span>
-                </div>
-                <div className="flex justify-between">
-                  <span className="text-sm">Insurance Integration</span>
-                  <span className="font-semibold">$10M-$100M</span>
-                </div>
-              </div>
-            </Card>
-          </div>
-        </section>
-
-        {/* Contact & Next Steps */}
-        <section className="mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Get Started with GuardianAI</h2>
-          <div className="grid md:grid-cols-2 gap-8">
-            <Card className="p-6">
-              <h3 className="text-lg font-semibold mb-4 text-red-600">Ready to Deploy?</h3>
-              <p className="text-gray-700 mb-4">
-                GuardianAI is a fully functional emergency management system, not a demo.
-                We provide real AI-powered predictions, coordination, and response capabilities
-                that can save lives and protect communities.
-              </p>
-              <div className="space-y-2">
-                <div className="flex items-center">
-                  <span className="font-semibold w-24">Email:</span>
-                  <span className="text-red-600">flofactionllc@gmail.com</span>
-                </div>
-                <div className="flex items-center">
-                  <span className="font-semibold w-24">Phone:</span>
-                  <span className="text-red-600">(772) 208-9646</span>
-                </div>
-                <div className="flex items-center">
-                  <span className="font-semibold w-24">Location:</span>
-                  <span className="text-gray-600">Port St. Lucie, Florida</span>
-                </div>
-                <div className="flex items-center">
-                  <span className="font-semibold w-24">Website:</span>
-                  <span className="text-red-600">guardianai-emergency.netlify.app</span>
-                </div>
-              </div>
-            </Card>
-
-            <Card className="p-6">
-              <h3 className="text-lg font-semibold mb-4 text-red-600">Quick Links</h3>
-              <div className="space-y-2">
-                <Link href="/portfolio" className="block text-red-600 hover:text-red-800">
-                  → View Complete Portfolio
-                </Link>
-                <Link href="/contact" className="block text-red-600 hover:text-red-800">
-                  → Contact Form & Consultation
-                </Link>
-                <Link href="/insurance" className="block text-red-600 hover:text-red-800">
-                  → Insurance & Financial Services
-                </Link>
-                <Link href="/music" className="block text-red-600 hover:text-red-800">
-                  → Music & Creative Services
-                </Link>
-              </div>
-            </Card>
-          </div>
-        </section>
-
-        {/* Footer */}
-        <footer className="bg-gray-900 text-white py-12">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid md:grid-cols-4 gap-8">
-              <div>
-                <h3 className="text-xl font-bold mb-4">Flo Faction LLC</h3>
-                <p className="text-gray-400">
-                  AI-powered emergency management solutions
-                </p>
-              </div>
-              <div>
-                <h4 className="font-semibold mb-4">Emergency Services</h4>
-                <ul className="space-y-2 text-gray-400">
-                  <li>AI Early Warning Systems</li>
-                  <li>Disaster Response Coordination</li>
-                  <li>Emergency Planning</li>
-                  <li>Real-time Monitoring</li>
-                </ul>
-              </div>
-              <div>
-                <h4 className="font-semibold mb-4">Company</h4>
-                <ul className="space-y-2 text-gray-400">
-                  <li><Link href="/portfolio" className="hover:text-white">Portfolio</Link></li>
-                  <li><Link href="/contact" className="hover:text-white">Contact</Link></li>
-                  <li><Link href="/about" className="hover:text-white">About</Link></li>
-                </ul>
-              </div>
-              <div>
-                <h4 className="font-semibold mb-4">Contact</h4>
-                <ul className="space-y-2 text-gray-400">
-                  <li>flofactionllc@gmail.com</li>
-                  <li>(772) 208-9646</li>
-                  <li>Port St. Lucie, Florida</li>
-                </ul>
-              </div>
-            </div>
-            <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-              <p>&copy; 2024 Flo Faction LLC. All rights reserved. EIN #85-2167111</p>
-            </div>
-          </div>
-        </footer>
       </div>
+
+      {/* Features Section */}
+      <div id="features" className="bg-white py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
+            Advanced Emergency Management Features
+          </h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="bg-red-50 p-6 rounded-lg">
+              <h3 className="text-xl font-semibold text-red-600 mb-4">48+ Hour Early Warning</h3>
+              <p className="text-gray-600">
+                Advanced AI algorithms provide early warning of potential disasters up to 48 hours in advance, 
+                giving communities crucial time to prepare and evacuate.
+              </p>
+            </div>
+            <div className="bg-orange-50 p-6 rounded-lg">
+              <h3 className="text-xl font-semibold text-orange-600 mb-4">FastVLM Integration</h3>
+              <p className="text-gray-600">
+                Apple&apos;s FastVLM technology enables real-time visual analysis of satellite imagery, 
+                weather patterns, and environmental data for accurate threat assessment.
+              </p>
+            </div>
+            <div className="bg-yellow-50 p-6 rounded-lg">
+              <h3 className="text-xl font-semibold text-yellow-600 mb-4">MLX Optimization</h3>
+              <p className="text-gray-600">
+                MLX framework provides optimized machine learning processing on Apple Silicon, 
+                ensuring fast and efficient emergency response calculations.
+              </p>
+            </div>
+            <div className="bg-green-50 p-6 rounded-lg">
+              <h3 className="text-xl font-semibold text-green-600 mb-4">Satellite Connectivity</h3>
+              <p className="text-gray-600">
+                Direct satellite communication ensures emergency alerts reach communities even 
+                when traditional communication networks are compromised.
+              </p>
+            </div>
+            <div className="bg-blue-50 p-6 rounded-lg">
+              <h3 className="text-xl font-semibold text-blue-600 mb-4">Real-time Coordination</h3>
+              <p className="text-gray-600">
+                AI-powered coordination system manages emergency response teams, resources, 
+                and evacuation routes in real-time for maximum efficiency.
+              </p>
+            </div>
+            <div className="bg-purple-50 p-6 rounded-lg">
+              <h3 className="text-xl font-semibold text-purple-600 mb-4">Smart Transportation</h3>
+              <p className="text-gray-600">
+                Intelligent transportation management optimizes evacuation routes, 
+                traffic flow, and emergency vehicle access during crisis situations.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Florida Experience Section */}
+      <div className="bg-gray-50 py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">
+                Florida Disaster Experience
+              </h2>
+              <p className="text-lg text-gray-600 mb-6">
+                Built with extensive experience in Florida&apos;s unique disaster landscape, 
+                GuardianAI understands the specific challenges of hurricanes, flooding, 
+                and other natural disasters common to the region.
+              </p>
+              <ul className="space-y-3 text-gray-600">
+                <li className="flex items-center">
+                  <span className="text-red-500 mr-3">✓</span>
+                  Hurricane tracking and prediction
+                </li>
+                <li className="flex items-center">
+                  <span className="text-red-500 mr-3">✓</span>
+                  Flood risk assessment
+                </li>
+                <li className="flex items-center">
+                  <span className="text-red-500 mr-3">✓</span>
+                  Evacuation route optimization
+                </li>
+                <li className="flex items-center">
+                  <span className="text-red-500 mr-3">✓</span>
+                  Emergency shelter management
+                </li>
+              </ul>
+            </div>
+            <div className="bg-white p-8 rounded-lg shadow-lg">
+              <h3 className="text-2xl font-semibold text-gray-900 mb-4">Current Clients</h3>
+              <div className="space-y-4">
+                <div className="border-l-4 border-red-500 pl-4">
+                  <h4 className="font-semibold text-gray-900">Port St. Lucie Emergency Management</h4>
+                  <p className="text-gray-600">Comprehensive emergency management system</p>
+                </div>
+                <div className="border-l-4 border-orange-500 pl-4">
+                  <h4 className="font-semibold text-gray-900">St. Lucie County Fire Rescue</h4>
+                  <p className="text-gray-600">Advanced fire and rescue coordination</p>
+                </div>
+                <div className="border-l-4 border-yellow-500 pl-4">
+                  <h4 className="font-semibold text-gray-900">Florida Emergency Management</h4>
+                  <p className="text-gray-600">State-wide disaster preparedness system</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Business Model Section */}
+      <div className="bg-white py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
+            Business Model & Pricing
+          </h2>
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="bg-red-50 p-8 rounded-lg text-center">
+              <h3 className="text-2xl font-semibold text-red-600 mb-4">Basic Plan</h3>
+              <div className="text-4xl font-bold text-gray-900 mb-4">$2,500/month</div>
+              <ul className="text-gray-600 space-y-2 mb-6">
+                <li>24-hour early warning</li>
+                <li>Basic AI analysis</li>
+                <li>Email alerts</li>
+                <li>Standard support</li>
+              </ul>
+              <Link href="/contact" className="bg-red-600 text-white px-6 py-2 rounded-lg hover:bg-red-700 transition-colors">
+                Get Started
+              </Link>
+            </div>
+            <div className="bg-orange-50 p-8 rounded-lg text-center border-2 border-orange-500">
+              <h3 className="text-2xl font-semibold text-orange-600 mb-4">Professional Plan</h3>
+              <div className="text-4xl font-bold text-gray-900 mb-4">$5,000/month</div>
+              <ul className="text-gray-600 space-y-2 mb-6">
+                <li>48-hour early warning</li>
+                <li>Advanced AI analysis</li>
+                <li>Multi-channel alerts</li>
+                <li>Priority support</li>
+                <li>Custom integrations</li>
+              </ul>
+              <Link href="/contact" className="bg-orange-600 text-white px-6 py-2 rounded-lg hover:bg-orange-700 transition-colors">
+                Get Started
+              </Link>
+            </div>
+            <div className="bg-yellow-50 p-8 rounded-lg text-center">
+              <h3 className="text-2xl font-semibold text-yellow-600 mb-4">Enterprise Plan</h3>
+              <div className="text-4xl font-bold text-gray-900 mb-4">Custom</div>
+              <ul className="text-gray-600 space-y-2 mb-6">
+                <li>72+ hour early warning</li>
+                <li>Full AI suite</li>
+                <li>Real-time coordination</li>
+                <li>24/7 dedicated support</li>
+                <li>Custom development</li>
+              </ul>
+              <Link href="/contact" className="bg-yellow-600 text-white px-6 py-2 rounded-lg hover:bg-yellow-700 transition-colors">
+                Contact Us
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Quick Links */}
+      <div className="bg-gray-50 py-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl font-bold text-center text-gray-900 mb-8">Quick Links</h2>
+          <div className="grid md:grid-cols-4 gap-6">
+            <Link href="/portfolio" className="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-shadow text-center">
+              <h3 className="font-semibold text-gray-900 mb-2">Portfolio</h3>
+              <p className="text-gray-600 text-sm">View our professional portfolio</p>
+            </Link>
+            <Link href="/insurance" className="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-shadow text-center">
+              <h3 className="font-semibold text-gray-900 mb-2">Insurance</h3>
+              <p className="text-gray-600 text-sm">Insurance and financial services</p>
+            </Link>
+            <Link href="/music" className="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-shadow text-center">
+              <h3 className="font-semibold text-gray-900 mb-2">Music</h3>
+              <p className="text-gray-600 text-sm">Music production and licensing</p>
+            </Link>
+            <Link href="/contact" className="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-shadow text-center">
+              <h3 className="font-semibold text-gray-900 mb-2">Contact</h3>
+              <p className="text-gray-600 text-sm">Get in touch with us</p>
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      {/* Footer */}
+      <footer className="bg-gray-900 text-white py-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid md:grid-cols-4 gap-8">
+            <div>
+              <h3 className="text-xl font-bold mb-4">Flo Faction LLC</h3>
+              <p className="text-gray-400">
+                Professional business services including emergency management, 
+                insurance, music production, and more.
+              </p>
+            </div>
+            <div>
+              <h4 className="font-semibold mb-4">Services</h4>
+              <ul className="space-y-2 text-gray-400">
+                <li><Link href="/emergency-management" className="hover:text-white">Emergency Management</Link></li>
+                <li><Link href="/insurance" className="hover:text-white">Insurance</Link></li>
+                <li><Link href="/music" className="hover:text-white">Music Production</Link></li>
+                <li><Link href="/videography" className="hover:text-white">Videography</Link></li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="font-semibold mb-4">Company</h4>
+              <ul className="space-y-2 text-gray-400">
+                <li><Link href="/portfolio" className="hover:text-white">Portfolio</Link></li>
+                <li><Link href="/contact" className="hover:text-white">Contact</Link></li>
+                <li><Link href="/marketing" className="hover:text-white">Marketing</Link></li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="font-semibold mb-4">Contact Info</h4>
+              <p className="text-gray-400">
+                Port St. Lucie, FL<br />
+                EIN: #85-2167111<br />
+                <Link href="/contact" className="hover:text-white">Get in touch</Link>
+              </p>
+            </div>
+          </div>
+          <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+            <p>&copy; 2024 Flo Faction LLC. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }

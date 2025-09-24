@@ -1,5 +1,27 @@
-import { Card } from "@/components/ui/card";
+import { Metadata } from 'next';
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: 'Insurance Services | Flo Faction',
+  description: 'Comprehensive insurance services including auto, home, life, health, and business insurance. Expert consultation and competitive rates for all your insurance needs.',
+  keywords: 'insurance, auto insurance, home insurance, life insurance, health insurance, business insurance, insurance quotes',
+  openGraph: {
+    title: 'Insurance Services | Flo Faction',
+    description: 'Comprehensive insurance services including auto, home, life, health, and business insurance. Expert consultation and competitive rates.',
+    type: 'website',
+    url: 'https://www.flofaction.com/insurance',
+    siteName: 'Flo Faction LLC',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Insurance Services | Flo Faction',
+    description: 'Comprehensive insurance services including auto, home, life, health, and business insurance. Expert consultation and competitive rates.',
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
 
 export default function InsurancePage() {
   return (
@@ -17,20 +39,17 @@ export default function InsurancePage() {
               <Link href="/portfolio" className="text-gray-700 hover:text-blue-600 font-medium">
                 Portfolio
               </Link>
-              <Link href="/insurance" className="text-blue-600 font-medium">
+              <Link href="/insurance" className="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors">
                 Insurance
               </Link>
               <Link href="/music" className="text-gray-700 hover:text-blue-600 font-medium">
                 Music
               </Link>
-              <Link href="/emergency-management" className="text-gray-700 hover:text-blue-600 font-medium">
-                Emergency Management
+              <Link href="/emergency" className="text-gray-700 hover:text-blue-600 font-medium">
+                Emergency
               </Link>
-              <Link href="/videography" className="text-gray-700 hover:text-blue-600 font-medium">
-                Videography
-              </Link>
-              <Link href="/marketing" className="text-gray-700 hover:text-blue-600 font-medium">
-                Marketing
+              <Link href="/ai-services" className="text-gray-700 hover:text-blue-600 font-medium">
+                AI Services
               </Link>
               <Link href="/contact" className="text-gray-700 hover:text-blue-600 font-medium">
                 Contact
@@ -40,329 +59,338 @@ export default function InsurancePage() {
         </div>
       </nav>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Insurance & Financial Services
-          </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Comprehensive insurance solutions, retirement planning, and financial consulting to secure your future
-          </p>
+      {/* Hero Section */}
+      <section className="relative py-20 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center">
+            <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
+              Insurance Services
+            </h1>
+            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+              Comprehensive insurance solutions to protect what matters most. Get expert consultation and competitive rates for all your insurance needs.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <button className="bg-green-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors">
+                Get Free Quote
+              </button>
+              <button className="border border-green-600 text-green-600 px-8 py-3 rounded-lg font-semibold hover:bg-green-50 transition-colors">
+                View Coverage Options
+              </button>
+            </div>
+          </div>
         </div>
+      </section>
 
-        {/* Services Overview */}
-        <section className="mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Our Insurance & Financial Services</h2>
+      {/* Insurance Types Section */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Insurance Coverage Types
+            </h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Comprehensive insurance solutions tailored to your specific needs
+            </p>
+          </div>
+
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <Card className="p-6">
-              <div className="text-4xl mb-4 text-center">🛡️</div>
-              <h3 className="text-xl font-semibold mb-4 text-green-600">Life Insurance</h3>
-              <ul className="list-disc ml-5 space-y-2 text-gray-700">
-                <li>Term Life Insurance</li>
-                <li>Whole Life Insurance</li>
-                <li>Universal Life Insurance</li>
-                <li>Variable Life Insurance</li>
-                <li>Final Expense Insurance</li>
-              </ul>
-              <div className="mt-4 text-sm text-gray-500">
-                Starting at $25/month
+            {/* Auto Insurance */}
+            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
+                <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7v8a2 2 0 002 2h6M8 7V5a2 2 0 012-2h4.586a1 1 0 01.707.293l4.414 4.414a1 1 0 01.293.707V15a2 2 0 01-2 2h-2M8 7H6a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2v-2" />
+                </svg>
               </div>
-            </Card>
-
-            <Card className="p-6">
-              <div className="text-4xl mb-4 text-center">💰</div>
-              <h3 className="text-xl font-semibold mb-4 text-green-600">Retirement Planning</h3>
-              <ul className="list-disc ml-5 space-y-2 text-gray-700">
-                <li>401(k) Management</li>
-                <li>IRA Planning & Rollovers</li>
-                <li>Annuity Solutions</li>
-                <li>Pension Planning</li>
-                <li>Social Security Optimization</li>
-              </ul>
-              <div className="mt-4 text-sm text-gray-500">
-                Consultation: $150/hour
-              </div>
-            </Card>
-
-            <Card className="p-6">
-              <div className="text-4xl mb-4 text-center">🏢</div>
-              <h3 className="text-xl font-semibold mb-4 text-green-600">Business Insurance</h3>
-              <ul className="list-disc ml-5 space-y-2 text-gray-700">
-                <li>General Liability</li>
-                <li>Professional Liability</li>
-                <li>Workers&apos; Compensation</li>
-                <li>Business Property</li>
-                <li>Cyber Liability</li>
-              </ul>
-              <div className="mt-4 text-sm text-gray-500">
-                Custom quotes available
-              </div>
-            </Card>
-
-            <Card className="p-6">
-              <div className="text-4xl mb-4 text-center">🏥</div>
-              <h3 className="text-xl font-semibold mb-4 text-green-600">Health Insurance</h3>
-              <ul className="list-disc ml-5 space-y-2 text-gray-700">
-                <li>Individual Health Plans</li>
-                <li>Family Health Coverage</li>
-                <li>Medicare Planning</li>
-                <li>Supplemental Insurance</li>
-                <li>Dental & Vision</li>
-              </ul>
-              <div className="mt-4 text-sm text-gray-500">
-                Licensed in Florida
-              </div>
-            </Card>
-
-            <Card className="p-6">
-              <div className="text-4xl mb-4 text-center">📊</div>
-              <h3 className="text-xl font-semibold mb-4 text-green-600">Financial Consulting</h3>
-              <ul className="list-disc ml-5 space-y-2 text-gray-700">
-                <li>Investment Planning</li>
-                <li>Estate Planning</li>
-                <li>Tax Strategy</li>
-                <li>Wealth Management</li>
-                <li>Risk Assessment</li>
-              </ul>
-              <div className="mt-4 text-sm text-gray-500">
-                $200/hour consultation
-              </div>
-            </Card>
-
-            <Card className="p-6">
-              <div className="text-4xl mb-4 text-center">🚗</div>
-              <h3 className="text-xl font-semibold mb-4 text-green-600">Auto & Property</h3>
-              <ul className="list-disc ml-5 space-y-2 text-gray-700">
-                <li>Auto Insurance</li>
-                <li>Homeowners Insurance</li>
-                <li>Renters Insurance</li>
-                <li>Umbrella Coverage</li>
-                <li>Flood Insurance</li>
-              </ul>
-              <div className="mt-4 text-sm text-gray-500">
-                Competitive rates
-              </div>
-            </Card>
-          </div>
-        </section>
-
-        {/* Why Choose Us */}
-        <section className="mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Why Choose Flo Faction Insurance?</h2>
-          <div className="grid md:grid-cols-2 gap-8">
-            <Card className="p-6">
-              <h3 className="text-xl font-semibold mb-4 text-green-600">Our Expertise</h3>
-              <ul className="list-disc ml-5 space-y-2 text-gray-700">
-                <li>Licensed insurance agent in Florida</li>
-                <li>10+ years of financial planning experience</li>
-                <li>Specialized knowledge in life insurance and retirement planning</li>
-                <li>Comprehensive understanding of tax implications</li>
-                <li>Proven track record of client satisfaction</li>
-                <li>Ongoing education and certification maintenance</li>
-              </ul>
-            </Card>
-            <Card className="p-6">
-              <h3 className="text-xl font-semibold mb-4 text-green-600">Our Approach</h3>
-              <ul className="list-disc ml-5 space-y-2 text-gray-700">
-                <li>Personalized financial assessments</li>
-                <li>Customized insurance solutions</li>
-                <li>Transparent pricing and explanations</li>
-                <li>Ongoing support and policy reviews</li>
-                <li>Claims assistance and advocacy</li>
-                <li>Regular check-ins and updates</li>
-              </ul>
-            </Card>
-          </div>
-        </section>
-
-        {/* Case Studies */}
-        <section className="mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Success Stories</h2>
-          <div className="grid md:grid-cols-2 gap-8">
-            <Card className="p-6">
-              <h3 className="text-xl font-semibold mb-4 text-green-600">Young Professional - Brandon</h3>
-              <p className="text-gray-700 mb-4">
-                <strong>Client:</strong> Brandon Lamont Battee, 38, Health and Safety Officer<br/>
-                <strong>Challenge:</strong> Needed comprehensive life insurance with maximum cash value growth<br/>
-                <strong>Solution:</strong> Whole Life policy with $400 base + $1,600 overfunding = $2,000 total monthly<br/>
-                <strong>Result:</strong> Low death benefit, maximum overfunding for faster cash value growth
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Auto Insurance</h3>
+              <p className="text-gray-600 mb-6">
+                Protect your vehicle and yourself with comprehensive auto insurance coverage at competitive rates.
               </p>
-              <div className="bg-green-50 p-4 rounded-lg">
-                <p className="text-sm text-green-800">
-                  <strong>Policy Details:</strong> MassMutual Access WL, $2,000 monthly premium,
-                  optimized for cash value accumulation and tax advantages.
-                </p>
-              </div>
-            </Card>
-            <Card className="p-6">
-              <h3 className="text-xl font-semibold mb-4 text-green-600">Retirement Planning Success</h3>
-              <p className="text-gray-700 mb-4">
-                <strong>Client:</strong> Mid-career professional, 45 years old<br/>
-                <strong>Challenge:</strong> Maximize retirement savings and minimize tax burden<br/>
-                <strong>Solution:</strong> Comprehensive retirement strategy with multiple vehicles<br/>
-                <strong>Result:</strong> 40% increase in projected retirement income
-              </p>
-              <div className="bg-green-50 p-4 rounded-lg">
-                <p className="text-sm text-green-800">
-                  <strong>Strategy:</strong> 401(k) optimization, IRA rollover, annuity integration,
-                  and tax-efficient withdrawal planning.
-                </p>
-              </div>
-            </Card>
-          </div>
-        </section>
-
-        {/* Pricing & Packages */}
-        <section className="mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Pricing & Packages</h2>
-          <div className="grid md:grid-cols-2 gap-8">
-            <Card className="p-6">
-              <h3 className="text-lg font-semibold mb-4 text-green-600">Individual Services</h3>
-              <div className="space-y-3">
-                <div className="flex justify-between items-center">
-                  <span className="text-sm">Life Insurance Consultation</span>
-                  <span className="font-semibold">$150/hour</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-sm">Retirement Planning</span>
-                  <span className="font-semibold">$200/hour</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-sm">Financial Consulting</span>
-                  <span className="font-semibold">$200/hour</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-sm">Policy Review & Analysis</span>
-                  <span className="font-semibold">$100/hour</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-sm">Claims Assistance</span>
-                  <span className="font-semibold">$75/hour</span>
-                </div>
-              </div>
-            </Card>
-
-            <Card className="p-6">
-              <h3 className="text-lg font-semibold mb-4 text-green-600">Comprehensive Packages</h3>
-              <div className="space-y-4">
-                <div className="border-l-4 border-green-500 pl-4">
-                  <h4 className="font-semibold">Complete Financial Planning</h4>
-                  <p className="text-sm text-gray-600">Life insurance + retirement planning + investment strategy</p>
-                  <span className="text-green-600 font-semibold">$2,500-$5,000</span>
-                </div>
-                <div className="border-l-4 border-green-500 pl-4">
-                  <h4 className="font-semibold">Business Insurance Package</h4>
-                  <p className="text-sm text-gray-600">General liability + professional liability + workers&apos; comp</p>
-                  <span className="text-green-600 font-semibold">$1,500-$3,000</span>
-                </div>
-                <div className="border-l-4 border-green-500 pl-4">
-                  <h4 className="font-semibold">Family Protection Plan</h4>
-                  <p className="text-sm text-gray-600">Life insurance + health + auto + home coverage</p>
-                  <span className="text-green-600 font-semibold">$2,000-$4,000</span>
-                </div>
-              </div>
-            </Card>
-          </div>
-        </section>
-
-        {/* Contact & Consultation */}
-        <section className="mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Get Your Free Consultation</h2>
-          <div className="grid md:grid-cols-2 gap-8">
-            <Card className="p-6">
-              <h3 className="text-lg font-semibold mb-4 text-green-600">Ready to Get Started?</h3>
-              <p className="text-gray-700 mb-4">
-                Schedule a free consultation to discuss your insurance and financial needs.
-                We&apos;ll provide a comprehensive assessment and customized recommendations
-                to help you achieve your financial goals.
-              </p>
-              <div className="space-y-2">
-                <div className="flex items-center">
-                  <span className="font-semibold w-24">Email:</span>
-                  <span className="text-green-600">flofactionllc@gmail.com</span>
-                </div>
-                <div className="flex items-center">
-                  <span className="font-semibold w-24">Phone:</span>
-                  <span className="text-green-600">(772) 208-9646</span>
-                </div>
-                <div className="flex items-center">
-                  <span className="font-semibold w-24">Location:</span>
-                  <span className="text-gray-600">Port St. Lucie, Florida</span>
-                </div>
-                <div className="flex items-center">
-                  <span className="font-semibold w-24">Hours:</span>
-                  <span className="text-gray-600">Mon-Fri: 9:00 AM - 6:00 PM EST</span>
-                </div>
-              </div>
-            </Card>
-
-            <Card className="p-6">
-              <h3 className="text-lg font-semibold mb-4 text-green-600">Quick Links</h3>
-              <div className="space-y-2">
-                <Link href="/insurance/intake" className="block text-green-600 hover:text-green-800">
-                  → Insurance Intake Form
-                </Link>
-                <Link href="/portfolio" className="block text-green-600 hover:text-green-800">
-                  → View Complete Portfolio
-                </Link>
-                <Link href="/contact" className="block text-green-600 hover:text-green-800">
-                  → Contact Form & Consultation
-                </Link>
-                <Link href="/music" className="block text-green-600 hover:text-green-800">
-                  → Music & Creative Services
-                </Link>
-                <Link href="/emergency-management" className="block text-green-600 hover:text-green-800">
-                  → Emergency Management
-                </Link>
-              </div>
-            </Card>
-          </div>
-        </section>
-
-        {/* Footer */}
-        <footer className="bg-gray-900 text-white py-12">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid md:grid-cols-4 gap-8">
-              <div>
-                <h3 className="text-xl font-bold mb-4">Flo Faction LLC</h3>
-                <p className="text-gray-400">
-                  Licensed insurance and financial services
-                </p>
-              </div>
-              <div>
-                <h4 className="font-semibold mb-4">Insurance Services</h4>
-                <ul className="space-y-2 text-gray-400">
-                  <li>Life Insurance</li>
-                  <li>Retirement Planning</li>
-                  <li>Business Insurance</li>
-                  <li>Health Insurance</li>
-                </ul>
-              </div>
-              <div>
-                <h4 className="font-semibold mb-4">Company</h4>
-                <ul className="space-y-2 text-gray-400">
-                  <li><Link href="/portfolio" className="hover:text-white">Portfolio</Link></li>
-                  <li><Link href="/contact" className="hover:text-white">Contact</Link></li>
-                  <li><Link href="/about" className="hover:text-white">About</Link></li>
-                </ul>
-              </div>
-              <div>
-                <h4 className="font-semibold mb-4">Contact</h4>
-                <ul className="space-y-2 text-gray-400">
-                  <li>flofactionllc@gmail.com</li>
-                  <li>(772) 208-9646</li>
-                  <li>Port St. Lucie, Florida</li>
-                </ul>
-              </div>
+              <ul className="text-sm text-gray-500 space-y-2">
+                <li>• Liability Coverage</li>
+                <li>• Collision & Comprehensive</li>
+                <li>• Uninsured Motorist</li>
+                <li>• Roadside Assistance</li>
+              </ul>
             </div>
-            <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-              <p>&copy; 2024 Flo Faction LLC. All rights reserved. EIN #85-2167111</p>
-              <p className="text-sm mt-2">Licensed Insurance Agent in Florida</p>
+
+            {/* Home Insurance */}
+            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-6">
+                <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Home Insurance</h3>
+              <p className="text-gray-600 mb-6">
+                Safeguard your home and belongings with comprehensive home insurance coverage.
+              </p>
+              <ul className="text-sm text-gray-500 space-y-2">
+                <li>• Dwelling Coverage</li>
+                <li>• Personal Property</li>
+                <li>• Liability Protection</li>
+                <li>• Additional Living Expenses</li>
+              </ul>
+            </div>
+
+            {/* Life Insurance */}
+            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-6">
+                <svg className="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Life Insurance</h3>
+              <p className="text-gray-600 mb-6">
+                Secure your family's future with life insurance coverage that meets your needs and budget.
+              </p>
+              <ul className="text-sm text-gray-500 space-y-2">
+                <li>• Term Life Insurance</li>
+                <li>• Whole Life Insurance</li>
+                <li>• Universal Life Insurance</li>
+                <li>• Final Expense Coverage</li>
+              </ul>
+            </div>
+
+            {/* Health Insurance */}
+            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mb-6">
+                <svg className="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Health Insurance</h3>
+              <p className="text-gray-600 mb-6">
+                Access quality healthcare with comprehensive health insurance plans for individuals and families.
+              </p>
+              <ul className="text-sm text-gray-500 space-y-2">
+                <li>• Individual Health Plans</li>
+                <li>• Family Coverage</li>
+                <li>• Medicare Supplement</li>
+                <li>• Dental & Vision</li>
+              </ul>
+            </div>
+
+            {/* Business Insurance */}
+            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center mb-6">
+                <svg className="w-6 h-6 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Business Insurance</h3>
+              <p className="text-gray-600 mb-6">
+                Protect your business with comprehensive commercial insurance coverage tailored to your industry.
+              </p>
+              <ul className="text-sm text-gray-500 space-y-2">
+                <li>• General Liability</li>
+                <li>• Professional Liability</li>
+                <li>• Commercial Property</li>
+                <li>• Workers' Compensation</li>
+              </ul>
+            </div>
+
+            {/* Specialty Insurance */}
+            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center mb-6">
+                <svg className="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Specialty Insurance</h3>
+              <p className="text-gray-600 mb-6">
+                Unique coverage options for specialized needs including boats, RVs, and other valuable assets.
+              </p>
+              <ul className="text-sm text-gray-500 space-y-2">
+                <li>• Boat & Watercraft</li>
+                <li>• RV & Motorhome</li>
+                <li>• Umbrella Insurance</li>
+                <li>• Flood Insurance</li>
+              </ul>
             </div>
           </div>
-        </footer>
-      </div>
+        </div>
+      </section>
+
+      {/* Quote Form Section */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+              Get Your Free Insurance Quote
+            </h2>
+            <p className="text-lg text-gray-600">
+              Fill out the form below and wewe'llapos;ll get back to you with a personalized quote
+            </p>
+          </div>
+
+          <div className="bg-gray-50 rounded-2xl p-8">
+            <form className="space-y-6">
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <label htmlFor="firstName" className="block text-sm font-medium text-gray-700 mb-2">
+                    First Name
+                  </label>
+                  <input
+                    type="text"
+                    id="firstName"
+                    name="firstName"
+                    required
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                    placeholder="Enter your first name"
+                  />
+                </div>
+                <div>
+                  <label htmlFor="lastName" className="block text-sm font-medium text-gray-700 mb-2">
+                    Last Name
+                  </label>
+                  <input
+                    type="text"
+                    id="lastName"
+                    name="lastName"
+                    required
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                    placeholder="Enter your last name"
+                  />
+                </div>
+              </div>
+
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+                    Email Address
+                  </label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                    placeholder="Enter your email address"
+                  />
+                </div>
+                <div>
+                  <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
+                    Phone Number
+                  </label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    required
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                    placeholder="Enter your phone number"
+                  />
+                </div>
+              </div>
+
+              <div>
+                <label htmlFor="insuranceType" className="block text-sm font-medium text-gray-700 mb-2">
+                  Type of Insurance Needed
+                </label>
+                <select
+                  id="insuranceType"
+                  name="insuranceType"
+                  required
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                >
+                  <option value="">Select insurance type</option>
+                  <option value="auto">Auto Insurance</option>
+                  <option value="home">Home Insurance</option>
+                  <option value="life">Life Insurance</option>
+                  <option value="health">Health Insurance</option>
+                  <option value="business">Business Insurance</option>
+                  <option value="specialty">Specialty Insurance</option>
+                  <option value="multiple">Multiple Types</option>
+                </select>
+              </div>
+
+              <div>
+                <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
+                  Additional Information
+                </label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows={4}
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                  placeholder="Tell us about your insurance needs..."
+                ></textarea>
+              </div>
+
+              <div className="text-center">
+                <button
+                  type="submit"
+                  className="bg-green-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors"
+                >
+                  Get Free Quote
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-green-600">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
+            Ready to Protect What Matters Most?
+          </h2>
+          <p className="text-xl text-green-100 mb-8">
+            Get expert insurance consultation and find the perfect coverage for your needs at competitive rates.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <button className="bg-white text-green-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-50 transition-colors">
+              Schedule Consultation
+            </button>
+            <button className="border border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors">
+              Call Now: (772) 208-9646
+            </button>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="bg-gray-900 text-white py-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid md:grid-cols-4 gap-8">
+            <div>
+              <h3 className="text-xl font-bold mb-4">Flo Faction</h3>
+              <p className="text-gray-400">
+                Professional business services including insurance, music production, emergency management, and AI solutions.
+              </p>
+            </div>
+            <div>
+              <h4 className="text-lg font-semibold mb-4">Services</h4>
+              <ul className="space-y-2 text-gray-400">
+                <li><Link href="/insurance" className="hover:text-white">Insurance</Link></li>
+                <li><Link href="/music" className="hover:text-white">Music Production</Link></li>
+                <li><Link href="/emergency" className="hover:text-white">Emergency Management</Link></li>
+                <li><Link href="/ai-services" className="hover:text-white">AI Services</Link></li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="text-lg font-semibold mb-4">Company</h4>
+              <ul className="space-y-2 text-gray-400">
+                <li><Link href="/portfolio" className="hover:text-white">Portfolio</Link></li>
+                <li><Link href="/contact" className="hover:text-white">Contact</Link></li>
+                <li><Link href="/about" className="hover:text-white">About</Link></li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
+              <div className="text-gray-400 space-y-2">
+                <p>Email: flofaction.insurance@gmail.com</p>
+                <p>Phone: +1 (772) 208-9646</p>
+                <p>Location: Florida, USA</p>
+              </div>
+            </div>
+          </div>
+          <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+            <p>&copy; 2025 Flo Faction LLC. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
-

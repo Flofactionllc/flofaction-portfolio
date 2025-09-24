@@ -1,354 +1,269 @@
-import { Card } from '@/components/ui/card';
-import Link from 'next/link';
+import { Metadata } from 'next';
+import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: 'Portfolio | Flo Faction',
+  description: 'Professional portfolio showcasing our expertise in AI systems, business consulting, insurance, music production, and emergency management services.',
+  keywords: 'portfolio, AI systems, business consulting, insurance, music production, emergency management, professional services',
+  openGraph: {
+    title: 'Portfolio | Flo Faction',
+    description: 'Professional portfolio showcasing our expertise in AI systems, business consulting, insurance, music production, and emergency management services.',
+    type: 'website',
+    url: 'https://www.flofaction.com/portfolio',
+    siteName: 'Flo Faction LLC',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Portfolio | Flo Faction',
+    description: 'Professional portfolio showcasing our expertise in AI systems, business consulting, insurance, music production, and emergency management services.',
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
 
 export default function PortfolioPage() {
-  const H = (props: React.HTMLAttributes<HTMLHeadingElement>) =>
-    <h2 className="text-2xl font-bold text-gray-900 mb-6 border-b-2 border-blue-600 pb-2" {...props} />;
-
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
-      <div className="container mx-auto px-4 py-12">
-        <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Flo Faction Portfolio
-          </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Comprehensive business solutions, professional services, and creative excellence across multiple industries
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-blue-100">
+      {/* Navigation */}
+      <nav className="bg-white shadow-lg">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-between h-16">
+            <div className="flex items-center">
+              <Link href="/" className="text-2xl font-bold text-blue-600">
+                Flo Faction
+              </Link>
+            </div>
+            <div className="flex items-center space-x-8">
+              <Link href="/portfolio" className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors">
+                Portfolio
+              </Link>
+              <Link href="/insurance" className="text-gray-700 hover:text-blue-600 font-medium">
+                Insurance
+              </Link>
+              <Link href="/music" className="text-gray-700 hover:text-blue-600 font-medium">
+                Music
+              </Link>
+              <Link href="/emergency" className="text-gray-700 hover:text-blue-600 font-medium">
+                Emergency
+              </Link>
+              <Link href="/ai-services" className="text-gray-700 hover:text-blue-600 font-medium">
+                AI Services
+              </Link>
+              <Link href="/contact" className="text-gray-700 hover:text-blue-600 font-medium">
+                Contact
+              </Link>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      {/* Hero Section */}
+      <section className="relative py-20 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center">
+            <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
+              Our Portfolio
+            </h1>
+            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+              Explore our comprehensive portfolio of successful projects across AI systems, business consulting, insurance, music production, and emergency management.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Portfolio Categories */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Portfolio Categories
+            </h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Our diverse expertise across multiple industries and service areas
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* AI Systems */}
+            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
+                <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">AI Systems</h3>
+              <p className="text-gray-600 mb-6">
+                Advanced AI solutions including machine learning models, automation systems, and intelligent business applications.
+              </p>
+              <ul className="text-sm text-gray-500 space-y-2">
+                <li>• Custom AI Development</li>
+                <li>• Machine Learning Models</li>
+                <li>• Automation Systems</li>
+                <li>• Business Intelligence</li>
+              </ul>
+            </div>
+
+            {/* Business Consulting */}
+            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-6">
+                <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Business Consulting</h3>
+              <p className="text-gray-600 mb-6">
+                Strategic business consulting services to help organizations optimize operations and achieve growth objectives.
+              </p>
+              <ul className="text-sm text-gray-500 space-y-2">
+                <li>• Strategic Planning</li>
+                <li>• Process Optimization</li>
+                <li>• Digital Transformation</li>
+                <li>• Performance Analysis</li>
+              </ul>
+            </div>
+
+            {/* Insurance Services */}
+            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-6">
+                <svg className="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Insurance Services</h3>
+              <p className="text-gray-600 mb-6">
+                Comprehensive insurance solutions including auto, home, life, health, and business insurance coverage.
+              </p>
+              <ul className="text-sm text-gray-500 space-y-2">
+                <li>• Auto Insurance</li>
+                <li>• Home Insurance</li>
+                <li>• Life Insurance</li>
+                <li>• Business Insurance</li>
+              </ul>
+            </div>
+
+            {/* Music Production */}
+            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="w-12 h-12 bg-pink-100 rounded-lg flex items-center justify-center mb-6">
+                <svg className="w-6 h-6 text-pink-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Music Production</h3>
+              <p className="text-gray-600 mb-6">
+                Professional music production services including beat making, sync licensing, and custom compositions.
+              </p>
+              <ul className="text-sm text-gray-500 space-y-2">
+                <li>• Beat Production</li>
+                <li>• Sync Licensing</li>
+                <li>• Custom Compositions</li>
+                <li>• Audio Engineering</li>
+              </ul>
+            </div>
+
+            {/* Emergency Management */}
+            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mb-6">
+                <svg className="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.732 16.5c-.77.833.192 2.5 1.732 2.5z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Emergency Management</h3>
+              <p className="text-gray-600 mb-6">
+                Professional emergency management services including disaster preparedness and response coordination.
+              </p>
+              <ul className="text-sm text-gray-500 space-y-2">
+                <li>• Emergency Planning</li>
+                <li>• Response Coordination</li>
+                <li>• Community Resources</li>
+                <li>• Training Programs</li>
+              </ul>
+            </div>
+
+            {/* Digital Marketing */}
+            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center mb-6">
+                <svg className="w-6 h-6 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Digital Marketing</h3>
+              <p className="text-gray-600 mb-6">
+                Comprehensive digital marketing services including SEO, social media, and web design solutions.
+              </p>
+              <ul className="text-sm text-gray-500 space-y-2">
+                <li>• SEO Services</li>
+                <li>• Social Media Marketing</li>
+                <li>• Web Design</li>
+                <li>• Content Marketing</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-blue-600">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
+            Ready to Work With Us?
+          </h2>
+          <p className="text-xl text-blue-100 mb-8">
+            LetLet'sapos;s discuss how our expertise can help your business succeed across any of these service areas.
           </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link href="/contact" className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-50 transition-colors">
+              Start a Project
+            </Link>
+            <Link href="/ai-services" className="border border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+              Explore AI Services
+            </Link>
+          </div>
         </div>
+      </section>
 
-        {/* Paul Edwards - CEO & Founder */}
-        <section className="mb-16">
-          <H>Paul Edwards — CEO & Founder</H>
-          <div className="grid md:grid-cols-2 gap-8">
-            <Card className="p-6">
-              <h3 className="text-xl font-semibold mb-4 text-blue-600">Professional Background</h3>
-              <ul className="list-disc ml-5 space-y-2 text-gray-700">
-                <li>CEO of Flo Faction LLC (EIN #85-2167111) - Comprehensive business solutions provider</li>
-                <li>10+ years in AI technology implementation and business process automation</li>
-                <li>Master&apos;s degree in Early Childhood Development from Walden University</li>
-                <li>Licensed insurance agent specializing in life insurance, retirement planning, and financial consulting</li>
-                <li>Music industry professional with 100+ successful sync licensing placements</li>
-                <li>Emergency management specialist with GuardianAI platform development</li>
-                <li>Content creation and digital marketing expert with proven ROI results</li>
+      {/* Footer */}
+      <footer className="bg-gray-900 text-white py-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid md:grid-cols-4 gap-8">
+            <div>
+              <h3 className="text-xl font-bold mb-4">Flo Faction</h3>
+              <p className="text-gray-400">
+                Professional business services including insurance, music production, emergency management, and AI solutions.
+              </p>
+            </div>
+            <div>
+              <h4 className="text-lg font-semibold mb-4">Services</h4>
+              <ul className="space-y-2 text-gray-400">
+                <li><Link href="/insurance" className="hover:text-white">Insurance</Link></li>
+                <li><Link href="/music" className="hover:text-white">Music Production</Link></li>
+                <li><Link href="/emergency" className="hover:text-white">Emergency Management</Link></li>
+                <li><Link href="/ai-services" className="hover:text-white">AI Services</Link></li>
               </ul>
-            </Card>
-            <Card className="p-6">
-              <h3 className="text-xl font-semibold mb-4 text-blue-600">Core Business Services</h3>
-              <div className="grid grid-cols-2 gap-4">
-                <div>
-                  <h4 className="font-semibold text-gray-800 mb-2">Insurance & Finance</h4>
-                  <ul className="text-sm text-gray-600 space-y-1">
-                    <li>• Life Insurance</li>
-                    <li>• Retirement Planning</li>
-                    <li>• Financial Consulting</li>
-                    <li>• Business Insurance</li>
-                  </ul>
-                </div>
-                <div>
-                  <h4 className="font-semibold text-gray-800 mb-2">Technology & AI</h4>
-                  <ul className="text-sm text-gray-600 space-y-1">
-                    <li>• AI Implementation</li>
-                    <li>• Business Automation</li>
-                    <li>• Web Development</li>
-                    <li>• Digital Marketing</li>
-                  </ul>
-                </div>
-                <div>
-                  <h4 className="font-semibold text-gray-800 mb-2">Music & Creative</h4>
-                  <ul className="text-sm text-gray-600 space-y-1">
-                    <li>• Sync Licensing</li>
-                    <li>• Audio Engineering</li>
-                    <li>• Beat Production</li>
-                    <li>• Music Supervision</li>
-                  </ul>
-                </div>
-                <div>
-                  <h4 className="font-semibold text-gray-800 mb-2">Emergency & Media</h4>
-                  <ul className="text-sm text-gray-600 space-y-1">
-                    <li>• Emergency Management</li>
-                    <li>• Videography</li>
-                    <li>• Photography</li>
-                    <li>• Content Creation</li>
-                  </ul>
-                </div>
-              </div>
-            </Card>
-          </div>
-
-          <div className="mt-8">
-            <Card className="p-6">
-              <h3 className="text-xl font-semibold mb-4 text-blue-600">Key Achievements & Metrics</h3>
-              <div className="grid md:grid-cols-4 gap-6">
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600">$2M+</div>
-                  <div className="text-sm text-gray-600">Cost Savings Generated</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600">100+</div>
-                  <div className="text-sm text-gray-600">Music Placements</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600">50+</div>
-                  <div className="text-sm text-gray-600">AI Implementations</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600">95%</div>
-                  <div className="text-sm text-gray-600">Client Satisfaction</div>
-                </div>
-              </div>
-            </Card>
-          </div>
-        </section>
-
-        {/* L. Edwards - Co-Founder */}
-        <section className="mb-16">
-          <H>L. Edwards — Co-Founder & Education Director</H>
-          <div className="grid md:grid-cols-2 gap-8">
-            <Card className="p-6">
-              <h3 className="text-xl font-semibold mb-4 text-blue-600">Educational Background</h3>
-              <ul className="list-disc ml-5 space-y-2 text-gray-700">
-                <li>Master&apos;s degree in Early Childhood Development from Walden University</li>
-                <li>20+ years experience in education and childcare management</li>
-                <li>Former owner and operator of senior living care facility in Apopka, FL (1990s)</li>
-                <li>Extensive experience from substitute teacher to director/owner roles</li>
-                <li>Community leader with deep expertise in family services and program development</li>
-                <li>Co-owner of Flo Faction LLC and Flo Faction Insurance</li>
-                <li>Currently authoring educational book — coming soon</li>
+            </div>
+            <div>
+              <h4 className="text-lg font-semibold mb-4">Company</h4>
+              <ul className="space-y-2 text-gray-400">
+                <li><Link href="/portfolio" className="hover:text-white">Portfolio</Link></li>
+                <li><Link href="/contact" className="hover:text-white">Contact</Link></li>
+                <li><Link href="/about" className="hover:text-white">About</Link></li>
               </ul>
-            </Card>
-            <Card className="p-6">
-              <h3 className="text-xl font-semibold mb-4 text-blue-600">Upcoming Venture</h3>
-              <div className="bg-gradient-to-r from-green-50 to-blue-50 p-4 rounded-lg">
-                <h4 className="font-bold text-lg text-gray-800 mb-2">Little Sprouts Early Learning Center</h4>
-                <p className="text-gray-700 mb-3">
-                  Opening Spring 2025 in Port St. Lucie, Florida
-                </p>
-                <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Licensed early childhood education facility</li>
-                  <li>• Ages 6 weeks to 5 years</li>
-                  <li>• State-of-the-art learning environment</li>
-                  <li>• Experienced, certified staff</li>
-                  <li>• Flexible scheduling options</li>
-                  <li>• Parent engagement programs</li>
-                </ul>
-                <div className="mt-3 text-sm text-blue-600 font-semibold">
-                  Pre-enrollment now open • Contact: (772) 208-9646
-                </div>
+            </div>
+            <div>
+              <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
+              <div className="text-gray-400 space-y-2">
+                <p>Email: flofaction.insurance@gmail.com</p>
+                <p>Phone: +1 (772) 208-9646</p>
+                <p>Location: Florida, USA</p>
               </div>
-            </Card>
+            </div>
           </div>
-        </section>
-
-        {/* Business Services Overview */}
-        <section className="mb-16">
-          <H>Comprehensive Business Services</H>
-          <div className="grid md:grid-cols-3 gap-6">
-            <Card className="p-6">
-              <h3 className="text-lg font-semibold mb-4 text-blue-600">Insurance & Financial Services</h3>
-              <ul className="text-sm text-gray-600 space-y-2">
-                <li>• Life Insurance (Term, Whole, Universal)</li>
-                <li>• Retirement Planning & 401(k) Management</li>
-                <li>• Business Insurance & Risk Management</li>
-                <li>• Financial Consulting & Investment Planning</li>
-                <li>• Estate Planning & Wealth Transfer</li>
-                <li>• Health Insurance & Medicare Planning</li>
-              </ul>
-              <div className="mt-4 text-xs text-gray-500">
-                Licensed in Florida • Licensed Insurance Agent
-              </div>
-            </Card>
-
-            <Card className="p-6">
-              <h3 className="text-lg font-semibold mb-4 text-blue-600">Technology & AI Solutions</h3>
-              <ul className="text-sm text-gray-600 space-y-2">
-                <li>• AI System Implementation & Integration</li>
-                <li>• Business Process Automation</li>
-                <li>• Web Design & Development</li>
-                <li>• Digital Marketing & SEO</li>
-                <li>• Predictive Analytics & Data Visualization</li>
-                <li>• Emergency Management Systems</li>
-              </ul>
-              <div className="mt-4 text-xs text-gray-500">
-                Python, JavaScript, React, Next.js • AWS Certified
-              </div>
-            </Card>
-
-            <Card className="p-6">
-              <h3 className="text-lg font-semibold mb-4 text-blue-600">Music & Creative Services</h3>
-              <ul className="text-sm text-gray-600 space-y-2">
-                <li>• Sync Licensing & Music Supervision</li>
-                <li>• Audio Engineering & Production</li>
-                <li>• Beat Production & Sound Design</li>
-                <li>• Videography & Photography</li>
-                <li>• Content Creation & Marketing</li>
-                <li>• Studio Coordination & Management</li>
-              </ul>
-              <div className="mt-4 text-xs text-gray-500">
-                Pro Tools, Fruity Loops • LCP Studios Partnership
-              </div>
-            </Card>
+          <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+            <p>&copy; 2025 Flo Faction LLC. All rights reserved.</p>
           </div>
-        </section>
-
-        {/* Key Partnerships & Collaborations */}
-        <section className="mb-16">
-          <H>Key Partnerships & Collaborations</H>
-          <div className="grid md:grid-cols-2 gap-8">
-            <Card className="p-6">
-              <h3 className="text-lg font-semibold mb-4 text-blue-600">Music Industry Partners</h3>
-              <div className="space-y-4">
-                <div className="border-l-4 border-blue-500 pl-4">
-                  <h4 className="font-semibold">LCP Studios (Port Saint Lucie)</h4>
-                  <p className="text-sm text-gray-600">Lightchild Partnership - Full-service recording facility with professional audio engineering</p>
-                  <span className="text-xs text-blue-600">50+ projects completed</span>
-                </div>
-                <div className="border-l-4 border-blue-500 pl-4">
-                  <h4 className="font-semibold">Audio Nerds (South Florida)</h4>
-                  <p className="text-sm text-gray-600">Premier recording studio with advanced mixing and mastering capabilities</p>
-                  <span className="text-xs text-blue-600">30+ projects completed</span>
-                </div>
-                <div className="border-l-4 border-blue-500 pl-4">
-                  <h4 className="font-semibold">Cryptk (In-house Producer)</h4>
-                  <p className="text-sm text-gray-600">Beat production specialist and creative director with long-term collaboration</p>
-                  <span className="text-xs text-blue-600">100+ tracks produced</span>
-                </div>
-              </div>
-            </Card>
-
-            <Card className="p-6">
-              <h3 className="text-lg font-semibold mb-4 text-blue-600">Business & Technology Partners</h3>
-              <div className="space-y-4">
-                <div className="border-l-4 border-green-500 pl-4">
-                  <h4 className="font-semibold">Fortune 500 Companies</h4>
-                  <p className="text-sm text-gray-600">AI implementation and business process optimization</p>
-                  <span className="text-xs text-green-600">$2M+ in cost savings delivered</span>
-                </div>
-                <div className="border-l-4 border-green-500 pl-4">
-                  <h4 className="font-semibold">Government Agencies</h4>
-                  <p className="text-sm text-gray-600">Emergency management and disaster response systems</p>
-                  <span className="text-xs text-green-600">GuardianAI platform deployed</span>
-                </div>
-                <div className="border-l-4 border-green-500 pl-4">
-                  <h4 className="font-semibold">Startups & Scale-ups</h4>
-                  <p className="text-sm text-gray-600">Technology consulting and growth acceleration</p>
-                  <span className="text-xs text-green-600">95% client satisfaction rate</span>
-                </div>
-              </div>
-            </Card>
-          </div>
-        </section>
-
-        {/* Service Pricing */}
-        <section className="mb-16">
-          <H>Service Pricing & Packages</H>
-          <div className="grid md:grid-cols-2 gap-8">
-            <Card className="p-6">
-              <h3 className="text-lg font-semibold mb-4 text-blue-600">Professional Services</h3>
-              <div className="space-y-3">
-                <div className="flex justify-between items-center">
-                  <span className="text-sm">AI Consultation & Strategy</span>
-                  <span className="font-semibold">$200/hour</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-sm">Insurance & Financial Consulting</span>
-                  <span className="font-semibold">$150/hour</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-sm">Web Design & Development</span>
-                  <span className="font-semibold">$5,000-$25,000</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-sm">Digital Marketing Campaigns</span>
-                  <span className="font-semibold">$2,000-$10,000</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-sm">Emergency Management Systems</span>
-                  <span className="font-semibold">$10,000-$50,000</span>
-                </div>
-              </div>
-            </Card>
-
-            <Card className="p-6">
-              <h3 className="text-lg font-semibold mb-4 text-blue-600">Music & Creative Services</h3>
-              <div className="space-y-3">
-                <div className="flex justify-between items-center">
-                  <span className="text-sm">Sync Licensing & Supervision</span>
-                  <span className="font-semibold">$2,500-$10,000</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-sm">Audio Production & Engineering</span>
-                  <span className="font-semibold">$100-$200/hour</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-sm">Beat Production</span>
-                  <span className="font-semibold">$500-$2,000</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-sm">Videography & Photography</span>
-                  <span className="font-semibold">$1,000-$5,000</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-sm">Content Creation & Marketing</span>
-                  <span className="font-semibold">$1,500-$7,500</span>
-                </div>
-              </div>
-            </Card>
-          </div>
-        </section>
-
-        {/* Contact & Next Steps */}
-        <section>
-          <H>Contact & Next Steps</H>
-          <div className="grid md:grid-cols-2 gap-8">
-            <Card className="p-6">
-              <h3 className="text-lg font-semibold mb-4 text-blue-600">Get In Touch</h3>
-              <div className="space-y-3">
-                <div className="flex items-center">
-                  <span className="font-semibold w-24">Email:</span>
-                  <span className="text-blue-600">flofactionllc@gmail.com</span>
-                </div>
-                <div className="flex items-center">
-                  <span className="font-semibold w-24">Phone:</span>
-                  <span className="text-blue-600">(772) 208-9646</span>
-                </div>
-                <div className="flex items-center">
-                  <span className="font-semibold w-24">Location:</span>
-                  <span className="text-gray-600">Port St. Lucie, Florida</span>
-                </div>
-                <div className="flex items-center">
-                  <span className="font-semibold w-24">Hours:</span>
-                  <span className="text-gray-600">Mon-Fri: 9:00 AM - 6:00 PM EST</span>
-                </div>
-              </div>
-            </Card>
-
-            <Card className="p-6">
-              <h3 className="text-lg font-semibold mb-4 text-blue-600">Quick Links</h3>
-              <div className="space-y-2">
-                <Link href="/emergency-management" className="block text-blue-600 hover:text-blue-800">
-                  → GuardianAI Emergency Management Platform
-                </Link>
-                <Link href="/music" className="block text-blue-600 hover:text-blue-800">
-                  → Music Projects & Sync Licensing
-                </Link>
-                <Link href="/insurance" className="block text-blue-600 hover:text-blue-800">
-                  → Insurance & Financial Services
-                </Link>
-                <Link href="/contact" className="block text-blue-600 hover:text-blue-800">
-                  → Contact Form & Consultation Request
-                </Link>
-              </div>
-            </Card>
-          </div>
-        </section>
-
-        {/* Footer Note */}
-        <div className="mt-12 text-center text-gray-500 text-sm">
-          <p>Flo Faction LLC • EIN #85-2167111 • Licensed in Florida</p>
-          <p>Comprehensive business solutions for the modern world</p>
         </div>
-      </div>
+      </footer>
     </div>
   );
 }
