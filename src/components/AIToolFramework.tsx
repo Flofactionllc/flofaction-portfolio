@@ -25,7 +25,7 @@ interface YouTubeChannel {
 export default function AIToolFramework() {
   const [tools, setTools] = useState<AITool[]>([]);
   const [channels, setChannels] = useState<YouTubeChannel[]>([]);
-  const [selectedChannel, setSelectedChannel] = useState<string>('');
+  const [selectedChannel] = useState<string>('');
   const [isAnalyzing, setIsAnalyzing] = useState(false);
 
   // Sample data - in real implementation, this would come from your database

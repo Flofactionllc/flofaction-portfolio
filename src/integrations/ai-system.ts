@@ -14,7 +14,7 @@ export interface AITool {
   priority: number;
   lastUpdated: string;
   apiKey?: string;
-  configuration?: Record<string, any>;
+  configuration?: Record<string, unknown>;
 }
 
 export interface NovaActConfig {
