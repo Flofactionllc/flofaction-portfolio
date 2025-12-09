@@ -1,0 +1,470 @@
+/* ============================================================================
+   COMPREHENSIVE ANIMATIONS CSS - Flo Faction
+   Dynamic motion graphics for all UI elements
+   ============================================================================ */
+
+/* ENTRANCE ANIMATIONS */
+@keyframes slideDownFade {
+  from {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUpFade {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideLeftFade {
+  from {
+    opacity: 0;
+    transform: translateX(-60px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideRightFade {
+  from {
+    opacity: 0;
+    transform: translateX(60px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes zoomInFade {
+  from {
+    opacity: 0;
+    transform: scale(0.85);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeInBlur {
+  from {
+    opacity: 0;
+    filter: blur(10px);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+/* BUTTON ANIMATIONS */
+@keyframes buttonPulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(102, 126, 234, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 15px rgba(102, 126, 234, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(102, 126, 234, 0);
+  }
+}
+
+@keyframes buttonGlow {
+  0%, 100% {
+    box-shadow: 0 0 10px rgba(102, 126, 234, 0.3), inset 0 0 10px rgba(102, 126, 234, 0.1);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(102, 126, 234, 0.6), inset 0 0 15px rgba(102, 126, 234, 0.2);
+  }
+}
+
+@keyframes buttonShake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-3px);
+  }
+  75% {
+    transform: translateX(3px);
+  }
+}
+
+@keyframes buttonWiggle {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-1deg);
+  }
+  75% {
+    transform: rotate(1deg);
+  }
+}
+
+@keyframes buttonBounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes rippleEffect {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+
+/* HOVER & INTERACTIVE ANIMATIONS */
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes hoverLift {
+  0% {
+    transform: translateY(0);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  50% {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(102, 126, 234, 0.2);
+  }
+  100% {
+    transform: translateY(0);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+}
+
+@keyframes borderGlow {
+  0%, 100% {
+    border-color: rgba(102, 126, 234, 0.2);
+    box-shadow: 0 0 5px rgba(102, 126, 234, 0.2);
+  }
+  50% {
+    border-color: rgba(102, 126, 234, 0.8);
+    box-shadow: 0 0 20px rgba(102, 126, 234, 0.6);
+  }
+}
+
+@keyframes textFlash {
+  0%, 100% {
+    color: inherit;
+    text-shadow: none;
+  }
+  50% {
+    color: #667eea;
+    text-shadow: 0 0 10px rgba(102, 126, 234, 0.6);
+  }
+}
+
+/* LOADER & PROGRESS ANIMATIONS */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes progress {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes slideProgress {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+/* CARD & ELEMENT ANIMATIONS */
+@keyframes cardFlip {
+  0% {
+    transform: perspective(1000px) rotateY(0deg);
+  }
+  100% {
+    transform: perspective(1000px) rotateY(10deg);
+  }
+}
+
+@keyframes cardBreathe {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+}
+
+@keyframes cardShadow {
+  0%, 100% {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  50% {
+    box-shadow: 0 10px 35px rgba(102, 126, 234, 0.25);
+  }
+}
+
+@keyframes slideInStaggered {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* ICON ANIMATIONS */
+@keyframes iconFloat {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes iconSpin {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.1);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+
+@keyframes iconPop {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+}
+
+/* TEXT ANIMATIONS */
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes textWave {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes textShimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+/* BACKGROUND ANIMATIONS */
+@keyframes backgroundShift {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes gradientFlow {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+@keyframes bgPulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.9;
+  }
+}
+
+/* UTILITY ANIMATION CLASSES */
+.animate-slide-down {
+  animation: slideDownFade 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.animate-slide-up {
+  animation: slideUpFade 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.animate-slide-left {
+  animation: slideLeftFade 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.animate-slide-right {
+  animation: slideRightFade 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.animate-zoom-in {
+  animation: zoomInFade 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.animate-fade-blur {
+  animation: fadeInBlur 1s ease-out;
+}
+
+/* BUTTON ANIMATION CLASSES */
+.btn-pulse {
+  animation: buttonPulse 2s infinite;
+}
+
+.btn-glow {
+  animation: buttonGlow 2s infinite;
+}
+
+.btn-shake:hover {
+  animation: buttonShake 0.6s ease-in-out;
+}
+
+.btn-wiggle:hover {
+  animation: buttonWiggle 0.8s ease-in-out;
+}
+
+.btn-bounce:hover {
+  animation: buttonBounce 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* INTERACTIVE ANIMATIONS */
+.element-gradient {
+  background-size: 200% 200%;
+  animation: gradientShift 4s ease infinite;
+}
+
+.element-hover-lift:hover {
+  animation: hoverLift 1s ease-in-out;
+}
+
+.element-border-glow {
+  animation: borderGlow 2s ease-in-out infinite;
+}
+
+.text-flash {
+  animation: textFlash 1.5s ease-in-out infinite;
+}
+
+/* LOADER CLASSES */
+.loader-spin {
+  animation: spin 1s linear infinite;
+}
+
+.progress-bar {
+  animation: slideProgress 2s linear infinite;
+}
+
+/* CARD ANIMATIONS */
+.card-breathe {
+  animation: cardBreathe 3s ease-in-out infinite;
+}
+
+.card-shadow-pulse {
+  animation: cardShadow 2.5s ease-in-out infinite;
+}
+
+.card-flip-hover:hover {
+  animation: cardFlip 0.6s ease-in-out;
+}
+
+/* ICON ANIMATIONS */
+.icon-float {
+  animation: iconFloat 3s ease-in-out infinite;
+}
+
+.icon-spin {
+  animation: iconSpin 2s cubic-bezier(0.34, 1.56, 0.64, 1) infinite;
+}
+
+.icon-pop {
+  animation: iconPop 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* TEXT ANIMATIONS */
+.text-wave {
+  animation: textWave 1s ease-in-out infinite;
+}
+
+.text-shimmer {
+  animation: textShimmer 2s infinite linear;
+}
+
+/* STAGGERED ANIMATIONS */
+.stagger-1 { animation-delay: 0.1s; }
+.stagger-2 { animation-delay: 0.2s; }
+.stagger-3 { animation-delay: 0.3s; }
+.stagger-4 { animation-delay: 0.4s; }
+.stagger-5 { animation-delay: 0.5s; }
+.stagger-6 { animation-delay: 0.6s; }
+.stagger-7 { animation-delay: 0.7s; }
+.stagger-8 { animation-delay: 0.8s; }
+
+/* RESPONSIVE ANIMATIONS */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
