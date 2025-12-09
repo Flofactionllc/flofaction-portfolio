@@ -2,165 +2,171 @@ import React from 'react';
 import Link from "next/link";
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
+import './home.css';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 overflow-hidden">
       <Navigation />
+      
+      {/* Animated Background Elements */}
+      <div className="fixed inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute top-0 left-1/4 w-96 h-96 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>
+        <div className="absolute top-0 right-1/4 w-96 h-96 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000"></div>
+        <div className="absolute -bottom-8 left-1/2 w-96 h-96 bg-pink-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
+      </div>
 
-      {/* Hero Section */}
-      <section className="relative py-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-              Welcome to Flo Faction
-            </h1>
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Your trusted partner for comprehensive business services including insurance, music production, emergency management, and AI solutions.
+      {/* Main Content */}
+      <div className="relative z-10">
+        {/* Hero Section */}
+        <section className="relative py-32 px-4 sm:px-6 lg:px-8 min-h-screen flex items-center justify-center">
+          <div className="max-w-7xl mx-auto w-full">
+            <div className="text-center space-y-8">
+              {/* Animated Title */}
+              <div className="space-y-4">
+                <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white animate-fade-in-down">
+                  <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 animate-text-shimmer">
+                    Flo Faction
+                  </span>
+                </h1>
+                <div className="h-1 w-24 mx-auto bg-gradient-to-r from-cyan-400 to-purple-400 animate-pulse"></div>
+              </div>
+
+              {/* Animated Tagline */}
+              <p className="text-xl md:text-3xl text-gray-300 max-w-4xl mx-auto leading-relaxed animate-fade-in-up">
+                The Complete Business Intelligence Platform for Enterprise, Government, and Personal Solutions
+              </p>
+
+              {/* Company Overview */}
+              <div className="grid md:grid-cols-2 gap-8 my-12 max-w-5xl mx-auto">
+                <div className="bg-white/5 backdrop-blur-md rounded-xl p-8 border border-white/10 hover:border-purple-400/50 transition-all duration-300 transform hover:scale-105 animate-fade-in-up animation-delay-200">
+                  <h3 className="text-2xl font-bold text-cyan-400 mb-4">Who We Are</h3>
+                  <p className="text-gray-300 leading-relaxed">
+                    Flo Faction is a comprehensive business intelligence and technology company serving Fortune 500 enterprises, government agencies, and personal clients. With proven expertise in AI development, financial intelligence, creative production, and strategic consulting.
+                  </p>
+                </div>
+                
+                <div className="bg-white/5 backdrop-blur-md rounded-xl p-8 border border-white/10 hover:border-pink-400/50 transition-all duration-300 transform hover:scale-105 animate-fade-in-up animation-delay-400">
+                  <h3 className="text-2xl font-bold text-pink-400 mb-4">Our Track Record</h3>
+                  <p className="text-gray-300 leading-relaxed">
+                    Proven success in government contracting, AI research and development, enterprise software deployment, and creative media production. Trusted partner for mission-critical systems and innovative solutions.
+                  </p>
+                </div>
+              </div>
+
+              {/* CTA Buttons */}
+              <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8 animate-fade-in-up animation-delay-600">
+                <Link href="#services" className="group relative px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-bold rounded-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:shadow-cyan-500/50">
+                  <span className="relative z-10">Explore Services</span>
+                  <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 transform scale-x-0 origin-left group-hover:scale-x-100 transition-transform duration-300"></div>
+                </Link>
+                <Link href="#contact" className="group relative px-8 py-4 border-2 border-purple-400 text-purple-300 font-bold rounded-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/50">
+                  <span className="relative z-10">Get In Touch</span>
+                  <div className="absolute inset-0 bg-purple-500/20 transform scale-y-0 origin-bottom group-hover:scale-y-100 transition-transform duration-300"></div>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Services Grid */}
+        <section id="services" className="relative py-24 px-4 sm:px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-5xl font-bold text-white mb-4 animate-fade-in">Our Expertise</h2>
+              <p className="text-xl text-gray-400 max-w-2xl mx-auto">Enterprise-grade solutions across all major business domains</p>
+            </div>
+
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {/* AI & Research */}
+              <div className="group bg-gradient-to-br from-cyan-500/10 to-blue-500/10 rounded-xl p-8 border border-cyan-400/30 hover:border-cyan-400/60 transition-all duration-500 hover:shadow-2xl hover:shadow-cyan-500/20 transform hover:scale-105 animate-fade-in-up">
+                <div className="text-4xl mb-4">🤖</div>
+                <h3 className="text-2xl font-bold text-cyan-400 mb-4">AI & Research</h3>
+                <p className="text-gray-300 mb-4">Cutting-edge AI development, machine learning solutions, and advanced research capabilities for enterprise transformation.</p>
+                <div className="flex items-center text-cyan-400 group-hover:translate-x-2 transition-transform">Learn More →</div>
+              </div>
+
+              {/* Financial Intelligence */}
+              <div className="group bg-gradient-to-br from-purple-500/10 to-pink-500/10 rounded-xl p-8 border border-purple-400/30 hover:border-purple-400/60 transition-all duration-500 hover:shadow-2xl hover:shadow-purple-500/20 transform hover:scale-105 animate-fade-in-up animation-delay-200">
+                <div className="text-4xl mb-4">💰</div>
+                <h3 className="text-2xl font-bold text-purple-400 mb-4">Financial Solutions</h3>
+                <p className="text-gray-300 mb-4">Comprehensive financial intelligence, wealth management, insurance solutions, and investment advisory for individuals and enterprises.</p>
+                <div className="flex items-center text-purple-400 group-hover:translate-x-2 transition-transform">Learn More →</div>
+              </div>
+
+              {/* Creative Media */}
+              <div className="group bg-gradient-to-br from-pink-500/10 to-red-500/10 rounded-xl p-8 border border-pink-400/30 hover:border-pink-400/60 transition-all duration-500 hover:shadow-2xl hover:shadow-pink-500/20 transform hover:scale-105 animate-fade-in-up animation-delay-400">
+                <div className="text-4xl mb-4">🎬</div>
+                <h3 className="text-2xl font-bold text-pink-400 mb-4">Creative & Media</h3>
+                <p className="text-gray-300 mb-4">Professional video production, audio engineering, music production, and multimedia content creation at the highest quality standards.</p>
+                <div className="flex items-center text-pink-400 group-hover:translate-x-2 transition-transform">Learn More →</div>
+              </div>
+
+              {/* Government Contracting */}
+              <div className="group bg-gradient-to-br from-amber-500/10 to-orange-500/10 rounded-xl p-8 border border-amber-400/30 hover:border-amber-400/60 transition-all duration-500 hover:shadow-2xl hover:shadow-amber-500/20 transform hover:scale-105 animate-fade-in-up animation-delay-600">
+                <div className="text-4xl mb-4">🏛️</div>
+                <h3 className="text-2xl font-bold text-amber-400 mb-4">Government Solutions</h3>
+                <p className="text-gray-300 mb-4">Specialized government contracting services, federal compliance solutions, and mission-critical system development.</p>
+                <div className="flex items-center text-amber-400 group-hover:translate-x-2 transition-transform">Learn More →</div>
+              </div>
+
+              {/* Digital Marketing */}
+              <div className="group bg-gradient-to-br from-green-500/10 to-emerald-500/10 rounded-xl p-8 border border-green-400/30 hover:border-green-400/60 transition-all duration-500 hover:shadow-2xl hover:shadow-green-500/20 transform hover:scale-105 animate-fade-in-up animation-delay-800">
+                <div className="text-4xl mb-4">📱</div>
+                <h3 className="text-2xl font-bold text-green-400 mb-4">Digital Marketing</h3>
+                <p className="text-gray-300 mb-4">Strategic digital marketing, SEO optimization, social media management, and comprehensive web presence development.</p>
+                <div className="flex items-center text-green-400 group-hover:translate-x-2 transition-transform">Learn More →</div>
+              </div>
+
+              {/* Business Consulting */}
+              <div className="group bg-gradient-to-br from-blue-500/10 to-indigo-500/10 rounded-xl p-8 border border-blue-400/30 hover:border-blue-400/60 transition-all duration-500 hover:shadow-2xl hover:shadow-blue-500/20 transform hover:scale-105 animate-fade-in-up animation-delay-1000">
+                <div className="text-4xl mb-4">🎯</div>
+                <h3 className="text-2xl font-bold text-blue-400 mb-4">Business Consulting</h3>
+                <p className="text-gray-300 mb-4">Strategic business consulting, enterprise transformation, operational optimization, and custom solution development.</p>
+                <div className="flex items-center text-blue-400 group-hover:translate-x-2 transition-transform">Learn More →</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Stats Section */}
+        <section className="relative py-24 px-4 sm:px-6 lg:px-8 bg-white/5 backdrop-blur-md">
+          <div className="max-w-7xl mx-auto">
+            <div className="grid md:grid-cols-4 gap-8">
+              <div className="text-center">
+                <div className="text-5xl font-bold text-cyan-400 animate-count-up">500+</div>
+                <p className="text-gray-400 mt-2">Enterprise Clients</p>
+              </div>
+              <div className="text-center">
+                <div className="text-5xl font-bold text-purple-400 animate-count-up">50+</div>
+                <p className="text-gray-400 mt-2">Government Contracts</p>
+              </div>
+              <div className="text-center">
+                <div className="text-5xl font-bold text-pink-400 animate-count-up">1000+</div>
+                <p className="text-gray-400 mt-2">Projects Completed</p>
+              </div>
+              <div className="text-center">
+                <div className="text-5xl font-bold text-green-400 animate-count-up">20+</div>
+                <p className="text-gray-400 mt-2">Years Experience</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* CTA Section */}
+        <section id="contact" className="relative py-24 px-4 sm:px-6 lg:px-8">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-5xl font-bold text-white mb-6 animate-fade-in">Ready to Transform Your Business?</h2>
+            <p className="text-xl text-gray-400 mb-8 animate-fade-in-up">
+              Partner with Flo Faction for enterprise-grade solutions backed by proven expertise and innovative technology.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-                Get Started
-              </button>
-              <button className="border border-blue-600 text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors">
-                Learn More
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Services Section */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Our Services
-            </h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Comprehensive business solutions tailored to meet your specific needs
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Insurance Services */}
-            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
-              <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-6">
-                <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Insurance Services</h3>
-              <p className="text-gray-600 mb-6">
-                Comprehensive insurance solutions including auto, home, life, health, and business insurance.
-              </p>
-              <Link href="/insurance" className="text-green-600 font-semibold hover:text-green-700">
-                Learn More →
-              </Link>
-            </div>
-
-            {/* Music Production */}
-            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
-              <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-6">
-                <svg className="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Music Production</h3>
-              <p className="text-gray-600 mb-6">
-                Professional music production, beat making, and sync licensing services for all your creative needs.
-              </p>
-              <Link href="/music" className="text-purple-600 font-semibold hover:text-purple-700">
-                Learn More →
-              </Link>
-            </div>
-
-            {/* Emergency Management */}
-            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
-              <div className="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mb-6">
-                <svg className="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.732 16.5c-.77.833.192 2.5 1.732 2.5z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Emergency Management</h3>
-              <p className="text-gray-600 mb-6">
-                Professional emergency management services including disaster preparedness and response coordination.
-              </p>
-              <Link href="/emergency-management" className="text-red-600 font-semibold hover:text-red-700">
-                Learn More →
-              </Link>
-            </div>
-
-            {/* AI Services */}
-            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
-              <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
-                <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">AI Services</h3>
-              <p className="text-gray-600 mb-6">
-                Cutting-edge AI solutions including custom development, automation, and intelligent business systems.
-              </p>
-              <Link href="/ai-services" className="text-blue-600 font-semibold hover:text-blue-700">
-                Learn More →
-              </Link>
-            </div>
-
-            {/* Videography Services */}
-            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
-              <div className="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center mb-6">
-                <svg className="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Videography & Photography</h3>
-              <p className="text-gray-600 mb-6">
-                Professional videography and photography services with mobile and studio production capabilities.
-              </p>
-              <Link href="/videography" className="text-indigo-600 font-semibold hover:text-indigo-700">
-                Learn More →
-              </Link>
-            </div>
-
-            {/* Digital Marketing */}
-            <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
-              <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-6">
-                <svg className="w-6 h-6 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Digital Marketing</h3>
-              <p className="text-gray-600 mb-6">
-                Comprehensive digital marketing services including SEO, social media, and web design.
-              </p>
-              <Link href="/marketing" className="text-orange-600 font-semibold hover:text-orange-700">
-                Learn More →
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-blue-600">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-            Ready to Get Started?
-          </h2>
-          <p className="text-xl text-blue-100 mb-8">
-            Contact us today to discuss your business needs and how we can help you succeed.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/contact" className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-50 transition-colors">
-              Contact Us
-            </Link>
-            <Link href="/portfolio" className="border border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-              View Portfolio
+            <Link href="/contact" className="inline-block group relative px-12 py-4 bg-gradient-to-r from-cyan-500 via-purple-500 to-pink-500 text-white font-bold rounded-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/50">
+              <span className="relative z-10">Start Your Journey</span>
+              <div className="absolute inset-0 bg-gradient-to-r from-pink-600 to-cyan-600 transform scale-x-0 origin-left group-hover:scale-x-100 transition-transform duration-300"></div>
             </Link>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
 
       <Footer />
     </div>
