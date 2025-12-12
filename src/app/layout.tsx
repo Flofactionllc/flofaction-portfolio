@@ -30,15 +30,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body
-                {/* ElevenLabs Conversation Widget */}
-        <elevenlabs-convai agent-id="agent_6801kca6phc8e9kr6kpk497eapsr" />
-        <script
-          src="https://unpkg.com/@elevenlabs/convai-widget-embed"
-          async
-          type="text/javascript"
-        />
-      >{children}</body>
+      <body>children}</body>
     </html>
   )
 }
