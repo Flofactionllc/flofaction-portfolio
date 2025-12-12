@@ -391,6 +391,13 @@ export default function InsurancePage() {
           </div>
         </div>
       </footer>
+              {/* ElevenLabs Conversation Widget - Insurance Agent */}
+        <elevenlabs-convai agent-id="agent_9501ka7zqvgwfsrrzzxwyrshjmcx" />
+        <script
+          src="https://unpkg.com/@elevenlabs/convai-widget-embed"
+          async
+          type="text/javascript"
+        />
     </div>
   );
 }
