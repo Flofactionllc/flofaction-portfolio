@@ -169,6 +169,13 @@ export default function Home() {
       </div>
 
       <Footer />
+              {/* ElevenLabs Conversation Widget - Main Assistant */}
+        <elevenlabs-convai agent-id="agent_6801kca6phc8e9kr6kpk497eapsr" />
+        <script
+          src="https://unpkg.com/@elevenlabs/convai-widget-embed"
+          async
+          type="text/javascript"
+        />
     </div>
   );
 }
