@@ -321,6 +321,20 @@ export default function MarketingPage() {
             <p>&copy; 2025 Flo Faction LLC. All rights reserved.</p>
           </div>
         </div>
+        
+      {/* Creative Services AI Agent Widget */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-orange-600 to-red-600">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-white mb-4">Chat with Our Creative Services Specialist</h2>
+            <p className="text-xl text-orange-50 max-w-2xl mx-auto">Get personalized creative solutions 24/7 with our AI-powered Creative Services specialist powered by ElevenLabs</p>
+          </div>
+          <div className="bg-white rounded-2xl shadow-2xl p-8">
+            <script src="https://convai.elevenlabs.io/conva.js" async></script>
+            <elevenlabs-convai agent-id="agent_6001kca6z251frmbs8x6btw88tfr"></elevenlabs-convai>
+          </div>
+        </div>
+      </section>
       </footer>
     </div>
   );
