@@ -360,6 +360,66 @@ export default function AIServicesPage() {
           </div>
         </div>
       </section>
+      
+      {/* ElevenLabs AI Agent */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white shadow-lg">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              AI Assistant - Powered by ElevenLabs
+            </h2>
+            <p className="text-lg text-gray-600">
+              Get instant answers to your questions about AI services, emergency management, insurance, and more. Our intelligent assistant is available 24/7.
+            </p>
+          </div>
+
+          {/* Language Selection */}
+          <div className="mb-6 max-w-2xl mx-auto">
+            <label htmlFor="language-select" className="block text-sm font-medium text-gray-700 mb-2">
+              Select Language:
+            </label>
+            <select
+              id="language-select"
+              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+            >
+              <option value="en">English</option>
+              <option value="es">Espanol (Spanish)</option>
+              <option value="fr">Francais (French)</option>
+              <option value="de">Deutsch (German)</option>
+              <option value="it">Italiano (Italian)</option>
+              <option value="pt">Portugues (Portuguese)</option>
+              <option value="ja">Nihongo (Japanese)</option>
+              <option value="zh">Zhongwen (Chinese)</option>
+              <option value="ko">Hangugeo (Korean)</option>
+            </select>
+          </div>
+
+          {/* ElevenLabs Agent Widget */}
+          <div className="flex flex-col items-center justify-center mt-8">
+            <div className="w-full max-w-2xl">
+              <div className="bg-gradient-to-br from-purple-50 to-blue-50 p-8 rounded-xl shadow-lg">
+                <div id="elevenlabs-agent" style={{minHeight: '500px'}}></div>
+              </div>
+            </div>
+          </div>
+
+          {/* Features */}
+          <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="text-center p-6 bg-blue-50 rounded-lg">
+              <h3 className="font-semibold text-lg text-gray-900 mb-2">24/7 Availability</h3>
+              <p className="text-gray-600">Get answers anytime, day or night</p>
+            </div>
+            <div className="text-center p-6 bg-purple-50 rounded-lg">
+              <h3 className="font-semibold text-lg text-gray-900 mb-2">Multi-Language</h3>
+              <p className="text-gray-600">Communicate in your preferred language</p>
+            </div>
+            <div className="text-center p-6 bg-indigo-50 rounded-lg">
+              <h3 className="font-semibold text-lg text-gray-900 mb-2">Instant Responses</h3>
+              <p className="text-gray-600">Fast and accurate information</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-12">
