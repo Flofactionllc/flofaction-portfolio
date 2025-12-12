@@ -398,7 +398,8 @@ export default function AIServicesPage() {
           <div className="flex flex-col items-center justify-center mt-8">
             <div className="w-full max-w-2xl">
               <div className="bg-gradient-to-br from-purple-50 to-blue-50 p-8 rounded-xl shadow-lg">
-                <div id="elevenlabs-agent" style={{minHeight: '500px'}}></div>
+<script src="https://convai.elevenlabs.io/conva.js" async></script>
+            <elevenlabs-convai agent-id="agent_7401kca73t4wef8th13z8xet58e6"></elevenlabs-convai>
               </div>
             </div>
           </div>
