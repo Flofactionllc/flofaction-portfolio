@@ -271,7 +271,10 @@ export default function EmergencyPage() {
             <p>&copy; 2024 Flo Faction LLC. All rights reserved.</p>
           </div>
         </div>
+                {/* ElevenLabs Conversation Widget - Emergency Management Agent */}
+                <elevenlabs-convai agent-id="agent_2101kcagw1hmexrbg0m48cb37knp" />
       </footer>
     </div>
   );
 }
+
