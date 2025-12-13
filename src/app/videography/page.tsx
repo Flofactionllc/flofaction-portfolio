@@ -273,6 +273,8 @@ export default function VideographyPage() {
             <p>&copy; 2025 Flo Faction LLC. All rights reserved.</p>
           </div>
         </div>
+                {/* ElevenLabs Conversation Widget - Videography Specialist */}
+                <elevenlabs-convai agent-id="agent_7101kcah1v4dfwt98ha7nj36bsmy" />
       </footer>
     </div>
   );
