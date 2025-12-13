@@ -263,6 +263,8 @@ export default function PortfolioPage() {
             <p>&copy; 2025 Flo Faction LLC. All rights reserved.</p>
           </div>
         </div>
+                {/* ElevenLabs Conversation Widget - Portfolio Navigator */}
+                <elevenlabs-convai agent-id="agent_7001kcah4rmff4fa13hz68jc0jw2" />
       </footer>
     </div>
   );
