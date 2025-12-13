@@ -298,6 +298,8 @@ export default function MusicPage() {
             <p>&copy; 2025 Flo Faction LLC. All rights reserved.</p>
           </div>
         </div>
+                {/* ElevenLabs Conversation Widget - Music Production Specialist */}
+                <elevenlabs-convai agent-id="agent_3701kcagrryxep98ckfd4ssn00sz" />
       </footer>
     </div>
   );
